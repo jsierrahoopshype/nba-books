@@ -1,9 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export', // Static export for easy hosting
+  output: 'export',
   trailingSlash: true,
+  basePath: '/nba-books',
+  assetPrefix: '/nba-books',
   images: {
-    unoptimized: true, // Required for static export
+    unoptimized: true,
   },
 };
 
