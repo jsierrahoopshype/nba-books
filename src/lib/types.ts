@@ -1,14 +1,13 @@
-// Core book data type after normalization
 export interface Book {
-  id: string;           // Stable hash of title+author+asin
-  slug: string;         // URL-safe slug
+  id: string;
+  slug: string;
   title: string;
   author: string;
   rating: number | null;
   reviewCount: number | null;
-  reviewCountDisplay: string; // Original display string like "3500+"
+  reviewCountDisplay: string;
   publicationDate: string | null;
-  publicationYear: number | null;
+  year: number | null;
   formats: string[];
   amazonUrl: string;
   category: string;
@@ -16,22 +15,20 @@ export interface Book {
   playersMentioned: string[];
   teamsMentioned: string[];
   topics: string[];
-  asin: string | null;  // Extracted from Amazon URL
+  coverUrl: string | null;
 }
 
-// Filter state
 export interface FilterState {
   search: string;
   categories: string[];
   topics: string[];
+  players: string[];
+  teams: string[];
   formats: string[];
   minRating: number | null;
   yearRange: [number | null, number | null];
-  players: string[];
-  teams: string[];
 }
 
-// Sort options
 export type SortOption = 
   | 'relevance'
   | 'rating-desc'
@@ -39,19 +36,11 @@ export type SortOption =
   | 'newest'
   | 'title-asc';
 
-// Facet counts for UI
-export interface FacetCounts {
-  categories: Record<string, number>;
-  topics: Record<string, number>;
-  formats: Record<string, number>;
-  players: Record<string, number>;
-  teams: Record<string, number>;
-  years: Record<number, number>;
-}
-
-// Analytics event types
-export interface AnalyticsEvent {
-  type: 'affiliate_click' | 'search' | 'filter_change' | 'page_view';
-  payload: Record<string, unknown>;
-  timestamp: number;
+export interface FilterOptions {
+  categories: string[];
+  topics: string[];
+  players: string[];
+  teams: string[];
+  formats: string[];
+  yearRange: [number, number];
 }

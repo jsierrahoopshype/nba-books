@@ -119,6 +119,50 @@ function cleanString(str: string | null | undefined): string {
   return str.toString().trim();
 }
 
+// Cover URL generation
+function extractISBN(amazonUrl: string): string | null {
+  const dpMatch = amazonUrl.match(/\/dp\/(\d{10}|\d{13})/);
+  if (dpMatch) return dpMatch[1];
+  const asinMatch = amazonUrl.match(/\/dp\/([A-Z0-9]{10})/i);
+  if (asinMatch && /^\d{10}$/.test(asinMatch[1])) return asinMatch[1];
+  return null;
+}
+
+function getCoverUrl(amazonUrl: string, title: string): string | null {
+  const isbn = extractISBN(amazonUrl);
+  if (isbn) {
+    return `https://covers.openlibrary.org/b/isbn/${isbn}-M.jpg`;
+  }
+  return null;
+}
+
+// Check if book should be excluded (non-NBA content)
+function shouldExcludeBook(category: string, title: string): boolean {
+  const lowerCategory = category.toLowerCase();
+  const lowerTitle = title.toLowerCase();
+  
+  const excludeKeywords = [
+    'exclude',
+    'non-basketball',
+    'non-nba',
+    'not nba',
+    'football',
+    'soccer',
+    'tennis',
+    'baseball',
+    'hockey',
+    'golf',
+    'cricket',
+    'rugby'
+  ];
+  
+  for (const keyword of excludeKeywords) {
+    if (lowerCategory.includes(keyword)) return true;
+  }
+  
+  return false;
+}
+
 // Book type
 interface Book {
   id: string;
@@ -138,6 +182,7 @@ interface Book {
   teamsMentioned: string[];
   topics: string[];
   asin: string | null;
+  coverUrl: string | null;
 }
 
 // Main ingestion function
@@ -168,14 +213,23 @@ async function ingestCsv(): Promise<void> {
   // Normalize each record
   const books: Book[] = [];
   const seenIds = new Set<string>();
+  let excludedCount = 0;
 
   for (const row of records) {
     const title = cleanString(row['Title']);
     const author = cleanString(row['Author']);
     const amazonUrl = cleanString(row['Amazon Link']);
+    const category = cleanString(row['Category']) || 'General';
 
     if (!title) {
       console.warn('Skipping row with empty title');
+      continue;
+    }
+
+    // Exclude non-NBA books
+    if (shouldExcludeBook(category, title)) {
+      console.log(`Excluding non-NBA book: ${title} (${category})`);
+      excludedCount++;
       continue;
     }
 
@@ -214,12 +268,13 @@ async function ingestCsv(): Promise<void> {
       publicationYear: parsePublicationYear(pubDate),
       formats: parseFormats(row['Format']),
       amazonUrl,
-      category: cleanString(row['Category']) || 'General',
+      category,
       description: normalizeDescription(row['Description']),
       playersMentioned: splitList(row['Players Mentioned']),
       teamsMentioned: splitList(row['Teams Mentioned']),
       topics: splitList(row['Topics']),
       asin,
+      coverUrl: getCoverUrl(amazonUrl, title),
     };
 
     books.push(book);
@@ -230,6 +285,7 @@ async function ingestCsv(): Promise<void> {
   books.sort((a, b) => (b.reviewCount ?? 0) - (a.reviewCount ?? 0));
 
   console.log(`Normalized ${books.length} unique books`);
+  console.log(`Excluded ${excludedCount} non-NBA books`);
 
   // Write JSON output
   writeFileSync(outputPath, JSON.stringify(books, null, 2));
@@ -242,15 +298,19 @@ async function ingestCsv(): Promise<void> {
   const teams = new Set(books.flatMap(b => b.teamsMentioned));
   const formats = new Set(books.flatMap(b => b.formats));
   const years = books.filter(b => b.publicationYear).map(b => b.publicationYear!);
+  const booksWithCovers = books.filter(b => b.coverUrl).length;
 
   console.log('\n=== Summary ===');
   console.log(`Total books: ${books.length}`);
+  console.log(`Books with covers: ${booksWithCovers}`);
   console.log(`Categories: ${categories.size}`);
   console.log(`Topics: ${topics.size}`);
   console.log(`Players mentioned: ${players.size}`);
   console.log(`Teams mentioned: ${teams.size}`);
   console.log(`Formats: ${Array.from(formats).join(', ')}`);
-  console.log(`Year range: ${Math.min(...years)} - ${Math.max(...years)}`);
+  if (years.length > 0) {
+    console.log(`Year range: ${Math.min(...years)} - ${Math.max(...years)}`);
+  }
   console.log('\nTop 5 by reviews:');
   books.slice(0, 5).forEach((b, i) => {
     console.log(`  ${i + 1}. ${b.title} (${b.reviewCountDisplay} reviews)`);

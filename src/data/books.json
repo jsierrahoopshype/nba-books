@@ -25,7 +25,8 @@
       "Championship",
       "Photography"
     ],
-    "asin": "0374201234"
+    "asin": "0374201234",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0374201234-M.jpg"
   },
   {
     "id": "5f79eaaa9aa1",
@@ -51,7 +52,8 @@
       "Biography",
       "Photography"
     ],
-    "asin": "0374201234"
+    "asin": "0374201234",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0374201234-M.jpg"
   },
   {
     "id": "184a0c3ac46d",
@@ -75,7 +77,8 @@
     "topics": [
       "Coaching"
     ],
-    "asin": "0385535228"
+    "asin": "0385535228",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0385535228-M.jpg"
   },
   {
     "id": "500046dd45bd",
@@ -100,7 +103,8 @@
       "Biography",
       "Championship"
     ],
-    "asin": null
+    "asin": null,
+    "coverUrl": null
   },
   {
     "id": "f74e6c04c1ba",
@@ -124,7 +128,8 @@
     "topics": [
       "Motivation"
     ],
-    "asin": "1476714207"
+    "asin": "1476714207",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1476714207-M.jpg"
   },
   {
     "id": "c1d949a71a4d",
@@ -147,7 +152,8 @@
     "topics": [
       "Biography"
     ],
-    "asin": "0393254593"
+    "asin": "0393254593",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0393254593-M.jpg"
   },
   {
     "id": "04ffd13ade80",
@@ -177,7 +183,8 @@
       "Coaching",
       "Championship"
     ],
-    "asin": "0143125346"
+    "asin": "0143125346",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0143125346-M.jpg"
   },
   {
     "id": "281d06d56265",
@@ -206,7 +213,8 @@
       "History",
       "Culture"
     ],
-    "asin": "0345520106"
+    "asin": "0345520106",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0345520106-M.jpg"
   },
   {
     "id": "4f7cfd68a3ac",
@@ -230,7 +238,8 @@
     "topics": [
       "Biography"
     ],
-    "asin": "0544107713"
+    "asin": "0544107713",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0544107713-M.jpg"
   },
   {
     "id": "b5bfa13d10bf",
@@ -256,7 +265,8 @@
       "History",
       "Championship"
     ],
-    "asin": "0812974174"
+    "asin": "0812974174",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0812974174-M.jpg"
   },
   {
     "id": "549fa947dda9",
@@ -282,7 +292,8 @@
       "Biography",
       "History"
     ],
-    "asin": "0140100180"
+    "asin": "0140100180",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0140100180-M.jpg"
   },
   {
     "id": "75f5ad5f5b2c",
@@ -315,7 +326,8 @@
       "Coaching",
       "Championship"
     ],
-    "asin": "0671796100"
+    "asin": "0671796100",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0671796100-M.jpg"
   },
   {
     "id": "46f348c72d52",
@@ -339,7 +351,8 @@
     "topics": [
       "Fiction/Young Adult"
     ],
-    "asin": "1481450158"
+    "asin": "1481450158",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1481450158-M.jpg"
   },
   {
     "id": "8ee420985cd6",
@@ -366,7 +379,8 @@
       "Biography",
       "Championship"
     ],
-    "asin": "1982165197"
+    "asin": "1982165197",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1982165197-M.jpg"
   },
   {
     "id": "f80750195f12",
@@ -394,7 +408,8 @@
     "topics": [
       "International"
     ],
-    "asin": "0345520483"
+    "asin": "0345520483",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0345520483-M.jpg"
   },
   {
     "id": "5a2e6f292a2d",
@@ -417,7 +432,8 @@
     "topics": [
       "Biography"
     ],
-    "asin": "0062020803"
+    "asin": "0062020803",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0062020803-M.jpg"
   },
   {
     "id": "16862a884b22",
@@ -442,7 +458,8 @@
     "topics": [
       "Biography"
     ],
-    "asin": "0440222664"
+    "asin": "0440222664",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0440222664-M.jpg"
   },
   {
     "id": "ec9a87103d5a",
@@ -468,30 +485,8 @@
       "Biography",
       "Coaching"
     ],
-    "asin": "0809230410"
-  },
-  {
-    "id": "cfb0e9ec2e1c",
-    "slug": "the-doomsday-machine-confessions-of-a-nuclear-war-daniel-ellsberg-cfb0e9",
-    "title": "The Doomsday Machine: Confessions of a Nuclear War Planner",
-    "author": "Daniel Ellsberg",
-    "rating": 4.7,
-    "reviewCount": 2000,
-    "reviewCountDisplay": "2000+",
-    "publicationDate": "2017",
-    "publicationYear": 2017,
-    "formats": [
-      "Hardcover"
-    ],
-    "amazonUrl": "https://www.amazon.com/Doomsday-Machine-Confessions-Nuclear-Planner/dp/1608196704",
-    "category": "Non-basketball (exclude)",
-    "description": "",
-    "playersMentioned": [],
-    "teamsMentioned": [],
-    "topics": [
-      "Non-basketball (exclude)"
-    ],
-    "asin": "1608196704"
+    "asin": "0809230410",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0809230410-M.jpg"
   },
   {
     "id": "c37694a7242e",
@@ -523,7 +518,8 @@
       "Championship",
       "Rivalry"
     ],
-    "asin": "0547394586"
+    "asin": "0547394586",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0547394586-M.jpg"
   },
   {
     "id": "5f63efe3f115",
@@ -552,7 +548,8 @@
       "History",
       "Championship"
     ],
-    "asin": "1328530000"
+    "asin": "1328530000",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1328530000-M.jpg"
   },
   {
     "id": "7bbb1c7e6154",
@@ -579,7 +576,8 @@
       "Biography",
       "History"
     ],
-    "asin": "1541736184"
+    "asin": "1541736184",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1541736184-M.jpg"
   },
   {
     "id": "0c5ee5320633",
@@ -607,7 +605,8 @@
       "Biography",
       "History"
     ],
-    "asin": "0316194778"
+    "asin": "0316194778",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0316194778-M.jpg"
   },
   {
     "id": "dc45b1956c5a",
@@ -637,7 +636,8 @@
       "History",
       "Championship"
     ],
-    "asin": "1982132116"
+    "asin": "1982132116",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1982132116-M.jpg"
   },
   {
     "id": "150a26684d83",
@@ -664,7 +664,8 @@
       "Biography",
       "History"
     ],
-    "asin": "1455504408"
+    "asin": "1455504408",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1455504408-M.jpg"
   },
   {
     "id": "d16917892691",
@@ -689,7 +690,8 @@
     "topics": [
       "Coaching"
     ],
-    "asin": "0830737227"
+    "asin": "0830737227",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0830737227-M.jpg"
   },
   {
     "id": "905606ca0f01",
@@ -719,7 +721,8 @@
       "Biography",
       "History"
     ],
-    "asin": "1592408869"
+    "asin": "1592408869",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1592408869-M.jpg"
   },
   {
     "id": "d0eef045686a",
@@ -748,7 +751,8 @@
     "topics": [
       "Biography"
     ],
-    "asin": "0306924129"
+    "asin": "0306924129",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0306924129-M.jpg"
   },
   {
     "id": "432d3ec17af3",
@@ -773,7 +777,8 @@
       "Biography",
       "Coaching"
     ],
-    "asin": "030795265X"
+    "asin": "030795265X",
+    "coverUrl": null
   },
   {
     "id": "118fadce9dc0",
@@ -798,7 +803,8 @@
       "Biography",
       "Scandal"
     ],
-    "asin": "061536263X"
+    "asin": "061536263X",
+    "coverUrl": null
   },
   {
     "id": "2e7b8bca58fd",
@@ -826,7 +832,8 @@
     "topics": [
       "Coaching"
     ],
-    "asin": "1401308813"
+    "asin": "1401308813",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1401308813-M.jpg"
   },
   {
     "id": "f92c3c8dc4de",
@@ -855,7 +862,8 @@
       "Biography",
       "History"
     ],
-    "asin": "1250276454"
+    "asin": "1250276454",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1250276454-M.jpg"
   },
   {
     "id": "fa46da7e9846",
@@ -880,7 +888,8 @@
       "Culture",
       "Kids"
     ],
-    "asin": "1419726471"
+    "asin": "1419726471",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1419726471-M.jpg"
   },
   {
     "id": "ebf23cdc30df",
@@ -905,7 +914,8 @@
     "topics": [
       "College Basketball"
     ],
-    "asin": "0671688774"
+    "asin": "0671688774",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0671688774-M.jpg"
   },
   {
     "id": "661f7745f766",
@@ -929,7 +939,8 @@
     "topics": [
       "International"
     ],
-    "asin": "0345804686"
+    "asin": "0345804686",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0345804686-M.jpg"
   },
   {
     "id": "b97dff91a741",
@@ -953,7 +964,8 @@
     "topics": [
       "Motivation"
     ],
-    "asin": "1982168811"
+    "asin": "1982168811",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1982168811-M.jpg"
   },
   {
     "id": "9900faf0d66e",
@@ -978,7 +990,8 @@
     "topics": [
       "College Basketball"
     ],
-    "asin": "0671688774"
+    "asin": "0671688774",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0671688774-M.jpg"
   },
   {
     "id": "02bf6fa5c658",
@@ -1004,7 +1017,8 @@
     "topics": [
       "Biography"
     ],
-    "asin": "1476778965"
+    "asin": "1476778965",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1476778965-M.jpg"
   },
   {
     "id": "176cfefe47fd",
@@ -1030,7 +1044,8 @@
     "topics": [
       "Biography"
     ],
-    "asin": "1501147838"
+    "asin": "1501147838",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1501147838-M.jpg"
   },
   {
     "id": "03c1531f419d",
@@ -1058,7 +1073,8 @@
       "Biography",
       "Championship"
     ],
-    "asin": "0449908232"
+    "asin": "0449908232",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0449908232-M.jpg"
   },
   {
     "id": "9cd4a2ea0a44",
@@ -1086,7 +1102,8 @@
       "Biography",
       "History"
     ],
-    "asin": "1401309720"
+    "asin": "1401309720",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1401309720-M.jpg"
   },
   {
     "id": "ae0fa482a078",
@@ -1114,7 +1131,8 @@
       "Biography",
       "Championship"
     ],
-    "asin": "0553287583"
+    "asin": "0553287583",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0553287583-M.jpg"
   },
   {
     "id": "7eb94225b9f8",
@@ -1142,7 +1160,8 @@
       "History",
       "Championship"
     ],
-    "asin": "1508682151"
+    "asin": "1508682151",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1508682151-M.jpg"
   },
   {
     "id": "437cc4564048",
@@ -1170,7 +1189,8 @@
       "Biography",
       "Championship"
     ],
-    "asin": "0306925990"
+    "asin": "0306925990",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0306925990-M.jpg"
   },
   {
     "id": "637d872154db",
@@ -1196,7 +1216,8 @@
       "Culture",
       "Championship"
     ],
-    "asin": "3836592118"
+    "asin": "3836592118",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/3836592118-M.jpg"
   },
   {
     "id": "be99987ece3e",
@@ -1219,7 +1240,8 @@
     "topics": [
       "Training"
     ],
-    "asin": "147671042X"
+    "asin": "147671042X",
+    "coverUrl": null
   },
   {
     "id": "766a6b92a7b4",
@@ -1242,7 +1264,8 @@
     "topics": [
       "Fiction/Young Adult"
     ],
-    "asin": "0545055741"
+    "asin": "0545055741",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0545055741-M.jpg"
   },
   {
     "id": "a173d16f654e",
@@ -1268,30 +1291,8 @@
     "topics": [
       "Biography"
     ],
-    "asin": "0525533982"
-  },
-  {
-    "id": "9865df9a864c",
-    "slug": "coach-a-season-with-lombarder-michael-lewis-9865df",
-    "title": "Coach: A Season with Lombarder",
-    "author": "Michael Lewis",
-    "rating": 4.5,
-    "reviewCount": 800,
-    "reviewCountDisplay": "800+",
-    "publicationDate": "2005",
-    "publicationYear": 2005,
-    "formats": [
-      "Hardcover"
-    ],
-    "amazonUrl": "https://www.amazon.com/Coach-Lessons-Game-Life/dp/0393060918",
-    "category": "Football (exclude)",
-    "description": "",
-    "playersMentioned": [],
-    "teamsMentioned": [],
-    "topics": [
-      "Coaching"
-    ],
-    "asin": "0393060918"
+    "asin": "0525533982",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0525533982-M.jpg"
   },
   {
     "id": "6ca96310344f",
@@ -1317,7 +1318,8 @@
       "Biography",
       "Coaching"
     ],
-    "asin": "0809296292"
+    "asin": "0809296292",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0809296292-M.jpg"
   },
   {
     "id": "0f694341f723",
@@ -1341,7 +1343,8 @@
       "Biography",
       "Draft"
     ],
-    "asin": "1501147846"
+    "asin": "1501147846",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1501147846-M.jpg"
   },
   {
     "id": "ba451020bf49",
@@ -1365,7 +1368,8 @@
       "Biography",
       "History"
     ],
-    "asin": "1416540776"
+    "asin": "1416540776",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1416540776-M.jpg"
   },
   {
     "id": "c1c3b7b64d06",
@@ -1392,7 +1396,8 @@
       "Biography",
       "Championship"
     ],
-    "asin": "1514166763"
+    "asin": "1514166763",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1514166763-M.jpg"
   },
   {
     "id": "cea160de5498",
@@ -1415,7 +1420,8 @@
     "topics": [
       "Coaching"
     ],
-    "asin": "B0CGWVX9W9"
+    "asin": "B0CGWVX9W9",
+    "coverUrl": null
   },
   {
     "id": "c9c0638cd5ad",
@@ -1439,7 +1445,8 @@
     "topics": [
       "Scandal"
     ],
-    "asin": "1419681028"
+    "asin": "1419681028",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1419681028-M.jpg"
   },
   {
     "id": "8cc76fc9e413",
@@ -1466,7 +1473,8 @@
       "Biography",
       "Draft"
     ],
-    "asin": "0062327801"
+    "asin": "0062327801",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0062327801-M.jpg"
   },
   {
     "id": "60e404667554",
@@ -1492,7 +1500,8 @@
     "topics": [
       "Biography"
     ],
-    "asin": "0743284976"
+    "asin": "0743284976",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0743284976-M.jpg"
   },
   {
     "id": "4a39be69bbed",
@@ -1516,7 +1525,8 @@
     "topics": [
       "Biography"
     ],
-    "asin": "1982176016"
+    "asin": "1982176016",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1982176016-M.jpg"
   },
   {
     "id": "072b6c8774df",
@@ -1548,7 +1558,8 @@
       "History",
       "Championship"
     ],
-    "asin": "0544746902"
+    "asin": "0544746902",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0544746902-M.jpg"
   },
   {
     "id": "70ff48a82645",
@@ -1575,7 +1586,8 @@
       "Biography",
       "Championship"
     ],
-    "asin": "1668021498"
+    "asin": "1668021498",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1668021498-M.jpg"
   },
   {
     "id": "31633b83a91d",
@@ -1602,7 +1614,8 @@
       "Coaching",
       "Photography"
     ],
-    "asin": "1328767515"
+    "asin": "1328767515",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1328767515-M.jpg"
   },
   {
     "id": "281deae6060a",
@@ -1630,7 +1643,8 @@
       "History",
       "Championship"
     ],
-    "asin": "B00UH93HMC"
+    "asin": "B00UH93HMC",
+    "coverUrl": null
   },
   {
     "id": "5b69c317e065",
@@ -1654,7 +1668,8 @@
       "Biography",
       "History"
     ],
-    "asin": "1668009838"
+    "asin": "1668009838",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1668009838-M.jpg"
   },
   {
     "id": "1c7b5ce24572",
@@ -1679,7 +1694,8 @@
     "topics": [
       "Biography"
     ],
-    "asin": "0812966287"
+    "asin": "0812966287",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0812966287-M.jpg"
   },
   {
     "id": "5d861bc3b5d1",
@@ -1705,7 +1721,8 @@
       "Biography",
       "Championship"
     ],
-    "asin": "0553273841"
+    "asin": "0553273841",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0553273841-M.jpg"
   },
   {
     "id": "a5194f4b259b",
@@ -1731,7 +1748,8 @@
       "Biography",
       "Coaching"
     ],
-    "asin": "0399138390"
+    "asin": "0399138390",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0399138390-M.jpg"
   },
   {
     "id": "efc99fd6c899",
@@ -1758,7 +1776,8 @@
       "History",
       "Coaching"
     ],
-    "asin": "0062366904"
+    "asin": "0062366904",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0062366904-M.jpg"
   },
   {
     "id": "3ca9af9b56c7",
@@ -1788,7 +1807,8 @@
       "Biography",
       "History"
     ],
-    "asin": "1538717352"
+    "asin": "1538717352",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1538717352-M.jpg"
   },
   {
     "id": "561d4e16e673",
@@ -1815,7 +1835,8 @@
       "Biography",
       "Business"
     ],
-    "asin": "1455568465"
+    "asin": "1455568465",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1455568465-M.jpg"
   },
   {
     "id": "d70f1597cc04",
@@ -1842,7 +1863,8 @@
       "Biography",
       "Championship"
     ],
-    "asin": "1508682151"
+    "asin": "1508682151",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1508682151-M.jpg"
   },
   {
     "id": "b6317bc353d8",
@@ -1865,7 +1887,8 @@
     "topics": [
       "Kids"
     ],
-    "asin": "B0DH92WVNX"
+    "asin": "B0DH92WVNX",
+    "coverUrl": null
   },
   {
     "id": "951a1c4fb9ea",
@@ -1892,7 +1915,8 @@
       "Biography",
       "Kids"
     ],
-    "asin": "1250295629"
+    "asin": "1250295629",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1250295629-M.jpg"
   },
   {
     "id": "7d7bd8a72af1",
@@ -1916,7 +1940,8 @@
     "topics": [
       "Biography"
     ],
-    "asin": "006239435X"
+    "asin": "006239435X",
+    "coverUrl": null
   },
   {
     "id": "05d994bcbaf5",
@@ -1943,7 +1968,8 @@
       "Biography",
       "International"
     ],
-    "asin": "0767904443"
+    "asin": "0767904443",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0767904443-M.jpg"
   },
   {
     "id": "67c57675cfcc",
@@ -1969,7 +1995,8 @@
       "History",
       "Championship"
     ],
-    "asin": null
+    "asin": null,
+    "coverUrl": null
   },
   {
     "id": "ba59ca6968be",
@@ -1993,7 +2020,8 @@
     "topics": [
       "History"
     ],
-    "asin": "1250624533"
+    "asin": "1250624533",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1250624533-M.jpg"
   },
   {
     "id": "556b761e7b93",
@@ -2017,7 +2045,8 @@
     "topics": [
       "Biography"
     ],
-    "asin": "1948836068"
+    "asin": "1948836068",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1948836068-M.jpg"
   },
   {
     "id": "55b9f803a907",
@@ -2040,7 +2069,8 @@
     "topics": [
       "Scandal"
     ],
-    "asin": "0615319947"
+    "asin": "0615319947",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0615319947-M.jpg"
   },
   {
     "id": "d5a12092c245",
@@ -2066,7 +2096,8 @@
       "Biography",
       "Coaching"
     ],
-    "asin": "0071424911"
+    "asin": "0071424911",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0071424911-M.jpg"
   },
   {
     "id": "a4de0555ef98",
@@ -2092,7 +2123,8 @@
       "Biography",
       "Photography"
     ],
-    "asin": "0517706849"
+    "asin": "0517706849",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0517706849-M.jpg"
   },
   {
     "id": "dd30916008e3",
@@ -2115,7 +2147,8 @@
     "topics": [
       "Fiction/Young Adult"
     ],
-    "asin": "0358240980"
+    "asin": "0358240980",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0358240980-M.jpg"
   },
   {
     "id": "0b0f1d2990d0",
@@ -2138,7 +2171,8 @@
     "topics": [
       "Fiction/Young Adult"
     ],
-    "asin": "0440938848"
+    "asin": "0440938848",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0440938848-M.jpg"
   },
   {
     "id": "8488e0f1f5f6",
@@ -2166,53 +2200,8 @@
       "Biography",
       "Coaching"
     ],
-    "asin": "1594200122"
-  },
-  {
-    "id": "b9d4390aa8c2",
-    "slug": "take-your-eye-off-the-ball-20-pat-kirwan-b9d439",
-    "title": "Take Your Eye Off the Ball 2.0",
-    "author": "Pat Kirwan",
-    "rating": 4.6,
-    "reviewCount": 500,
-    "reviewCountDisplay": "500+",
-    "publicationDate": "August 2015",
-    "publicationYear": 2015,
-    "formats": [
-      "Paperback"
-    ],
-    "amazonUrl": "https://www.amazon.com/Take-Your-Eye-Ball-2-0/dp/1629371696",
-    "category": "Football (not NBA - exclude)",
-    "description": "",
-    "playersMentioned": [],
-    "teamsMentioned": [],
-    "topics": [
-      "Football (not NBA - exclude)"
-    ],
-    "asin": "1629371696"
-  },
-  {
-    "id": "925a0e928427",
-    "slug": "the-game-my-40-years-in-tennis-billie-jean-king-925a0e",
-    "title": "The Game: My 40 Years in Tennis",
-    "author": "Billie Jean King",
-    "rating": 4.5,
-    "reviewCount": 500,
-    "reviewCountDisplay": "500+",
-    "publicationDate": "2008",
-    "publicationYear": 2008,
-    "formats": [
-      "Hardcover"
-    ],
-    "amazonUrl": "https://www.amazon.com/Game-Years-Tennis-Billie-Jean/dp/0670019682",
-    "category": "Tennis (exclude)",
-    "description": "",
-    "playersMentioned": [],
-    "teamsMentioned": [],
-    "topics": [
-      "History"
-    ],
-    "asin": "0670019682"
+    "asin": "1594200122",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1594200122-M.jpg"
   },
   {
     "id": "357bb314b127",
@@ -2237,7 +2226,8 @@
     "topics": [
       "Biography"
     ],
-    "asin": "0451173953"
+    "asin": "0451173953",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0451173953-M.jpg"
   },
   {
     "id": "4b0068f46ff0",
@@ -2263,7 +2253,8 @@
       "Biography",
       "Coaching"
     ],
-    "asin": "0805092803"
+    "asin": "0805092803",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0805092803-M.jpg"
   },
   {
     "id": "540658110c98",
@@ -2288,7 +2279,8 @@
     "topics": [
       "Biography"
     ],
-    "asin": "1501197827"
+    "asin": "1501197827",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1501197827-M.jpg"
   },
   {
     "id": "c9436a9cecd9",
@@ -2316,7 +2308,8 @@
       "Analytics",
       "Coaching"
     ],
-    "asin": "1629379212"
+    "asin": "1629379212",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1629379212-M.jpg"
   },
   {
     "id": "caa17bab22b0",
@@ -2342,7 +2335,8 @@
       "Biography",
       "History"
     ],
-    "asin": "0316279463"
+    "asin": "0316279463",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0316279463-M.jpg"
   },
   {
     "id": "dab8376fe364",
@@ -2368,7 +2362,8 @@
       "Biography",
       "History"
     ],
-    "asin": "0316279463"
+    "asin": "0316279463",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0316279463-M.jpg"
   },
   {
     "id": "e39f95e76ede",
@@ -2395,7 +2390,8 @@
       "Biography",
       "History"
     ],
-    "asin": "0735223262"
+    "asin": "0735223262",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0735223262-M.jpg"
   },
   {
     "id": "23f9c2363e52",
@@ -2424,7 +2420,8 @@
       "Coaching",
       "Championship"
     ],
-    "asin": "1455542288"
+    "asin": "1455542288",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1455542288-M.jpg"
   },
   {
     "id": "d0ee2e87ea21",
@@ -2450,7 +2447,8 @@
     "topics": [
       "Biography"
     ],
-    "asin": "0316053503"
+    "asin": "0316053503",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0316053503-M.jpg"
   },
   {
     "id": "ab0b2225c841",
@@ -2478,7 +2476,8 @@
       "Championship",
       "Photography"
     ],
-    "asin": "0374609500"
+    "asin": "0374609500",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0374609500-M.jpg"
   },
   {
     "id": "28e9707c8767",
@@ -2503,7 +2502,8 @@
       "Championship",
       "Kids"
     ],
-    "asin": "B0CCQ5WGBY"
+    "asin": "B0CCQ5WGBY",
+    "coverUrl": null
   },
   {
     "id": "4be89d012caf",
@@ -2530,7 +2530,8 @@
       "Biography",
       "Kids"
     ],
-    "asin": "1250295637"
+    "asin": "1250295637",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1250295637-M.jpg"
   },
   {
     "id": "c1e148a91e06",
@@ -2561,7 +2562,8 @@
       "History",
       "Championship"
     ],
-    "asin": "1478972327"
+    "asin": "1478972327",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1478972327-M.jpg"
   },
   {
     "id": "2ba4dffe819d",
@@ -2585,7 +2587,8 @@
     "topics": [
       "Coaching"
     ],
-    "asin": "0446676780"
+    "asin": "0446676780",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0446676780-M.jpg"
   },
   {
     "id": "e87387a43b53",
@@ -2609,7 +2612,8 @@
       "Biography",
       "History"
     ],
-    "asin": "0593152360"
+    "asin": "0593152360",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0593152360-M.jpg"
   },
   {
     "id": "8b30c2ae27fd",
@@ -2634,7 +2638,8 @@
     "topics": [
       "Motivation"
     ],
-    "asin": "0062511904"
+    "asin": "0062511904",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0062511904-M.jpg"
   },
   {
     "id": "a668c286abe0",
@@ -2658,7 +2663,8 @@
     "topics": [
       "Fiction/Young Adult"
     ],
-    "asin": "0544868129"
+    "asin": "0544868129",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0544868129-M.jpg"
   },
   {
     "id": "9fa87f27a77e",
@@ -2683,7 +2689,8 @@
       "Coaching",
       "Rivalry"
     ],
-    "asin": "0385539290"
+    "asin": "0385539290",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0385539290-M.jpg"
   },
   {
     "id": "dae805f75ed8",
@@ -2707,7 +2714,8 @@
       "Biography",
       "Coaching"
     ],
-    "asin": "0767902297"
+    "asin": "0767902297",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0767902297-M.jpg"
   },
   {
     "id": "c7eb3a1086cb",
@@ -2732,7 +2740,8 @@
       "History",
       "Championship"
     ],
-    "asin": "1524761818"
+    "asin": "1524761818",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1524761818-M.jpg"
   },
   {
     "id": "7604faf22b57",
@@ -2757,7 +2766,8 @@
     "topics": [
       "Commentary/Race"
     ],
-    "asin": "1594200467"
+    "asin": "1594200467",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1594200467-M.jpg"
   },
   {
     "id": "618a6e3d8820",
@@ -2781,7 +2791,8 @@
       "Biography",
       "History"
     ],
-    "asin": "0316101729"
+    "asin": "0316101729",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0316101729-M.jpg"
   },
   {
     "id": "5bfa1b3cc0e8",
@@ -2807,7 +2818,8 @@
       "Biography",
       "Championship"
     ],
-    "asin": "0446391689"
+    "asin": "0446391689",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0446391689-M.jpg"
   },
   {
     "id": "2448d7ba9c5b",
@@ -2834,7 +2846,8 @@
     "topics": [
       "Biography"
     ],
-    "asin": "0345510836"
+    "asin": "0345510836",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0345510836-M.jpg"
   },
   {
     "id": "1e337c0bd562",
@@ -2859,7 +2872,8 @@
     "topics": [
       "Biography"
     ],
-    "asin": "0026253909"
+    "asin": "0026253909",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0026253909-M.jpg"
   },
   {
     "id": "a171de9b9fdc",
@@ -2884,7 +2898,8 @@
     "topics": [
       "Biography"
     ],
-    "asin": "0316110116"
+    "asin": "0316110116",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0316110116-M.jpg"
   },
   {
     "id": "31d83a2d2445",
@@ -2911,7 +2926,8 @@
       "Coaching",
       "Championship"
     ],
-    "asin": "1596917024"
+    "asin": "1596917024",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1596917024-M.jpg"
   },
   {
     "id": "6511ac85710d",
@@ -2939,7 +2955,8 @@
       "History",
       "Rivalry"
     ],
-    "asin": "0812970306"
+    "asin": "0812970306",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0812970306-M.jpg"
   },
   {
     "id": "dd3180478ae1",
@@ -2963,7 +2980,8 @@
       "Biography",
       "Analytics"
     ],
-    "asin": "0062820737"
+    "asin": "0062820737",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0062820737-M.jpg"
   },
   {
     "id": "f3f51a32aefe",
@@ -2989,7 +3007,8 @@
       "Biography",
       "History"
     ],
-    "asin": "1541736230"
+    "asin": "1541736230",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1541736230-M.jpg"
   },
   {
     "id": "118de0783c77",
@@ -3012,7 +3031,8 @@
     "topics": [
       "Training"
     ],
-    "asin": "1450414885"
+    "asin": "1450414885",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1450414885-M.jpg"
   },
   {
     "id": "098b1a2fd798",
@@ -3037,7 +3057,8 @@
       "Coaching",
       "Photography"
     ],
-    "asin": "0063329638"
+    "asin": "0063329638",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0063329638-M.jpg"
   },
   {
     "id": "e0f7a5e4e28e",
@@ -3068,7 +3089,8 @@
       "History",
       "Championship"
     ],
-    "asin": "0061956244"
+    "asin": "0061956244",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0061956244-M.jpg"
   },
   {
     "id": "564c21b69567",
@@ -3094,7 +3116,8 @@
       "History",
       "Championship"
     ],
-    "asin": "0804139261"
+    "asin": "0804139261",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0804139261-M.jpg"
   },
   {
     "id": "78aa33643f30",
@@ -3123,7 +3146,8 @@
       "History",
       "Coaching"
     ],
-    "asin": "0743298128"
+    "asin": "0743298128",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0743298128-M.jpg"
   },
   {
     "id": "65f8dbcbbc31",
@@ -3147,7 +3171,8 @@
     "topics": [
       "Coaching"
     ],
-    "asin": "1592402127"
+    "asin": "1592402127",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1592402127-M.jpg"
   },
   {
     "id": "99245e182232",
@@ -3174,7 +3199,8 @@
       "Biography",
       "Kids"
     ],
-    "asin": "0316555398"
+    "asin": "0316555398",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0316555398-M.jpg"
   },
   {
     "id": "2466f1be38da",
@@ -3199,7 +3225,8 @@
       "Championship",
       "Kids"
     ],
-    "asin": "B0CH25QJWV"
+    "asin": "B0CH25QJWV",
+    "coverUrl": null
   },
   {
     "id": "60618bb660e5",
@@ -3222,7 +3249,8 @@
     "topics": [
       "Culture"
     ],
-    "asin": "0395797098"
+    "asin": "0395797098",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0395797098-M.jpg"
   },
   {
     "id": "1ae0460abdb4",
@@ -3249,7 +3277,8 @@
       "Biography",
       "Championship"
     ],
-    "asin": "0062248189"
+    "asin": "0062248189",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0062248189-M.jpg"
   },
   {
     "id": "cdc8ba033e99",
@@ -3273,7 +3302,8 @@
     "topics": [
       "Coaching"
     ],
-    "asin": "0345508602"
+    "asin": "0345508602",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0345508602-M.jpg"
   },
   {
     "id": "1055e29dfe58",
@@ -3298,7 +3328,8 @@
     "topics": [
       "Coaching"
     ],
-    "asin": "1583220488"
+    "asin": "1583220488",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1583220488-M.jpg"
   },
   {
     "id": "0c4c462e38e2",
@@ -3324,7 +3355,8 @@
       "Biography",
       "History"
     ],
-    "asin": "1416534881"
+    "asin": "1416534881",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1416534881-M.jpg"
   },
   {
     "id": "f6124b989c65",
@@ -3349,7 +3381,8 @@
     "topics": [
       "Biography"
     ],
-    "asin": "0345298411"
+    "asin": "0345298411",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0345298411-M.jpg"
   },
   {
     "id": "b92175a3e5d0",
@@ -3377,7 +3410,8 @@
       "Biography",
       "Coaching"
     ],
-    "asin": "0399118187"
+    "asin": "0399118187",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0399118187-M.jpg"
   },
   {
     "id": "328e367398ca",
@@ -3401,7 +3435,8 @@
       "Coaching",
       "Business"
     ],
-    "asin": "0743205731"
+    "asin": "0743205731",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0743205731-M.jpg"
   },
   {
     "id": "6d11fe2497c2",
@@ -3425,7 +3460,8 @@
       "Biography",
       "Business"
     ],
-    "asin": "1455568465"
+    "asin": "1455568465",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1455568465-M.jpg"
   },
   {
     "id": "cf536e6f2c6f",
@@ -3448,7 +3484,8 @@
     "topics": [
       "Coaching"
     ],
-    "asin": "0736063552"
+    "asin": "0736063552",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0736063552-M.jpg"
   },
   {
     "id": "7cc640df5875",
@@ -3477,7 +3514,8 @@
       "History",
       "Championship"
     ],
-    "asin": "0062998137"
+    "asin": "0062998137",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0062998137-M.jpg"
   },
   {
     "id": "fac51c8393ea",
@@ -3502,7 +3540,8 @@
       "History",
       "Championship"
     ],
-    "asin": "0228102901"
+    "asin": "0228102901",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0228102901-M.jpg"
   },
   {
     "id": "207fa5a7372e",
@@ -3529,7 +3568,8 @@
       "Biography",
       "Championship"
     ],
-    "asin": "1097568814"
+    "asin": "1097568814",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1097568814-M.jpg"
   },
   {
     "id": "8031a39c526b",
@@ -3553,7 +3593,8 @@
       "Analytics",
       "Coaching"
     ],
-    "asin": "1699741565"
+    "asin": "1699741565",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1699741565-M.jpg"
   },
   {
     "id": "2f5998d636cc",
@@ -3582,7 +3623,8 @@
       "Biography",
       "History"
     ],
-    "asin": "1400051606"
+    "asin": "1400051606",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1400051606-M.jpg"
   },
   {
     "id": "8e790e707bb2",
@@ -3608,7 +3650,8 @@
       "Biography",
       "Business"
     ],
-    "asin": "1800691084"
+    "asin": "1800691084",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1800691084-M.jpg"
   },
   {
     "id": "c28d2c62fe76",
@@ -3637,7 +3680,8 @@
       "Biography",
       "Championship"
     ],
-    "asin": "0449906582"
+    "asin": "0449906582",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0449906582-M.jpg"
   },
   {
     "id": "579b01358127",
@@ -3662,7 +3706,8 @@
       "Biography",
       "History"
     ],
-    "asin": "1524761826"
+    "asin": "1524761826",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1524761826-M.jpg"
   },
   {
     "id": "cf6a32205828",
@@ -3690,7 +3735,8 @@
       "Biography",
       "Championship"
     ],
-    "asin": "1982160853"
+    "asin": "1982160853",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1982160853-M.jpg"
   },
   {
     "id": "e50572ecc4e2",
@@ -3718,7 +3764,8 @@
     "topics": [
       "Coaching"
     ],
-    "asin": "1594200149"
+    "asin": "1594200149",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1594200149-M.jpg"
   },
   {
     "id": "4acae9dd03c4",
@@ -3744,7 +3791,8 @@
       "Biography",
       "Photography"
     ],
-    "asin": "0062586181"
+    "asin": "0062586181",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0062586181-M.jpg"
   },
   {
     "id": "9384528328c7",
@@ -3768,7 +3816,8 @@
     "topics": [
       "Fiction/Young Adult"
     ],
-    "asin": "0544570987"
+    "asin": "0544570987",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0544570987-M.jpg"
   },
   {
     "id": "3dd20ebe6a20",
@@ -3794,7 +3843,8 @@
       "History",
       "Rivalry"
     ],
-    "asin": "0375726195"
+    "asin": "0375726195",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0375726195-M.jpg"
   },
   {
     "id": "d41d200a404a",
@@ -3819,7 +3869,8 @@
       "Biography",
       "Championship"
     ],
-    "asin": "0767903285"
+    "asin": "0767903285",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0767903285-M.jpg"
   },
   {
     "id": "9d92cec4dad3",
@@ -3850,7 +3901,8 @@
       "Championship",
       "International"
     ],
-    "asin": "1530073723"
+    "asin": "1530073723",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1530073723-M.jpg"
   },
   {
     "id": "01e77169b4f1",
@@ -3880,7 +3932,8 @@
       "Biography",
       "Championship"
     ],
-    "asin": "1532705573"
+    "asin": "1532705573",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1532705573-M.jpg"
   },
   {
     "id": "7661aef09fce",
@@ -3903,7 +3956,8 @@
     "topics": [
       "Culture"
     ],
-    "asin": "1596915617"
+    "asin": "1596915617",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1596915617-M.jpg"
   },
   {
     "id": "6bc71b48874b",
@@ -3926,7 +3980,8 @@
     "topics": [
       "High School Basketball"
     ],
-    "asin": "0525434666"
+    "asin": "0525434666",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0525434666-M.jpg"
   },
   {
     "id": "f6710392b8b7",
@@ -3949,7 +4004,8 @@
     "topics": [
       "Coaching"
     ],
-    "asin": "1439110034"
+    "asin": "1439110034",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1439110034-M.jpg"
   },
   {
     "id": "8a0bb19fe981",
@@ -3974,7 +4030,8 @@
     "topics": [
       "Biography"
     ],
-    "asin": "0809296918"
+    "asin": "0809296918",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0809296918-M.jpg"
   },
   {
     "id": "8c99f6b649cd",
@@ -3999,7 +4056,8 @@
     "topics": [
       "Biography"
     ],
-    "asin": "1572437057"
+    "asin": "1572437057",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1572437057-M.jpg"
   },
   {
     "id": "e90a920bedba",
@@ -4026,7 +4084,8 @@
       "Biography",
       "Coaching"
     ],
-    "asin": "0061791091"
+    "asin": "0061791091",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0061791091-M.jpg"
   },
   {
     "id": "4317f61052c4",
@@ -4055,7 +4114,8 @@
       "History",
       "Championship"
     ],
-    "asin": "0446514543"
+    "asin": "0446514543",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0446514543-M.jpg"
   },
   {
     "id": "46a68e0c1ea2",
@@ -4079,7 +4139,8 @@
       "Biography",
       "Championship"
     ],
-    "asin": "1401307957"
+    "asin": "1401307957",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1401307957-M.jpg"
   },
   {
     "id": "ec33be7ed0de",
@@ -4102,7 +4163,8 @@
     "topics": [
       "Analytics"
     ],
-    "asin": "1532848110"
+    "asin": "1532848110",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1532848110-M.jpg"
   },
   {
     "id": "d33b223a3ce5",
@@ -4129,7 +4191,8 @@
       "History",
       "Analytics"
     ],
-    "asin": "1501158198"
+    "asin": "1501158198",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1501158198-M.jpg"
   },
   {
     "id": "ba0c3f423f29",
@@ -4152,7 +4215,8 @@
     "topics": [
       "Training"
     ],
-    "asin": "1492564168"
+    "asin": "1492564168",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1492564168-M.jpg"
   },
   {
     "id": "1c313c230814",
@@ -4178,7 +4242,8 @@
       "Biography",
       "International"
     ],
-    "asin": "B07NRYXUTT"
+    "asin": "B07NRYXUTT",
+    "coverUrl": null
   },
   {
     "id": "853adcfcde96",
@@ -4202,7 +4267,8 @@
       "Analytics",
       "Coaching"
     ],
-    "asin": "1637275463"
+    "asin": "1637275463",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1637275463-M.jpg"
   },
   {
     "id": "eaf81539e3f2",
@@ -4229,7 +4295,8 @@
       "Biography",
       "Championship"
     ],
-    "asin": "1520766831"
+    "asin": "1520766831",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1520766831-M.jpg"
   },
   {
     "id": "bb33110b992e",
@@ -4256,7 +4323,8 @@
       "Biography",
       "Championship"
     ],
-    "asin": "1532705565"
+    "asin": "1532705565",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1532705565-M.jpg"
   },
   {
     "id": "3cc858abdde0",
@@ -4283,7 +4351,8 @@
       "Biography",
       "Championship"
     ],
-    "asin": "1520823045"
+    "asin": "1520823045",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1520823045-M.jpg"
   },
   {
     "id": "a6fae2d4ed38",
@@ -4306,7 +4375,8 @@
     "topics": [
       "Reference"
     ],
-    "asin": "0385501307"
+    "asin": "0385501307",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0385501307-M.jpg"
   },
   {
     "id": "b3ee560cd5f1",
@@ -4331,7 +4401,8 @@
       "Biography",
       "Championship"
     ],
-    "asin": "0544617010"
+    "asin": "0544617010",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0544617010-M.jpg"
   },
   {
     "id": "54140cc6f7b1",
@@ -4355,7 +4426,8 @@
     "topics": [
       "Culture"
     ],
-    "asin": "0307353141"
+    "asin": "0307353141",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0307353141-M.jpg"
   },
   {
     "id": "7a5816991b4f",
@@ -4380,7 +4452,8 @@
       "History",
       "Championship"
     ],
-    "asin": "0670085553"
+    "asin": "0670085553",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0670085553-M.jpg"
   },
   {
     "id": "e3950b5ddb26",
@@ -4404,7 +4477,8 @@
     "topics": [
       "Sports"
     ],
-    "asin": "0316113921"
+    "asin": "0316113921",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0316113921-M.jpg"
   },
   {
     "id": "4ff73efad04d",
@@ -4434,7 +4508,8 @@
       "Biography",
       "Championship"
     ],
-    "asin": "1520707614"
+    "asin": "1520707614",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1520707614-M.jpg"
   },
   {
     "id": "d0c343f8dbfb",
@@ -4458,7 +4533,8 @@
       "Biography",
       "History"
     ],
-    "asin": "0803287712"
+    "asin": "0803287712",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0803287712-M.jpg"
   },
   {
     "id": "d284e974fd59",
@@ -4481,7 +4557,8 @@
     "topics": [
       "Biography"
     ],
-    "asin": "002604241X"
+    "asin": "002604241X",
+    "coverUrl": null
   },
   {
     "id": "398588bec739",
@@ -4504,7 +4581,8 @@
     "topics": [
       "Biography"
     ],
-    "asin": "1579651038"
+    "asin": "1579651038",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1579651038-M.jpg"
   },
   {
     "id": "8fdb87291387",
@@ -4533,7 +4611,8 @@
       "Biography",
       "History"
     ],
-    "asin": "0965358712"
+    "asin": "0965358712",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0965358712-M.jpg"
   },
   {
     "id": "25b30cf6554f",
@@ -4559,7 +4638,8 @@
       "Biography",
       "Championship"
     ],
-    "asin": "0425035743"
+    "asin": "0425035743",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0425035743-M.jpg"
   },
   {
     "id": "50c3aaf55305",
@@ -4589,7 +4669,8 @@
       "History",
       "Business"
     ],
-    "asin": "1598510053"
+    "asin": "1598510053",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1598510053-M.jpg"
   },
   {
     "id": "aeeacb4906ae",
@@ -4612,7 +4693,8 @@
     "topics": [
       "Coaching"
     ],
-    "asin": "0736047905"
+    "asin": "0736047905",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0736047905-M.jpg"
   },
   {
     "id": "d7b9a5900a20",
@@ -4635,7 +4717,8 @@
     "topics": [
       "Coaching"
     ],
-    "asin": "0071346082"
+    "asin": "0071346082",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0071346082-M.jpg"
   },
   {
     "id": "cdaddab8e065",
@@ -4658,7 +4741,8 @@
     "topics": [
       "Training"
     ],
-    "asin": "1450496446"
+    "asin": "1450496446",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1450496446-M.jpg"
   },
   {
     "id": "4ad0e1d10576",
@@ -4686,7 +4770,8 @@
       "History",
       "Rivalry"
     ],
-    "asin": "B07NRWWTSS"
+    "asin": "B07NRWWTSS",
+    "coverUrl": null
   },
   {
     "id": "81efac2885e3",
@@ -4713,7 +4798,8 @@
       "Biography",
       "Championship"
     ],
-    "asin": "1718659059"
+    "asin": "1718659059",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1718659059-M.jpg"
   },
   {
     "id": "08f4c1de55cb",
@@ -4740,7 +4826,8 @@
       "Biography",
       "Championship"
     ],
-    "asin": "1532705557"
+    "asin": "1532705557",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1532705557-M.jpg"
   },
   {
     "id": "e490f7caf8cb",
@@ -4767,7 +4854,8 @@
       "Biography",
       "Championship"
     ],
-    "asin": "B00UMWL0PE"
+    "asin": "B00UMWL0PE",
+    "coverUrl": null
   },
   {
     "id": "d1fc130e7aa1",
@@ -4794,7 +4882,8 @@
       "Biography",
       "Championship"
     ],
-    "asin": "1091215722"
+    "asin": "1091215722",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1091215722-M.jpg"
   },
   {
     "id": "14e9f2dd9731",
@@ -4824,7 +4913,8 @@
       "Biography",
       "Championship"
     ],
-    "asin": "B095GNDJP1"
+    "asin": "B095GNDJP1",
+    "coverUrl": null
   },
   {
     "id": "9a74b147122e",
@@ -4849,7 +4939,8 @@
       "Biography",
       "Championship"
     ],
-    "asin": "1520707606"
+    "asin": "1520707606",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1520707606-M.jpg"
   },
   {
     "id": "6889b0b04fb2",
@@ -4876,7 +4967,8 @@
       "Biography",
       "Championship"
     ],
-    "asin": "1532705549"
+    "asin": "1532705549",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1532705549-M.jpg"
   },
   {
     "id": "b61339b97098",
@@ -4901,7 +4993,8 @@
     "topics": [
       "Coaching"
     ],
-    "asin": "0684142201"
+    "asin": "0684142201",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0684142201-M.jpg"
   },
   {
     "id": "af1c95c6dc5b",
@@ -4926,7 +5019,8 @@
       "History",
       "Photography"
     ],
-    "asin": "B07NRVVTRL"
+    "asin": "B07NRVVTRL",
+    "coverUrl": null
   },
   {
     "id": "1c142dee37ef",
@@ -4952,7 +5046,8 @@
       "Biography",
       "History"
     ],
-    "asin": "0593229541"
+    "asin": "0593229541",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0593229541-M.jpg"
   },
   {
     "id": "bddbefac0ac3",
@@ -4976,7 +5071,8 @@
       "Analytics",
       "Coaching"
     ],
-    "asin": "1574886886"
+    "asin": "1574886886",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1574886886-M.jpg"
   },
   {
     "id": "fc9155bb5f17",
@@ -5002,7 +5098,8 @@
     "topics": [
       "Biography"
     ],
-    "asin": "B0DNNXLMMZ"
+    "asin": "B0DNNXLMMZ",
+    "coverUrl": null
   },
   {
     "id": "00c783bf4f10",
@@ -5035,7 +5132,8 @@
       "Championship",
       "Rivalry"
     ],
-    "asin": "0385545649"
+    "asin": "0385545649",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0385545649-M.jpg"
   },
   {
     "id": "b5f5f608cd36",
@@ -5061,7 +5159,8 @@
       "Culture",
       "Championship"
     ],
-    "asin": "1510752315"
+    "asin": "1510752315",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1510752315-M.jpg"
   },
   {
     "id": "22df28cb2513",
@@ -5085,7 +5184,8 @@
       "Analytics",
       "Kids"
     ],
-    "asin": "1426339186"
+    "asin": "1426339186",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1426339186-M.jpg"
   },
   {
     "id": "3fafcdb9a5f1",
@@ -5113,7 +5213,8 @@
       "Championship",
       "Kids"
     ],
-    "asin": "B0BXN1YH4Z"
+    "asin": "B0BXN1YH4Z",
+    "coverUrl": null
   },
   {
     "id": "a53fe3224854",
@@ -5137,7 +5238,8 @@
       "Championship",
       "Kids"
     ],
-    "asin": "B0C9S8DDLX"
+    "asin": "B0C9S8DDLX",
+    "coverUrl": null
   },
   {
     "id": "268d1de807e1",
@@ -5164,7 +5266,8 @@
       "Biography",
       "Championship"
     ],
-    "asin": "1717478980"
+    "asin": "1717478980",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1717478980-M.jpg"
   },
   {
     "id": "a6b3c06132a9",
@@ -5191,7 +5294,8 @@
       "Biography",
       "Championship"
     ],
-    "asin": "1695681673"
+    "asin": "1695681673",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1695681673-M.jpg"
   },
   {
     "id": "e71133bf786a",
@@ -5214,7 +5318,8 @@
     "topics": [
       "College Basketball"
     ],
-    "asin": "1683580877"
+    "asin": "1683580877",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1683580877-M.jpg"
   },
   {
     "id": "cdb5c87e4710",
@@ -5238,7 +5343,8 @@
       "Biography",
       "History"
     ],
-    "asin": "B0BWGZNQM5"
+    "asin": "B0BWGZNQM5",
+    "coverUrl": null
   },
   {
     "id": "d25555821905",
@@ -5261,7 +5367,8 @@
     "topics": [
       "Kids"
     ],
-    "asin": "B0BYB5VGV7"
+    "asin": "B0BYB5VGV7",
+    "coverUrl": null
   },
   {
     "id": "1f940fe81f05",
@@ -5287,7 +5394,8 @@
       "Championship",
       "International"
     ],
-    "asin": "1401359493"
+    "asin": "1401359493",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1401359493-M.jpg"
   },
   {
     "id": "78a50dbdcc00",
@@ -5311,7 +5419,8 @@
     "topics": [
       "Sports Science"
     ],
-    "asin": "0061723762"
+    "asin": "0061723762",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0061723762-M.jpg"
   },
   {
     "id": "d5d6ae361376",
@@ -5336,7 +5445,8 @@
       "History",
       "Coaching"
     ],
-    "asin": "1538723468"
+    "asin": "1538723468",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1538723468-M.jpg"
   },
   {
     "id": "9eda588c670a",
@@ -5366,7 +5476,8 @@
       "Championship",
       "Draft"
     ],
-    "asin": "B00JS8VZKO"
+    "asin": "B00JS8VZKO",
+    "coverUrl": null
   },
   {
     "id": "6b260379566d",
@@ -5393,7 +5504,8 @@
       "Biography",
       "Championship"
     ],
-    "asin": "157243574X"
+    "asin": "157243574X",
+    "coverUrl": null
   },
   {
     "id": "2c41f7e9752f",
@@ -5419,7 +5531,8 @@
     "topics": [
       "Sports/Society"
     ],
-    "asin": "1594200556"
+    "asin": "1594200556",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1594200556-M.jpg"
   },
   {
     "id": "caa49ab80cdd",
@@ -5442,7 +5555,8 @@
     "topics": [
       "Scandal"
     ],
-    "asin": "0451402502"
+    "asin": "0451402502",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0451402502-M.jpg"
   },
   {
     "id": "7da62ca111af",
@@ -5470,7 +5584,8 @@
       "Coaching",
       "Championship"
     ],
-    "asin": "1583220003"
+    "asin": "1583220003",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1583220003-M.jpg"
   },
   {
     "id": "b5f29204be3f",
@@ -5495,7 +5610,8 @@
     "topics": [
       "Biography"
     ],
-    "asin": "3550050771"
+    "asin": "3550050771",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/3550050771-M.jpg"
   },
   {
     "id": "5154a169f2ad",
@@ -5520,7 +5636,8 @@
     "topics": [
       "Biography"
     ],
-    "asin": "0345287916"
+    "asin": "0345287916",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0345287916-M.jpg"
   },
   {
     "id": "84aacccda37c",
@@ -5548,7 +5665,8 @@
       "Biography",
       "Coaching"
     ],
-    "asin": "0061365939"
+    "asin": "0061365939",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0061365939-M.jpg"
   },
   {
     "id": "7872f6596682",
@@ -5575,7 +5693,8 @@
       "Biography",
       "Coaching"
     ],
-    "asin": "0316009113"
+    "asin": "0316009113",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0316009113-M.jpg"
   },
   {
     "id": "bbdaca7d105e",
@@ -5599,7 +5718,8 @@
     "topics": [
       "Fiction/Young Adult"
     ],
-    "asin": "0062832581"
+    "asin": "0062832581",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0062832581-M.jpg"
   },
   {
     "id": "8a0c379b9341",
@@ -5623,7 +5743,8 @@
     "topics": [
       "Sports Stories"
     ],
-    "asin": "0316079057"
+    "asin": "0316079057",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0316079057-M.jpg"
   },
   {
     "id": "58305e211f71",
@@ -5647,7 +5768,8 @@
     "topics": [
       "College Basketball"
     ],
-    "asin": "0316277134"
+    "asin": "0316277134",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0316277134-M.jpg"
   },
   {
     "id": "1337a394af35",
@@ -5674,7 +5796,8 @@
       "Coaching",
       "Business"
     ],
-    "asin": "0767903188"
+    "asin": "0767903188",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0767903188-M.jpg"
   },
   {
     "id": "851ac940ad6c",
@@ -5697,7 +5820,8 @@
     "topics": [
       "Training"
     ],
-    "asin": "B07VJGGKX7"
+    "asin": "B07VJGGKX7",
+    "coverUrl": null
   },
   {
     "id": "d2aa552d84b6",
@@ -5720,7 +5844,8 @@
     "topics": [
       "Training"
     ],
-    "asin": "B07XMU8MSM"
+    "asin": "B07XMU8MSM",
+    "coverUrl": null
   },
   {
     "id": "441524863d6c",
@@ -5743,7 +5868,8 @@
     "topics": [
       "Documentary"
     ],
-    "asin": "B08DODOYNQ"
+    "asin": "B08DODOYNQ",
+    "coverUrl": null
   },
   {
     "id": "93fa546a3c95",
@@ -5771,7 +5897,8 @@
       "Championship",
       "International"
     ],
-    "asin": "1500350796"
+    "asin": "1500350796",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1500350796-M.jpg"
   },
   {
     "id": "67487cf74271",
@@ -5798,7 +5925,8 @@
       "Biography",
       "Championship"
     ],
-    "asin": "1520775415"
+    "asin": "1520775415",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1520775415-M.jpg"
   },
   {
     "id": "71c517815e27",
@@ -5828,7 +5956,8 @@
       "Biography",
       "Championship"
     ],
-    "asin": "B08DSXD7P2"
+    "asin": "B08DSXD7P2",
+    "coverUrl": null
   },
   {
     "id": "eda740159cec",
@@ -5855,7 +5984,8 @@
       "Biography",
       "Championship"
     ],
-    "asin": "1091215731"
+    "asin": "1091215731",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1091215731-M.jpg"
   },
   {
     "id": "f451301c8909",
@@ -5882,7 +6012,8 @@
       "Biography",
       "Championship"
     ],
-    "asin": "1532705581"
+    "asin": "1532705581",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1532705581-M.jpg"
   },
   {
     "id": "cabf60626d83",
@@ -5909,7 +6040,8 @@
       "Biography",
       "Championship"
     ],
-    "asin": "1520707622"
+    "asin": "1520707622",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1520707622-M.jpg"
   },
   {
     "id": "eda68565fad9",
@@ -5933,32 +6065,8 @@
       "Biography",
       "History"
     ],
-    "asin": "1608190838"
-  },
-  {
-    "id": "865b3d869f8d",
-    "slug": "the-beautiful-game-a-5000-year-history-of-the-worl-pel-865b3d",
-    "title": "The Beautiful Game: A 5000-Year History of the World's Game",
-    "author": "Pelé",
-    "rating": 4.3,
-    "reviewCount": 200,
-    "reviewCountDisplay": "200+",
-    "publicationDate": "2014",
-    "publicationYear": 2014,
-    "formats": [
-      "Hardcover"
-    ],
-    "amazonUrl": "https://www.amazon.com/Beautiful-Game-5000-Year-History-Worlds/dp/0062363646",
-    "category": "Soccer History (exclude)",
-    "description": "",
-    "playersMentioned": [],
-    "teamsMentioned": [],
-    "topics": [
-      "Biography",
-      "History",
-      "International"
-    ],
-    "asin": "0062363646"
+    "asin": "1608190838",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1608190838-M.jpg"
   },
   {
     "id": "848ea9acd6c5",
@@ -5982,7 +6090,8 @@
       "Biography",
       "History"
     ],
-    "asin": "0803283709"
+    "asin": "0803283709",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0803283709-M.jpg"
   },
   {
     "id": "055cbc259cd6",
@@ -6010,7 +6119,8 @@
       "History",
       "Business"
     ],
-    "asin": "0071430229"
+    "asin": "0071430229",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0071430229-M.jpg"
   },
   {
     "id": "9603df64c59d",
@@ -6035,7 +6145,8 @@
     "topics": [
       "Coaching"
     ],
-    "asin": "0525946101"
+    "asin": "0525946101",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0525946101-M.jpg"
   },
   {
     "id": "4cd4dd6f41e8",
@@ -6061,7 +6172,8 @@
       "Biography",
       "Coaching"
     ],
-    "asin": "0025079808"
+    "asin": "0025079808",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0025079808-M.jpg"
   },
   {
     "id": "c7ab598aa740",
@@ -6084,7 +6196,8 @@
     "topics": [
       "Coaching"
     ],
-    "asin": "1419744453"
+    "asin": "1419744453",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1419744453-M.jpg"
   },
   {
     "id": "f95a3367860e",
@@ -6109,7 +6222,8 @@
       "Business",
       "Championship"
     ],
-    "asin": "0306824124"
+    "asin": "0306824124",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0306824124-M.jpg"
   },
   {
     "id": "722358e6550a",
@@ -6134,30 +6248,8 @@
       "Culture",
       "Scandal"
     ],
-    "asin": "0446526959"
-  },
-  {
-    "id": "44c4ed68d82e",
-    "slug": "the-system-the-glory-and-scandal-of-big-time-colle-various-44c4ed",
-    "title": "The System: The Glory and Scandal of Big-Time College Football",
-    "author": "Various",
-    "rating": 4.3,
-    "reviewCount": 200,
-    "reviewCountDisplay": "200+",
-    "publicationDate": "2013",
-    "publicationYear": 2013,
-    "formats": [
-      "Hardcover"
-    ],
-    "amazonUrl": "https://www.amazon.com/System-Glory-Scandal-Big-Time-Football/dp/B00B6U63O4",
-    "category": "Football (exclude)",
-    "description": "",
-    "playersMentioned": [],
-    "teamsMentioned": [],
-    "topics": [
-      "Scandal"
-    ],
-    "asin": "B00B6U63O4"
+    "asin": "0446526959",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0446526959-M.jpg"
   },
   {
     "id": "e9acb9ee7773",
@@ -6180,7 +6272,8 @@
     "topics": [
       "Coaching"
     ],
-    "asin": "0736033801"
+    "asin": "0736033801",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0736033801-M.jpg"
   },
   {
     "id": "9f92e7d33231",
@@ -6203,7 +6296,8 @@
     "topics": [
       "Training"
     ],
-    "asin": "0071381880"
+    "asin": "0071381880",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0071381880-M.jpg"
   },
   {
     "id": "0042404fb5e7",
@@ -6226,7 +6320,8 @@
     "topics": [
       "Training"
     ],
-    "asin": "073606784X"
+    "asin": "073606784X",
+    "coverUrl": null
   },
   {
     "id": "312fdf931e9b",
@@ -6249,7 +6344,8 @@
     "topics": [
       "Kids"
     ],
-    "asin": null
+    "asin": null,
+    "coverUrl": null
   },
   {
     "id": "6ec52e372b85",
@@ -6273,7 +6369,8 @@
       "Biography",
       "History"
     ],
-    "asin": "B07XNLX22B"
+    "asin": "B07XNLX22B",
+    "coverUrl": null
   },
   {
     "id": "758f683fd948",
@@ -6299,7 +6396,8 @@
       "Biography",
       "History"
     ],
-    "asin": null
+    "asin": null,
+    "coverUrl": null
   },
   {
     "id": "c5e175ea0082",
@@ -6325,7 +6423,8 @@
     "topics": [
       "Rivalry"
     ],
-    "asin": null
+    "asin": null,
+    "coverUrl": null
   },
   {
     "id": "910560e8e62f",
@@ -6350,7 +6449,8 @@
       "History",
       "Draft"
     ],
-    "asin": "B095GO39EA"
+    "asin": "B095GO39EA",
+    "coverUrl": null
   },
   {
     "id": "9450b8f06d2c",
@@ -6381,7 +6481,8 @@
       "Biography",
       "Championship"
     ],
-    "asin": "1091206503"
+    "asin": "1091206503",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1091206503-M.jpg"
   },
   {
     "id": "9f8f8663bf90",
@@ -6411,7 +6512,8 @@
       "Biography",
       "Championship"
     ],
-    "asin": "1983415553"
+    "asin": "1983415553",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1983415553-M.jpg"
   },
   {
     "id": "692a4649608a",
@@ -6440,7 +6542,8 @@
       "Biography",
       "Championship"
     ],
-    "asin": "B08DSXC1XC"
+    "asin": "B08DSXC1XC",
+    "coverUrl": null
   },
   {
     "id": "c8b1eb6f6a7b",
@@ -6470,7 +6573,8 @@
       "Biography",
       "Championship"
     ],
-    "asin": "B09XJKHP6Q"
+    "asin": "B09XJKHP6Q",
+    "coverUrl": null
   },
   {
     "id": "47c5631b8a77",
@@ -6497,7 +6601,8 @@
       "Biography",
       "Championship"
     ],
-    "asin": "1718741774"
+    "asin": "1718741774",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1718741774-M.jpg"
   },
   {
     "id": "3ec40ab2da18",
@@ -6524,7 +6629,8 @@
       "Biography",
       "Championship"
     ],
-    "asin": "1520766823"
+    "asin": "1520766823",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1520766823-M.jpg"
   },
   {
     "id": "22dcc3ff99a2",
@@ -6551,7 +6657,8 @@
       "Biography",
       "Championship"
     ],
-    "asin": "1520775423"
+    "asin": "1520775423",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1520775423-M.jpg"
   },
   {
     "id": "85a3c02918f6",
@@ -6580,7 +6687,8 @@
       "Biography",
       "Championship"
     ],
-    "asin": "1520707630"
+    "asin": "1520707630",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1520707630-M.jpg"
   },
   {
     "id": "296a1008e9bb",
@@ -6607,7 +6715,8 @@
       "Biography",
       "Championship"
     ],
-    "asin": "1520707598"
+    "asin": "1520707598",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1520707598-M.jpg"
   },
   {
     "id": "7369ac6322b4",
@@ -6634,7 +6743,8 @@
       "Biography",
       "Championship"
     ],
-    "asin": "1532705514"
+    "asin": "1532705514",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1532705514-M.jpg"
   },
   {
     "id": "3f679e701d0d",
@@ -6659,7 +6769,8 @@
     "topics": [
       "Biography"
     ],
-    "asin": "0063004135"
+    "asin": "0063004135",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0063004135-M.jpg"
   },
   {
     "id": "1a77e8b321e5",
@@ -6685,7 +6796,8 @@
       "Biography",
       "Coaching"
     ],
-    "asin": "0809296918"
+    "asin": "0809296918",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0809296918-M.jpg"
   },
   {
     "id": "bc25297ef6bf",
@@ -6710,7 +6822,8 @@
     "topics": [
       "Coaching"
     ],
-    "asin": "0316052601"
+    "asin": "0316052601",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0316052601-M.jpg"
   },
   {
     "id": "ebf69dc1b2cb",
@@ -6733,7 +6846,8 @@
     "topics": [
       "Training"
     ],
-    "asin": "1492571067"
+    "asin": "1492571067",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1492571067-M.jpg"
   },
   {
     "id": "dac5ed661f58",
@@ -6757,7 +6871,8 @@
       "Coaching",
       "Training"
     ],
-    "asin": "007163710X"
+    "asin": "007163710X",
+    "coverUrl": null
   },
   {
     "id": "03f681552ed8",
@@ -6780,7 +6895,8 @@
     "topics": [
       "Training"
     ],
-    "asin": "B095GNTU5Q"
+    "asin": "B095GNTU5Q",
+    "coverUrl": null
   },
   {
     "id": "f34376e28f5a",
@@ -6803,7 +6919,8 @@
     "topics": [
       "Analytics"
     ],
-    "asin": "B09XJLCP8T"
+    "asin": "B09XJLCP8T",
+    "coverUrl": null
   },
   {
     "id": "67efb569288a",
@@ -6828,7 +6945,8 @@
       "History",
       "Photography"
     ],
-    "asin": "B07XNMZ33C"
+    "asin": "B07XNMZ33C",
+    "coverUrl": null
   },
   {
     "id": "a2844c75d1bf",
@@ -6853,7 +6971,8 @@
     "topics": [
       "Rankings"
     ],
-    "asin": "B095GNZ5AW"
+    "asin": "B095GNZ5AW",
+    "coverUrl": null
   },
   {
     "id": "08e329397eab",
@@ -6883,7 +7002,8 @@
       "Championship",
       "Rivalry"
     ],
-    "asin": null
+    "asin": null,
+    "coverUrl": null
   },
   {
     "id": "57be0a6ec39a",
@@ -6910,7 +7030,8 @@
       "History",
       "International"
     ],
-    "asin": null
+    "asin": null,
+    "coverUrl": null
   },
   {
     "id": "a9bc5704a3a1",
@@ -6934,7 +7055,8 @@
       "Biography",
       "History"
     ],
-    "asin": null
+    "asin": null,
+    "coverUrl": null
   },
   {
     "id": "bfb59cc3e34c",
@@ -6959,7 +7081,8 @@
       "History",
       "Business"
     ],
-    "asin": null
+    "asin": null,
+    "coverUrl": null
   },
   {
     "id": "d2458024c7a5",
@@ -6988,7 +7111,8 @@
       "Biography",
       "Championship"
     ],
-    "asin": "1520775399"
+    "asin": "1520775399",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1520775399-M.jpg"
   },
   {
     "id": "acfd8047a3c1",
@@ -7017,7 +7141,8 @@
       "Biography",
       "Championship"
     ],
-    "asin": "1718741758"
+    "asin": "1718741758",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1718741758-M.jpg"
   },
   {
     "id": "39f7a8f03594",
@@ -7047,7 +7172,8 @@
       "Biography",
       "Championship"
     ],
-    "asin": "B095GNDIQ2"
+    "asin": "B095GNDIQ2",
+    "coverUrl": null
   },
   {
     "id": "2898b87444d0",
@@ -7074,7 +7200,8 @@
       "Biography",
       "Championship"
     ],
-    "asin": "1520823061"
+    "asin": "1520823061",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1520823061-M.jpg"
   },
   {
     "id": "e2c8a4884957",
@@ -7101,7 +7228,8 @@
       "Biography",
       "Championship"
     ],
-    "asin": "1520775375"
+    "asin": "1520775375",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1520775375-M.jpg"
   },
   {
     "id": "a7f3925c7c99",
@@ -7130,7 +7258,8 @@
       "Biography",
       "Championship"
     ],
-    "asin": "1520775367"
+    "asin": "1520775367",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1520775367-M.jpg"
   },
   {
     "id": "4442b2745e6c",
@@ -7159,7 +7288,8 @@
       "Biography",
       "Championship"
     ],
-    "asin": "1532705506"
+    "asin": "1532705506",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1532705506-M.jpg"
   },
   {
     "id": "a7acb7322b55",
@@ -7183,7 +7313,8 @@
       "Biography",
       "History"
     ],
-    "asin": null
+    "asin": null,
+    "coverUrl": null
   },
   {
     "id": "aed4677bc244",
@@ -7207,7 +7338,8 @@
       "Biography",
       "History"
     ],
-    "asin": "149306665X"
+    "asin": "149306665X",
+    "coverUrl": null
   },
   {
     "id": "ad80cb04c6b2",
@@ -7232,7 +7364,8 @@
       "History",
       "Photography"
     ],
-    "asin": "1608190838"
+    "asin": "1608190838",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1608190838-M.jpg"
   },
   {
     "id": "09cda7301691",
@@ -7256,7 +7389,8 @@
     "topics": [
       "Culture"
     ],
-    "asin": "1419744909"
+    "asin": "1419744909",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1419744909-M.jpg"
   },
   {
     "id": "1cd0ba22ee7c",
@@ -7285,7 +7419,8 @@
       "Biography",
       "Championship"
     ],
-    "asin": "B09TMGJNK3"
+    "asin": "B09TMGJNK3",
+    "coverUrl": null
   },
   {
     "id": "50d9dc801a13",
@@ -7310,7 +7445,8 @@
       "Championship",
       "Kids"
     ],
-    "asin": "B0CMC2XZ3K"
+    "asin": "B0CMC2XZ3K",
+    "coverUrl": null
   },
   {
     "id": "65bb5b19ab16",
@@ -7334,7 +7470,8 @@
       "Championship",
       "Kids"
     ],
-    "asin": "B0B5KQQWPQ"
+    "asin": "B0B5KQQWPQ",
+    "coverUrl": null
   },
   {
     "id": "32c12ce57a77",
@@ -7359,7 +7496,8 @@
     "topics": [
       "Biography"
     ],
-    "asin": "1524718165"
+    "asin": "1524718165",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1524718165-M.jpg"
   },
   {
     "id": "24b57197c9e8",
@@ -7384,7 +7522,8 @@
       "Championship",
       "Kids"
     ],
-    "asin": "B0CCQ81YDC"
+    "asin": "B0CCQ81YDC",
+    "coverUrl": null
   },
   {
     "id": "b90036486d9e",
@@ -7409,7 +7548,8 @@
       "Championship",
       "Kids"
     ],
-    "asin": "B0CD7MHRG4"
+    "asin": "B0CD7MHRG4",
+    "coverUrl": null
   },
   {
     "id": "7dc231a69c82",
@@ -7433,7 +7573,8 @@
       "Training",
       "Kids"
     ],
-    "asin": "B09YLZ5VBL"
+    "asin": "B09YLZ5VBL",
+    "coverUrl": null
   },
   {
     "id": "653d08667fc4",
@@ -7458,7 +7599,8 @@
       "Coaching",
       "Culture"
     ],
-    "asin": "1439110220"
+    "asin": "1439110220",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1439110220-M.jpg"
   },
   {
     "id": "97ec5d795ad5",
@@ -7485,7 +7627,8 @@
       "Biography",
       "Championship"
     ],
-    "asin": "0307462897"
+    "asin": "0307462897",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0307462897-M.jpg"
   },
   {
     "id": "d78d2e05d0fa",
@@ -7508,7 +7651,8 @@
     "topics": [
       "Culture"
     ],
-    "asin": "0803270542"
+    "asin": "0803270542",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0803270542-M.jpg"
   },
   {
     "id": "db1e1f5e4f3a",
@@ -7538,7 +7682,8 @@
       "Biography",
       "Championship"
     ],
-    "asin": "B00UMWL0HS"
+    "asin": "B00UMWL0HS",
+    "coverUrl": null
   },
   {
     "id": "a71655bae6d2",
@@ -7565,7 +7710,8 @@
       "Biography",
       "Championship"
     ],
-    "asin": "B00UMWL0G4"
+    "asin": "B00UMWL0G4",
+    "coverUrl": null
   },
   {
     "id": "b502667047d9",
@@ -7592,7 +7738,8 @@
       "Biography",
       "Championship"
     ],
-    "asin": "B08ZBZ8CTR"
+    "asin": "B08ZBZ8CTR",
+    "coverUrl": null
   },
   {
     "id": "1b068b4a9b16",
@@ -7617,7 +7764,8 @@
     "topics": [
       "Biography"
     ],
-    "asin": "0380721600"
+    "asin": "0380721600",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0380721600-M.jpg"
   },
   {
     "id": "172d09b6ab53",
@@ -7643,7 +7791,8 @@
       "Biography",
       "Championship"
     ],
-    "asin": "0553050443"
+    "asin": "0553050443",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0553050443-M.jpg"
   },
   {
     "id": "dc59120c26ad",
@@ -7669,7 +7818,8 @@
     "topics": [
       "Biography"
     ],
-    "asin": "1592405681"
+    "asin": "1592405681",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1592405681-M.jpg"
   },
   {
     "id": "1a88a31774f8",
@@ -7693,7 +7843,8 @@
     "topics": [
       "Biography"
     ],
-    "asin": "1608468542"
+    "asin": "1608468542",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1608468542-M.jpg"
   },
   {
     "id": "0f7819964420",
@@ -7718,7 +7869,8 @@
     "topics": [
       "Coaching"
     ],
-    "asin": "0451208676"
+    "asin": "0451208676",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0451208676-M.jpg"
   },
   {
     "id": "a3a29da3ea44",
@@ -7746,7 +7898,8 @@
       "Biography",
       "Coaching"
     ],
-    "asin": "0399118748"
+    "asin": "0399118748",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0399118748-M.jpg"
   },
   {
     "id": "e3d62f9a3b73",
@@ -7770,7 +7923,8 @@
     "topics": [
       "College Basketball"
     ],
-    "asin": "0316016136"
+    "asin": "0316016136",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0316016136-M.jpg"
   },
   {
     "id": "1cf482d79977",
@@ -7793,7 +7947,8 @@
     "topics": [
       "Instructional"
     ],
-    "asin": "B07NQSMTPK"
+    "asin": "B07NQSMTPK",
+    "coverUrl": null
   },
   {
     "id": "5108d5734d74",
@@ -7816,7 +7971,8 @@
     "topics": [
       "Training"
     ],
-    "asin": "B07XMTMSK5"
+    "asin": "B07XMTMSK5",
+    "coverUrl": null
   },
   {
     "id": "eb40993b598a",
@@ -7839,7 +7995,8 @@
     "topics": [
       "College Basketball"
     ],
-    "asin": "B0BXNLJK9V"
+    "asin": "B0BXNLJK9V",
+    "coverUrl": null
   },
   {
     "id": "e96a41fffa69",
@@ -7862,7 +8019,8 @@
     "topics": [
       "Coaching"
     ],
-    "asin": "B095GKPL8R"
+    "asin": "B095GKPL8R",
+    "coverUrl": null
   },
   {
     "id": "04530b52cd4e",
@@ -7885,7 +8043,8 @@
     "topics": [
       "Kids"
     ],
-    "asin": "B09XJL7K6R"
+    "asin": "B09XJL7K6R",
+    "coverUrl": null
   },
   {
     "id": "39992a416677",
@@ -7911,7 +8070,8 @@
       "Culture",
       "Photography"
     ],
-    "asin": "B0BXNOKK2T"
+    "asin": "B0BXNOKK2T",
+    "coverUrl": null
   },
   {
     "id": "590086b68216",
@@ -7934,7 +8094,8 @@
     "topics": [
       "Documentary"
     ],
-    "asin": "B07XMYCMSM"
+    "asin": "B07XMYCMSM",
+    "coverUrl": null
   },
   {
     "id": "55b5269a62d7",
@@ -7961,7 +8122,8 @@
       "Business",
       "Culture"
     ],
-    "asin": "1400218853"
+    "asin": "1400218853",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1400218853-M.jpg"
   },
   {
     "id": "f90e58cc6837",
@@ -7990,7 +8152,8 @@
       "Biography",
       "Championship"
     ],
-    "asin": "B084DG59JH"
+    "asin": "B084DG59JH",
+    "coverUrl": null
   },
   {
     "id": "76e73371a0ee",
@@ -8020,7 +8183,8 @@
       "Biography",
       "Championship"
     ],
-    "asin": "B095GNDHM3"
+    "asin": "B095GNDHM3",
+    "coverUrl": null
   },
   {
     "id": "d1d57f0892ec",
@@ -8049,7 +8213,8 @@
       "Biography",
       "Championship"
     ],
-    "asin": "1520775431"
+    "asin": "1520775431",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1520775431-M.jpg"
   },
   {
     "id": "16d13304f554",
@@ -8078,7 +8243,8 @@
       "Biography",
       "Championship"
     ],
-    "asin": "1520823037"
+    "asin": "1520823037",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1520823037-M.jpg"
   },
   {
     "id": "8324a1578d12",
@@ -8105,7 +8271,8 @@
       "Biography",
       "Championship"
     ],
-    "asin": "1520823029"
+    "asin": "1520823029",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1520823029-M.jpg"
   },
   {
     "id": "2ed9762a26ac",
@@ -8130,7 +8297,8 @@
       "History",
       "Coaching"
     ],
-    "asin": "0684872374"
+    "asin": "0684872374",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0684872374-M.jpg"
   },
   {
     "id": "9b26734b8ed5",
@@ -8154,7 +8322,8 @@
       "Biography",
       "Business"
     ],
-    "asin": "B07H8PXZQ9"
+    "asin": "B07H8PXZQ9",
+    "coverUrl": null
   },
   {
     "id": "4b46c1fbfee4",
@@ -8180,7 +8349,8 @@
       "Biography",
       "International"
     ],
-    "asin": "0671228765"
+    "asin": "0671228765",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0671228765-M.jpg"
   },
   {
     "id": "f94150861358",
@@ -8205,7 +8375,8 @@
     "topics": [
       "Motivation"
     ],
-    "asin": "0446513148"
+    "asin": "0446513148",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0446513148-M.jpg"
   },
   {
     "id": "906499841708",
@@ -8234,7 +8405,8 @@
       "History",
       "Championship"
     ],
-    "asin": "B08DPCXMST"
+    "asin": "B08DPCXMST",
+    "coverUrl": null
   },
   {
     "id": "43fd0be40cae",
@@ -8261,7 +8433,8 @@
       "Biography",
       "History"
     ],
-    "asin": "B07XMZOMTN"
+    "asin": "B07XMZOMTN",
+    "coverUrl": null
   },
   {
     "id": "6bb63d471845",
@@ -8285,7 +8458,8 @@
       "Biography",
       "History"
     ],
-    "asin": "1589797507"
+    "asin": "1589797507",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1589797507-M.jpg"
   },
   {
     "id": "5182794f974b",
@@ -8309,7 +8483,8 @@
       "Analytics",
       "Coaching"
     ],
-    "asin": "1492180041"
+    "asin": "1492180041",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1492180041-M.jpg"
   },
   {
     "id": "405d6305115d",
@@ -8334,7 +8509,8 @@
       "International",
       "Photography"
     ],
-    "asin": "B08DPFROMQ"
+    "asin": "B08DPFROMQ",
+    "coverUrl": null
   },
   {
     "id": "0e12ab019583",
@@ -8357,7 +8533,8 @@
     "topics": [
       "Training"
     ],
-    "asin": "0736049118"
+    "asin": "0736049118",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0736049118-M.jpg"
   },
   {
     "id": "9cf9643d9616",
@@ -8381,7 +8558,8 @@
       "Coaching",
       "Training"
     ],
-    "asin": "B07NRTTSQK"
+    "asin": "B07NRTTSQK",
+    "coverUrl": null
   },
   {
     "id": "795f3cc52247",
@@ -8404,7 +8582,8 @@
     "topics": [
       "Coaching"
     ],
-    "asin": "B08DPJUTRR"
+    "asin": "B08DPJUTRR",
+    "coverUrl": null
   },
   {
     "id": "080a57415cb1",
@@ -8427,7 +8606,8 @@
     "topics": [
       "Kids"
     ],
-    "asin": "B095GNV1WS"
+    "asin": "B095GNV1WS",
+    "coverUrl": null
   },
   {
     "id": "3d58d21fe54b",
@@ -8452,7 +8632,8 @@
       "History",
       "Championship"
     ],
-    "asin": "B095GNW2XT"
+    "asin": "B095GNW2XT",
+    "coverUrl": null
   },
   {
     "id": "1782d50c8235",
@@ -8477,7 +8658,8 @@
       "History",
       "Championship"
     ],
-    "asin": null
+    "asin": null,
+    "coverUrl": null
   },
   {
     "id": "aa13a03b9fcb",
@@ -8505,7 +8687,8 @@
       "History",
       "Rivalry"
     ],
-    "asin": null
+    "asin": null,
+    "coverUrl": null
   },
   {
     "id": "40112bf55c93",
@@ -8530,7 +8713,8 @@
       "History",
       "Draft"
     ],
-    "asin": null
+    "asin": null,
+    "coverUrl": null
   },
   {
     "id": "5b501d1c064a",
@@ -8553,7 +8737,8 @@
     "topics": [
       "International"
     ],
-    "asin": null
+    "asin": null,
+    "coverUrl": null
   },
   {
     "id": "f615005e5fbf",
@@ -8580,7 +8765,8 @@
       "Biography",
       "History"
     ],
-    "asin": null
+    "asin": null,
+    "coverUrl": null
   },
   {
     "id": "2091434cbd17",
@@ -8606,7 +8792,8 @@
       "Business",
       "Championship"
     ],
-    "asin": null
+    "asin": null,
+    "coverUrl": null
   },
   {
     "id": "cc2050cbdae5",
@@ -8631,7 +8818,8 @@
       "History",
       "Photography"
     ],
-    "asin": null
+    "asin": null,
+    "coverUrl": null
   },
   {
     "id": "3b7897515870",
@@ -8658,7 +8846,8 @@
       "Biography",
       "Championship"
     ],
-    "asin": "1718659067"
+    "asin": "1718659067",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1718659067-M.jpg"
   },
   {
     "id": "3e5228df5bab",
@@ -8688,7 +8877,8 @@
       "Biography",
       "Championship"
     ],
-    "asin": "1091206511"
+    "asin": "1091206511",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1091206511-M.jpg"
   },
   {
     "id": "449b54a5d7d7",
@@ -8716,7 +8906,8 @@
       "History",
       "Championship"
     ],
-    "asin": "1520775407"
+    "asin": "1520775407",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1520775407-M.jpg"
   },
   {
     "id": "ccd00c17c088",
@@ -8745,7 +8936,8 @@
       "Biography",
       "Championship"
     ],
-    "asin": "1520775383"
+    "asin": "1520775383",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1520775383-M.jpg"
   },
   {
     "id": "f3e0218fe9b6",
@@ -8775,7 +8967,8 @@
       "History",
       "Championship"
     ],
-    "asin": "1520766807"
+    "asin": "1520766807",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1520766807-M.jpg"
   },
   {
     "id": "04024f022c4b",
@@ -8803,7 +8996,8 @@
       "Championship",
       "International"
     ],
-    "asin": "1718659075"
+    "asin": "1718659075",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1718659075-M.jpg"
   },
   {
     "id": "4ad4fe321492",
@@ -8828,7 +9022,8 @@
       "Biography",
       "Championship"
     ],
-    "asin": "B09XJKGQ7R"
+    "asin": "B09XJKGQ7R",
+    "coverUrl": null
   },
   {
     "id": "5cf27b823001",
@@ -8852,7 +9047,8 @@
       "Biography",
       "History"
     ],
-    "asin": null
+    "asin": null,
+    "coverUrl": null
   },
   {
     "id": "fe33aafe060b",
@@ -8878,7 +9074,8 @@
       "Biography",
       "History"
     ],
-    "asin": null
+    "asin": null,
+    "coverUrl": null
   },
   {
     "id": "97087f4529a1",
@@ -8901,7 +9098,8 @@
     "topics": [
       "Draft"
     ],
-    "asin": null
+    "asin": null,
+    "coverUrl": null
   },
   {
     "id": "9ff7926f6c10",
@@ -8926,7 +9124,8 @@
       "History",
       "Business"
     ],
-    "asin": null
+    "asin": null,
+    "coverUrl": null
   },
   {
     "id": "7ef069774919",
@@ -8950,7 +9149,8 @@
       "Biography",
       "History"
     ],
-    "asin": null
+    "asin": null,
+    "coverUrl": null
   },
   {
     "id": "4dc29dad3f3c",
@@ -8979,7 +9179,8 @@
       "Biography",
       "Championship"
     ],
-    "asin": "B00UMWL0GE"
+    "asin": "B00UMWL0GE",
+    "coverUrl": null
   },
   {
     "id": "30b210203baa",
@@ -9004,7 +9205,8 @@
       "Biography",
       "Championship"
     ],
-    "asin": "1718741782"
+    "asin": "1718741782",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1718741782-M.jpg"
   },
   {
     "id": "53e004b648d5",
@@ -9031,7 +9233,8 @@
       "Biography",
       "Championship"
     ],
-    "asin": "1520766815"
+    "asin": "1520766815",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1520766815-M.jpg"
   },
   {
     "id": "dc1b677abab0",
@@ -9058,7 +9261,8 @@
       "Biography",
       "Championship"
     ],
-    "asin": "B0C7HXPQ8V"
+    "asin": "B0C7HXPQ8V",
+    "coverUrl": null
   },
   {
     "id": "2a72da24c087",
@@ -9083,7 +9287,8 @@
       "History",
       "Analytics"
     ],
-    "asin": "B095GNY4ZV"
+    "asin": "B095GNY4ZV",
+    "coverUrl": null
   },
   {
     "id": "167b3c0e7e50",
@@ -9108,7 +9313,8 @@
       "History",
       "Draft"
     ],
-    "asin": null
+    "asin": null,
+    "coverUrl": null
   },
   {
     "id": "7f4032a7d441",
@@ -9132,7 +9338,8 @@
       "Biography",
       "History"
     ],
-    "asin": null
+    "asin": null,
+    "coverUrl": null
   },
   {
     "id": "be3552d0ea54",
@@ -9159,7 +9366,8 @@
       "Biography",
       "Championship"
     ],
-    "asin": "B07PVYBNK1"
+    "asin": "B07PVYBNK1",
+    "coverUrl": null
   },
   {
     "id": "f2ca7a6a4b15",
@@ -9182,7 +9390,8 @@
     "topics": [
       "Sports Psychology"
     ],
-    "asin": "B08DL9YQLP"
+    "asin": "B08DL9YQLP",
+    "coverUrl": null
   },
   {
     "id": "9c4616e3c7c6",
@@ -9207,7 +9416,8 @@
       "History",
       "Championship"
     ],
-    "asin": "B09XJL7K5S"
+    "asin": "B09XJL7K5S",
+    "coverUrl": null
   },
   {
     "id": "ab5246e112ba",
@@ -9230,7 +9440,8 @@
     "topics": [
       "Culture"
     ],
-    "asin": "B09XJL9TM7"
+    "asin": "B09XJL9TM7",
+    "coverUrl": null
   },
   {
     "id": "50f7857dfacf",
@@ -9254,7 +9465,8 @@
       "Biography",
       "History"
     ],
-    "asin": "B095GNDVS5"
+    "asin": "B095GNDVS5",
+    "coverUrl": null
   },
   {
     "id": "d5865392c8a0",
@@ -9278,7 +9490,8 @@
       "Biography",
       "History"
     ],
-    "asin": "B0BXNPLL3S"
+    "asin": "B0BXNPLL3S",
+    "coverUrl": null
   },
   {
     "id": "5b57d1cb1739",
@@ -9302,7 +9515,8 @@
       "Biography",
       "History"
     ],
-    "asin": "B0BXNQMM4R"
+    "asin": "B0BXNQMM4R",
+    "coverUrl": null
   },
   {
     "id": "fc8bf8f7488d",
@@ -9325,7 +9539,8 @@
     "topics": [
       "Officiating Guide"
     ],
-    "asin": "0736047670"
+    "asin": "0736047670",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0736047670-M.jpg"
   },
   {
     "id": "e6fcdbe1e60a",
@@ -9350,7 +9565,8 @@
       "Biography",
       "Championship"
     ],
-    "asin": "1091206528"
+    "asin": "1091206528",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1091206528-M.jpg"
   },
   {
     "id": "8dc08f214614",
@@ -9375,7 +9591,8 @@
       "Biography",
       "Championship"
     ],
-    "asin": "1520823013"
+    "asin": "1520823013",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1520823013-M.jpg"
   },
   {
     "id": "7a986f3c7c0a",
@@ -9402,7 +9619,8 @@
       "Biography",
       "Championship"
     ],
-    "asin": "B08DSXBZRP"
+    "asin": "B08DSXBZRP",
+    "coverUrl": null
   },
   {
     "id": "0ad30f8cef4f",
@@ -9427,7 +9645,8 @@
       "History",
       "International"
     ],
-    "asin": "0803263783"
+    "asin": "0803263783",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0803263783-M.jpg"
   },
   {
     "id": "66e082246d6c",
@@ -9456,7 +9675,8 @@
       "Culture",
       "Championship"
     ],
-    "asin": "B0C7HXUR0Z"
+    "asin": "B0C7HXUR0Z",
+    "coverUrl": null
   },
   {
     "id": "22a91be53103",
@@ -9482,7 +9702,8 @@
       "Biography",
       "History"
     ],
-    "asin": "B095GNOR2M"
+    "asin": "B095GNOR2M",
+    "coverUrl": null
   },
   {
     "id": "310f3e606ee3",
@@ -9506,7 +9727,8 @@
       "History",
       "Culture"
     ],
-    "asin": "B095GNQR3O"
+    "asin": "B095GNQR3O",
+    "coverUrl": null
   },
   {
     "id": "da29f91d0aa5",
@@ -9529,7 +9751,8 @@
     "topics": [
       "Training"
     ],
-    "asin": "B07NBPVOR8"
+    "asin": "B07NBPVOR8",
+    "coverUrl": null
   },
   {
     "id": "7b86457f1862",
@@ -9553,7 +9776,8 @@
       "Coaching",
       "Championship"
     ],
-    "asin": "B08DPHSQZR"
+    "asin": "B08DPHSQZR",
+    "coverUrl": null
   },
   {
     "id": "4eef0c352d5d",
@@ -9576,7 +9800,8 @@
     "topics": [
       "Coaching"
     ],
-    "asin": "B08DPMXW0A"
+    "asin": "B08DPMXW0A",
+    "coverUrl": null
   },
   {
     "id": "ceda67db3621",
@@ -9599,7 +9824,8 @@
     "topics": [
       "Analytics"
     ],
-    "asin": null
+    "asin": null,
+    "coverUrl": null
   },
   {
     "id": "adfdb08c2ee4",
@@ -9623,7 +9849,8 @@
       "Biography",
       "History"
     ],
-    "asin": null
+    "asin": null,
+    "coverUrl": null
   },
   {
     "id": "729f27f8cc4b",
@@ -9649,7 +9876,8 @@
       "Biography",
       "History"
     ],
-    "asin": "B095GO06BX"
+    "asin": "B095GO06BX",
+    "coverUrl": null
   },
   {
     "id": "d5c9f86f365e",
@@ -9677,7 +9905,8 @@
       "History",
       "Rivalry"
     ],
-    "asin": null
+    "asin": null,
+    "coverUrl": null
   },
   {
     "id": "636678ce49e6",
@@ -9700,7 +9929,8 @@
     "topics": [
       "International"
     ],
-    "asin": null
+    "asin": null,
+    "coverUrl": null
   },
   {
     "id": "ae21caad28a2",
@@ -9724,7 +9954,8 @@
       "Biography",
       "History"
     ],
-    "asin": null
+    "asin": null,
+    "coverUrl": null
   },
   {
     "id": "b7388dee5f28",
@@ -9749,7 +9980,8 @@
       "History",
       "Business"
     ],
-    "asin": null
+    "asin": null,
+    "coverUrl": null
   },
   {
     "id": "072b87d9bdd4",
@@ -9773,7 +10005,8 @@
       "Biography",
       "History"
     ],
-    "asin": null
+    "asin": null,
+    "coverUrl": null
   },
   {
     "id": "ea2c337fe49e",
@@ -9800,7 +10033,8 @@
       "Biography",
       "Championship"
     ],
-    "asin": "1718741790"
+    "asin": "1718741790",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1718741790-M.jpg"
   },
   {
     "id": "cf5f130762a2",
@@ -9824,7 +10058,8 @@
       "Training",
       "Championship"
     ],
-    "asin": "B08DPNYX1B"
+    "asin": "B08DPNYX1B",
+    "coverUrl": null
   },
   {
     "id": "6c1a670b048d",
@@ -9852,7 +10087,8 @@
       "History",
       "Rivalry"
     ],
-    "asin": null
+    "asin": null,
+    "coverUrl": null
   },
   {
     "id": "48f99eedd637",
@@ -9877,7 +10113,8 @@
       "History",
       "International"
     ],
-    "asin": "B095GO5BGC"
+    "asin": "B095GO5BGC",
+    "coverUrl": null
   },
   {
     "id": "adf9e099f29f",
@@ -9900,7 +10137,8 @@
     "topics": [
       "Business"
     ],
-    "asin": null
+    "asin": null,
+    "coverUrl": null
   },
   {
     "id": "47cf8ebe962e",
@@ -9926,7 +10164,8 @@
       "Biography",
       "History"
     ],
-    "asin": null
+    "asin": null,
+    "coverUrl": null
   },
   {
     "id": "cb169c97ff35",
@@ -9951,7 +10190,8 @@
     "topics": [
       "Biography"
     ],
-    "asin": "0306924145"
+    "asin": "0306924145",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0306924145-M.jpg"
   },
   {
     "id": "5a66a74e44e0",
@@ -9976,7 +10216,8 @@
       "Biography",
       "History"
     ],
-    "asin": "B09SPC5LQC"
+    "asin": "B09SPC5LQC",
+    "coverUrl": null
   },
   {
     "id": "c0323a80f692",
@@ -10001,7 +10242,8 @@
       "History",
       "Championship"
     ],
-    "asin": "B0BMDPJ7SR"
+    "asin": "B0BMDPJ7SR",
+    "coverUrl": null
   },
   {
     "id": "b5c48cfd2cf9",
@@ -10029,7 +10271,8 @@
       "Biography",
       "Championship"
     ],
-    "asin": "B0BS1D9C9T"
+    "asin": "B0BS1D9C9T",
+    "coverUrl": null
   },
   {
     "id": "a4a24e492eee",
@@ -10056,7 +10299,8 @@
       "Biography",
       "Championship"
     ],
-    "asin": "B09XJGB1GY"
+    "asin": "B09XJGB1GY",
+    "coverUrl": null
   },
   {
     "id": "856bfff6091e",
@@ -10083,7 +10327,8 @@
       "Biography",
       "Championship"
     ],
-    "asin": "B0D1MHYNDN"
+    "asin": "B0D1MHYNDN",
+    "coverUrl": null
   },
   {
     "id": "754be489823c",
@@ -10109,7 +10354,8 @@
       "Biography",
       "History"
     ],
-    "asin": "B0CMC1R2RX"
+    "asin": "B0CMC1R2RX",
+    "coverUrl": null
   },
   {
     "id": "9d0a7aa6d713",
@@ -10137,7 +10383,8 @@
       "History",
       "Business"
     ],
-    "asin": "1629374423"
+    "asin": "1629374423",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1629374423-M.jpg"
   },
   {
     "id": "42883ce87bff",
@@ -10162,7 +10409,8 @@
       "Championship",
       "Kids"
     ],
-    "asin": "B0CWWJM8GT"
+    "asin": "B0CWWJM8GT",
+    "coverUrl": null
   },
   {
     "id": "a4908ac26bdf",
@@ -10187,7 +10435,8 @@
       "History",
       "Kids"
     ],
-    "asin": "B0DQB1RB8W"
+    "asin": "B0DQB1RB8W",
+    "coverUrl": null
   },
   {
     "id": "59c609908ec4",
@@ -10210,7 +10459,8 @@
     "topics": [
       "Biography"
     ],
-    "asin": "1439103127"
+    "asin": "1439103127",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1439103127-M.jpg"
   },
   {
     "id": "16348ea17f6f",
@@ -10233,7 +10483,8 @@
     "topics": [
       "Culture"
     ],
-    "asin": "1596914769"
+    "asin": "1596914769",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1596914769-M.jpg"
   },
   {
     "id": "4d3efbc389c4",
@@ -10257,7 +10508,8 @@
       "Biography",
       "Championship"
     ],
-    "asin": "1882180259"
+    "asin": "1882180259",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1882180259-M.jpg"
   },
   {
     "id": "2f275d87ec6a",
@@ -10280,7 +10532,8 @@
     "topics": [
       "Culture"
     ],
-    "asin": "0743462181"
+    "asin": "0743462181",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0743462181-M.jpg"
   },
   {
     "id": "3560323bb54e",
@@ -10303,7 +10556,8 @@
     "topics": [
       "Championship"
     ],
-    "asin": "1496225503"
+    "asin": "1496225503",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1496225503-M.jpg"
   },
   {
     "id": "c17ede4c9a0c",
@@ -10326,7 +10580,8 @@
     "topics": [
       "Culture"
     ],
-    "asin": "0805058400"
+    "asin": "0805058400",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0805058400-M.jpg"
   },
   {
     "id": "157a913243a6",
@@ -10350,7 +10605,8 @@
       "Biography",
       "Championship"
     ],
-    "asin": "006288885X"
+    "asin": "006288885X",
+    "coverUrl": null
   },
   {
     "id": "446ccd6943a2",
@@ -10374,7 +10630,8 @@
       "Biography",
       "History"
     ],
-    "asin": "078686680X"
+    "asin": "078686680X",
+    "coverUrl": null
   },
   {
     "id": "21c33145f1a5",
@@ -10401,7 +10658,8 @@
       "Biography",
       "Championship"
     ],
-    "asin": "B00UMWKWXQ"
+    "asin": "B00UMWKWXQ",
+    "coverUrl": null
   },
   {
     "id": "24736febac46",
@@ -10429,7 +10687,8 @@
       "History",
       "Championship"
     ],
-    "asin": "B0CQHG58DT"
+    "asin": "B0CQHG58DT",
+    "coverUrl": null
   },
   {
     "id": "a605d97d2aa3",
@@ -10456,7 +10715,8 @@
       "Biography",
       "Championship"
     ],
-    "asin": "B00UMWL0EQ"
+    "asin": "B00UMWL0EQ",
+    "coverUrl": null
   },
   {
     "id": "f88722e4b5b6",
@@ -10483,7 +10743,8 @@
       "Biography",
       "Championship"
     ],
-    "asin": "B07PWYFDVK"
+    "asin": "B07PWYFDVK",
+    "coverUrl": null
   },
   {
     "id": "d2becafcd5ae",
@@ -10510,7 +10771,8 @@
       "Biography",
       "Championship"
     ],
-    "asin": "B00UMWL0CY"
+    "asin": "B00UMWL0CY",
+    "coverUrl": null
   },
   {
     "id": "8a36ef0356c8",
@@ -10536,7 +10798,8 @@
     "topics": [
       "Sports/Society"
     ],
-    "asin": "1618931709"
+    "asin": "1618931709",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1618931709-M.jpg"
   },
   {
     "id": "d51dddcac88a",
@@ -10561,7 +10824,8 @@
     "topics": [
       "Biography"
     ],
-    "asin": "0684848457"
+    "asin": "0684848457",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0684848457-M.jpg"
   },
   {
     "id": "c5d2aa595482",
@@ -10586,7 +10850,8 @@
     "topics": [
       "Biography"
     ],
-    "asin": "0425105393"
+    "asin": "0425105393",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0425105393-M.jpg"
   },
   {
     "id": "ef6b8186966f",
@@ -10611,7 +10876,8 @@
     "topics": [
       "Biography"
     ],
-    "asin": "B01LWWCZ5H"
+    "asin": "B01LWWCZ5H",
+    "coverUrl": null
   },
   {
     "id": "759340e57804",
@@ -10634,7 +10900,8 @@
     "topics": [
       "Reference"
     ],
-    "asin": "B09XJKB3TD"
+    "asin": "B09XJKB3TD",
+    "coverUrl": null
   },
   {
     "id": "8a1153fbf5ce",
@@ -10657,7 +10924,8 @@
     "topics": [
       "Anthology"
     ],
-    "asin": "0316451827"
+    "asin": "0316451827",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0316451827-M.jpg"
   },
   {
     "id": "0ab01674621a",
@@ -10681,7 +10949,8 @@
       "Coaching",
       "Training"
     ],
-    "asin": "B08CWWN6XN"
+    "asin": "B08CWWN6XN",
+    "coverUrl": null
   },
   {
     "id": "58cace1b0845",
@@ -10704,7 +10973,8 @@
     "topics": [
       "Training"
     ],
-    "asin": "B09BZY7VMM"
+    "asin": "B09BZY7VMM",
+    "coverUrl": null
   },
   {
     "id": "fa1cadc8d41d",
@@ -10727,7 +10997,8 @@
     "topics": [
       "Training"
     ],
-    "asin": "B08DLBQXLR"
+    "asin": "B08DLBQXLR",
+    "coverUrl": null
   },
   {
     "id": "9a2a33fa1f3f",
@@ -10751,7 +11022,8 @@
       "Biography",
       "History"
     ],
-    "asin": "B09XJL8K4V"
+    "asin": "B09XJL8K4V",
+    "coverUrl": null
   },
   {
     "id": "42994acf55dd",
@@ -10775,7 +11047,8 @@
       "Biography",
       "History"
     ],
-    "asin": "B095GN5VZ4"
+    "asin": "B095GN5VZ4",
+    "coverUrl": null
   },
   {
     "id": "5d7c2e7277de",
@@ -10798,7 +11071,8 @@
     "topics": [
       "Reference"
     ],
-    "asin": "B09XJL9TL8"
+    "asin": "B09XJL9TL8",
+    "coverUrl": null
   },
   {
     "id": "16af153cfb9b",
@@ -10822,7 +11096,8 @@
       "Culture",
       "Photography"
     ],
-    "asin": "B07XMV9MSN"
+    "asin": "B07XMV9MSN",
+    "coverUrl": null
   },
   {
     "id": "17adc8b55988",
@@ -10847,7 +11122,8 @@
       "History",
       "Culture"
     ],
-    "asin": "B08DMBQXMS"
+    "asin": "B08DMBQXMS",
+    "coverUrl": null
   },
   {
     "id": "830fe24f41d0",
@@ -10871,7 +11147,8 @@
       "Biography",
       "History"
     ],
-    "asin": "B09XJL7K7Q"
+    "asin": "B09XJL7K7Q",
+    "coverUrl": null
   },
   {
     "id": "ee4c9096e54f",
@@ -10894,7 +11171,8 @@
     "topics": [
       "Culture"
     ],
-    "asin": "B09XJL9TO5"
+    "asin": "B09XJL9TO5",
+    "coverUrl": null
   },
   {
     "id": "d69d14dd9282",
@@ -10917,7 +11195,8 @@
     "topics": [
       "Collecting"
     ],
-    "asin": "B09BMUUD6W"
+    "asin": "B09BMUUD6W",
+    "coverUrl": null
   },
   {
     "id": "27f6dcbdc88f",
@@ -10942,7 +11221,8 @@
     "topics": [
       "Biography"
     ],
-    "asin": "B07XMXBMSN"
+    "asin": "B07XMXBMSN",
+    "coverUrl": null
   },
   {
     "id": "bb0e0e59f2e0",
@@ -10965,7 +11245,8 @@
     "topics": [
       "Film"
     ],
-    "asin": "B0BXNRNM5Q"
+    "asin": "B0BXNRNM5Q",
+    "coverUrl": null
   },
   {
     "id": "3a1f11395d98",
@@ -10990,7 +11271,8 @@
     "topics": [
       "Biography"
     ],
-    "asin": "B0D3K9VK0W"
+    "asin": "B0D3K9VK0W",
+    "coverUrl": null
   },
   {
     "id": "039fb9e19ecf",
@@ -11013,7 +11295,8 @@
     "topics": [
       "High School Basketball"
     ],
-    "asin": "B09XJL7KBL"
+    "asin": "B09XJL7KBL",
+    "coverUrl": null
   },
   {
     "id": "28101e4aaab1",
@@ -11038,7 +11321,8 @@
       "History",
       "Draft"
     ],
-    "asin": "0810890682"
+    "asin": "0810890682",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0810890682-M.jpg"
   },
   {
     "id": "8e7d99589748",
@@ -11066,7 +11350,8 @@
       "Biography",
       "Championship"
     ],
-    "asin": "1520823053"
+    "asin": "1520823053",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1520823053-M.jpg"
   },
   {
     "id": "54725f8d20a5",
@@ -11091,7 +11376,8 @@
       "Biography",
       "Championship"
     ],
-    "asin": "1091215714"
+    "asin": "1091215714",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1091215714-M.jpg"
   },
   {
     "id": "9712738461d4",
@@ -11118,7 +11404,8 @@
       "Biography",
       "Championship"
     ],
-    "asin": "B08DSXC8ZR"
+    "asin": "B08DSXC8ZR",
+    "coverUrl": null
   },
   {
     "id": "f2d4e467143e",
@@ -11141,7 +11428,8 @@
     "topics": [
       "History"
     ],
-    "asin": "1496209540"
+    "asin": "1496209540",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1496209540-M.jpg"
   },
   {
     "id": "da292f4cc157",
@@ -11164,7 +11452,8 @@
     "topics": [
       "Player Profiles"
     ],
-    "asin": "B09XJLBP7S"
+    "asin": "B09XJLBP7S",
+    "coverUrl": null
   },
   {
     "id": "cd93bad3c3ac",
@@ -11190,7 +11479,8 @@
       "Biography",
       "History"
     ],
-    "asin": "B07XMZNMSL"
+    "asin": "B07XMZNMSL",
+    "coverUrl": null
   },
   {
     "id": "395613b60fd1",
@@ -11219,7 +11509,8 @@
       "Biography",
       "History"
     ],
-    "asin": "B08DPDROYP"
+    "asin": "B08DPDROYP",
+    "coverUrl": null
   },
   {
     "id": "c120c4e1a11f",
@@ -11242,7 +11533,8 @@
     "topics": [
       "Championship"
     ],
-    "asin": "B07XMAPNUO"
+    "asin": "B07XMAPNUO",
+    "coverUrl": null
   },
   {
     "id": "ab37ff74b48f",
@@ -11265,7 +11557,8 @@
     "topics": [
       "Training"
     ],
-    "asin": "B07XNBNPVR"
+    "asin": "B07XNBNPVR",
+    "coverUrl": null
   },
   {
     "id": "73be88304a5b",
@@ -11288,7 +11581,8 @@
     "topics": [
       "Training"
     ],
-    "asin": "B08DPGROYR"
+    "asin": "B08DPGROYR",
+    "coverUrl": null
   },
   {
     "id": "7c4398e97d6f",
@@ -11311,7 +11605,8 @@
     "topics": [
       "Coaching"
     ],
-    "asin": "B07NRURRPK"
+    "asin": "B07NRURRPK",
+    "coverUrl": null
   },
   {
     "id": "422724f748a0",
@@ -11334,7 +11629,8 @@
     "topics": [
       "Coaching"
     ],
-    "asin": "B07XNEQSWU"
+    "asin": "B07XNEQSWU",
+    "coverUrl": null
   },
   {
     "id": "d33ab4c773cb",
@@ -11357,7 +11653,8 @@
     "topics": [
       "Training"
     ],
-    "asin": "B07XNFRUXV"
+    "asin": "B07XNFRUXV",
+    "coverUrl": null
   },
   {
     "id": "eba86b8b70b3",
@@ -11380,7 +11677,8 @@
     "topics": [
       "Position Guide"
     ],
-    "asin": "B08DPLWVTZ"
+    "asin": "B08DPLWVTZ",
+    "coverUrl": null
   },
   {
     "id": "9c2e637ce7fa",
@@ -11404,7 +11702,8 @@
       "Training",
       "Championship"
     ],
-    "asin": "B07XNHTWZX"
+    "asin": "B07XNHTWZX",
+    "coverUrl": null
   },
   {
     "id": "7effe6e03698",
@@ -11427,7 +11726,8 @@
     "topics": [
       "Draft"
     ],
-    "asin": "B095GNU0VR"
+    "asin": "B095GNU0VR",
+    "coverUrl": null
   },
   {
     "id": "97b6a1c84f41",
@@ -11450,7 +11750,8 @@
     "topics": [
       "Kids"
     ],
-    "asin": "B07XNKW11A"
+    "asin": "B07XNKW11A",
+    "coverUrl": null
   },
   {
     "id": "0d293fee478a",
@@ -11474,7 +11775,8 @@
       "Biography",
       "History"
     ],
-    "asin": null
+    "asin": null,
+    "coverUrl": null
   },
   {
     "id": "4cb0e5c3277a",
@@ -11499,7 +11801,8 @@
       "History",
       "Training"
     ],
-    "asin": "B095GNX3YU"
+    "asin": "B095GNX3YU",
+    "coverUrl": null
   },
   {
     "id": "6adb618a8b53",
@@ -11523,7 +11826,8 @@
       "Biography",
       "History"
     ],
-    "asin": null
+    "asin": null,
+    "coverUrl": null
   },
   {
     "id": "eb23b118785a",
@@ -11548,7 +11852,8 @@
       "History",
       "Rivalry"
     ],
-    "asin": null
+    "asin": null,
+    "coverUrl": null
   },
   {
     "id": "e0b423af7948",
@@ -11577,7 +11882,8 @@
       "Championship",
       "Rivalry"
     ],
-    "asin": null
+    "asin": null,
+    "coverUrl": null
   },
   {
     "id": "e5f124aff8e0",
@@ -11605,7 +11911,8 @@
       "History",
       "Rivalry"
     ],
-    "asin": null
+    "asin": null,
+    "coverUrl": null
   },
   {
     "id": "7cda8481dc37",
@@ -11634,7 +11941,8 @@
       "History",
       "Rivalry"
     ],
-    "asin": "B095GO28DZ"
+    "asin": "B095GO28DZ",
+    "coverUrl": null
   },
   {
     "id": "8629b9115ee0",
@@ -11659,7 +11967,8 @@
       "History",
       "Draft"
     ],
-    "asin": null
+    "asin": null,
+    "coverUrl": null
   },
   {
     "id": "91f83ff679f1",
@@ -11682,7 +11991,8 @@
     "topics": [
       "International"
     ],
-    "asin": null
+    "asin": null,
+    "coverUrl": null
   },
   {
     "id": "c5e0add68824",
@@ -11705,7 +12015,8 @@
     "topics": [
       "International"
     ],
-    "asin": "B07XNYBD1N"
+    "asin": "B07XNYBD1N",
+    "coverUrl": null
   },
   {
     "id": "1316b3de23a1",
@@ -11730,7 +12041,8 @@
       "History",
       "International"
     ],
-    "asin": null
+    "asin": null,
+    "coverUrl": null
   },
   {
     "id": "b43158987d21",
@@ -11754,7 +12066,8 @@
       "Coaching",
       "Business"
     ],
-    "asin": null
+    "asin": null,
+    "coverUrl": null
   },
   {
     "id": "799a67e6b738",
@@ -11777,7 +12090,8 @@
     "topics": [
       "Business"
     ],
-    "asin": "B095GOBHMI"
+    "asin": "B095GOBHMI",
+    "coverUrl": null
   },
   {
     "id": "11e10b39af08",
@@ -11801,7 +12115,8 @@
       "Biography",
       "History"
     ],
-    "asin": null
+    "asin": null,
+    "coverUrl": null
   },
   {
     "id": "027cb4707150",
@@ -11827,7 +12142,8 @@
       "Biography",
       "History"
     ],
-    "asin": null
+    "asin": null,
+    "coverUrl": null
   },
   {
     "id": "75a1ff0b5ce7",
@@ -11852,7 +12168,8 @@
       "History",
       "Championship"
     ],
-    "asin": null
+    "asin": null,
+    "coverUrl": null
   },
   {
     "id": "c95ca2ddbae6",
@@ -11879,7 +12196,8 @@
       "Biography",
       "Championship"
     ],
-    "asin": "B00UMWL0FU"
+    "asin": "B00UMWL0FU",
+    "coverUrl": null
   },
   {
     "id": "af4dc6b68a06",
@@ -11906,7 +12224,8 @@
       "Biography",
       "Championship"
     ],
-    "asin": "B0841DXNL7"
+    "asin": "B0841DXNL7",
+    "coverUrl": null
   },
   {
     "id": "75f66ef4ebff",
@@ -11933,7 +12252,8 @@
       "Biography",
       "Championship"
     ],
-    "asin": "B00UMWL0DW"
+    "asin": "B00UMWL0DW",
+    "coverUrl": null
   },
   {
     "id": "d3e0dc6efa86",
@@ -11957,7 +12277,8 @@
       "Coaching",
       "Training"
     ],
-    "asin": "B08CWX2MRZ"
+    "asin": "B08CWX2MRZ",
+    "coverUrl": null
   },
   {
     "id": "dc7ca32b25c2",
@@ -11981,7 +12302,8 @@
       "Biography",
       "History"
     ],
-    "asin": "B095GN6VY2"
+    "asin": "B095GN6VY2",
+    "coverUrl": null
   },
   {
     "id": "4fe803fd389f",
@@ -12006,7 +12328,8 @@
       "History",
       "Culture"
     ],
-    "asin": "B095GN8VW0"
+    "asin": "B095GN8VW0",
+    "coverUrl": null
   },
   {
     "id": "03a8cd58ed8a",
@@ -12031,7 +12354,8 @@
       "History",
       "Draft"
     ],
-    "asin": "B0BXNNKK1U"
+    "asin": "B0BXNNKK1U",
+    "coverUrl": null
   },
   {
     "id": "7737427c37f5",
@@ -12058,7 +12382,8 @@
       "Biography",
       "History"
     ],
-    "asin": "B07XMWAMSM"
+    "asin": "B07XMWAMSM",
+    "coverUrl": null
   },
   {
     "id": "e7ddf1bb9724",
@@ -12082,7 +12407,8 @@
       "Biography",
       "History"
     ],
-    "asin": "B09XJL7K9O"
+    "asin": "B09XJL7K9O",
+    "coverUrl": null
   },
   {
     "id": "06bc7bbe51c3",
@@ -12109,7 +12435,8 @@
       "Biography",
       "Championship"
     ],
-    "asin": "B095GNDKN2"
+    "asin": "B095GNDKN2",
+    "coverUrl": null
   },
   {
     "id": "122962eace33",
@@ -12136,7 +12463,8 @@
       "Biography",
       "Championship"
     ],
-    "asin": "B0D4VXPQ8X"
+    "asin": "B0D4VXPQ8X",
+    "coverUrl": null
   },
   {
     "id": "8a3fbc43d272",
@@ -12163,7 +12491,8 @@
       "Biography",
       "History"
     ],
-    "asin": "B095GNMQ1L"
+    "asin": "B095GNMQ1L",
+    "coverUrl": null
   },
   {
     "id": "d74190604dc0",
@@ -12186,7 +12515,8 @@
     "topics": [
       "Coaching"
     ],
-    "asin": "B07XNDPRVT"
+    "asin": "B07XNDPRVT",
+    "coverUrl": null
   },
   {
     "id": "7c9455577c7a",
@@ -12209,7 +12539,8 @@
     "topics": [
       "Training"
     ],
-    "asin": "B07XNGSVYW"
+    "asin": "B07XNGSVYW",
+    "coverUrl": null
   },
   {
     "id": "0ab7edeb89fd",
@@ -12232,7 +12563,8 @@
     "topics": [
       "Training"
     ],
-    "asin": "B07XNIUYZY"
+    "asin": "B07XNIUYZY",
+    "coverUrl": null
   },
   {
     "id": "e8423a8b3927",
@@ -12261,7 +12593,8 @@
       "History",
       "Rivalry"
     ],
-    "asin": "B095GO17CY"
+    "asin": "B095GO17CY",
+    "coverUrl": null
   },
   {
     "id": "763cbba7db29",
@@ -12284,7 +12617,8 @@
     "topics": [
       "International"
     ],
-    "asin": null
+    "asin": null,
+    "coverUrl": null
   },
   {
     "id": "c8a45a12a5c0",
@@ -12307,7 +12641,8 @@
     "topics": [
       "International"
     ],
-    "asin": "B095GO7DIE"
+    "asin": "B095GO7DIE",
+    "coverUrl": null
   },
   {
     "id": "cae7beda533d",
@@ -12335,7 +12670,8 @@
       "Biography",
       "History"
     ],
-    "asin": null
+    "asin": null,
+    "coverUrl": null
   },
   {
     "id": "508025f69142",
@@ -12365,7 +12701,8 @@
       "Biography",
       "Championship"
     ],
-    "asin": "B09XJGBXK6"
+    "asin": "B09XJGBXK6",
+    "coverUrl": null
   },
   {
     "id": "5817be7eaf49",
@@ -12392,7 +12729,8 @@
       "Biography",
       "Championship"
     ],
-    "asin": "B00UMWL0BS"
+    "asin": "B00UMWL0BS",
+    "coverUrl": null
   },
   {
     "id": "4c640b0015b4",
@@ -12420,7 +12758,8 @@
       "Biography",
       "Championship"
     ],
-    "asin": "044651576X"
+    "asin": "044651576X",
+    "coverUrl": null
   },
   {
     "id": "42fa6f128888",
@@ -12444,7 +12783,8 @@
       "Biography",
       "Culture"
     ],
-    "asin": "0618257721"
+    "asin": "0618257721",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0618257721-M.jpg"
   },
   {
     "id": "43b01d30b8f5",
@@ -12468,7 +12808,8 @@
       "Biography",
       "Coaching"
     ],
-    "asin": "1629378461"
+    "asin": "1629378461",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1629378461-M.jpg"
   },
   {
     "id": "bce2bcdb54ce",
@@ -12494,7 +12835,8 @@
     "topics": [
       "Coaching"
     ],
-    "asin": "0451164601"
+    "asin": "0451164601",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0451164601-M.jpg"
   },
   {
     "id": "0024c2fafba5",
@@ -12517,7 +12859,8 @@
     "topics": [
       "Analytics"
     ],
-    "asin": "B09KXZK3TY"
+    "asin": "B09KXZK3TY",
+    "coverUrl": null
   },
   {
     "id": "e64e679dea55",
@@ -12540,7 +12883,8 @@
     "topics": [
       "Training"
     ],
-    "asin": "B095GKPK7R"
+    "asin": "B095GKPK7R",
+    "coverUrl": null
   },
   {
     "id": "3acf58e4f3bf",
@@ -12563,7 +12907,8 @@
     "topics": [
       "Health/Fitness"
     ],
-    "asin": "B095HGMK6P"
+    "asin": "B095HGMK6P",
+    "coverUrl": null
   },
   {
     "id": "d2eeffbf243c",
@@ -12587,7 +12932,8 @@
       "Biography",
       "History"
     ],
-    "asin": "B08CWXD7QS"
+    "asin": "B08CWXD7QS",
+    "coverUrl": null
   },
   {
     "id": "d0de4af40de1",
@@ -12610,7 +12956,8 @@
     "topics": [
       "College Basketball"
     ],
-    "asin": "B09BMT8KV6"
+    "asin": "B09BMT8KV6",
+    "coverUrl": null
   },
   {
     "id": "16b78062ec5f",
@@ -12634,7 +12981,8 @@
       "Championship",
       "Photography"
     ],
-    "asin": "B08CX7JMIQ"
+    "asin": "B08CX7JMIQ",
+    "coverUrl": null
   },
   {
     "id": "3c27aa86882e",
@@ -12659,7 +13007,8 @@
       "History",
       "Culture"
     ],
-    "asin": "B07NQTMTPJ"
+    "asin": "B07NQTMTPJ",
+    "coverUrl": null
   },
   {
     "id": "917285f1c60f",
@@ -12683,7 +13032,8 @@
       "Biography",
       "History"
     ],
-    "asin": "B0BXNMJK0V"
+    "asin": "B0BXNMJK0V",
+    "coverUrl": null
   },
   {
     "id": "ab96e634b983",
@@ -12708,7 +13058,8 @@
       "History",
       "Draft"
     ],
-    "asin": "B095GN9VV9"
+    "asin": "B095GN9VV9",
+    "coverUrl": null
   },
   {
     "id": "59fdc96e3bb1",
@@ -12731,7 +13082,8 @@
     "topics": [
       "Business"
     ],
-    "asin": "B09XJL7K8P"
+    "asin": "B09XJL7K8P",
+    "coverUrl": null
   },
   {
     "id": "72753a64acd3",
@@ -12757,7 +13109,8 @@
       "Biography",
       "History"
     ],
-    "asin": "B08CX9JMKS"
+    "asin": "B08CX9JMKS",
+    "coverUrl": null
   },
   {
     "id": "b7b9a6d4b29f",
@@ -12780,7 +13133,8 @@
     "topics": [
       "Media"
     ],
-    "asin": "B09XJL9TP4"
+    "asin": "B09XJL9TP4",
+    "coverUrl": null
   },
   {
     "id": "465e4d081efa",
@@ -12805,7 +13159,8 @@
     "topics": [
       "Entertainment"
     ],
-    "asin": "B09XJL8KBQ"
+    "asin": "B09XJL8KBQ",
+    "coverUrl": null
   },
   {
     "id": "d2ff7e338919",
@@ -12831,7 +13186,8 @@
     "topics": [
       "Documentary"
     ],
-    "asin": "B003ZJQX7I"
+    "asin": "B003ZJQX7I",
+    "coverUrl": null
   },
   {
     "id": "8ff6d8c44cd1",
@@ -12855,7 +13211,8 @@
       "Biography",
       "Culture"
     ],
-    "asin": "B08CPBQXLT"
+    "asin": "B08CPBQXLT",
+    "coverUrl": null
   },
   {
     "id": "97f0b4019fc0",
@@ -12878,7 +13235,8 @@
     "topics": [
       "Draft"
     ],
-    "asin": "B09BMVUD7X"
+    "asin": "B09BMVUD7X",
+    "coverUrl": null
   },
   {
     "id": "47aca31c9661",
@@ -12902,7 +13260,8 @@
       "Biography",
       "History"
     ],
-    "asin": "B08DPEQXOU"
+    "asin": "B08DPEQXOU",
+    "coverUrl": null
   },
   {
     "id": "d422cdfe702a",
@@ -12926,7 +13285,8 @@
     "topics": [
       "Officiating Guide"
     ],
-    "asin": "1950864103"
+    "asin": "1950864103",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1950864103-M.jpg"
   },
   {
     "id": "1c9089db9804",
@@ -12950,7 +13310,8 @@
       "Analytics",
       "Draft"
     ],
-    "asin": "0933893914"
+    "asin": "0933893914",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0933893914-M.jpg"
   },
   {
     "id": "f3433115c9f6",
@@ -12977,7 +13338,8 @@
       "Biography",
       "Championship"
     ],
-    "asin": "B095GNDLM1"
+    "asin": "B095GNDLM1",
+    "coverUrl": null
   },
   {
     "id": "ddb770de7bb1",
@@ -13004,7 +13366,8 @@
       "Biography",
       "Championship"
     ],
-    "asin": "B0C7HXQR9W"
+    "asin": "B0C7HXQR9W",
+    "coverUrl": null
   },
   {
     "id": "5b2f81f184e6",
@@ -13027,7 +13390,8 @@
     "topics": [
       "Analysis/Essays"
     ],
-    "asin": "0618505415"
+    "asin": "0618505415",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0618505415-M.jpg"
   },
   {
     "id": "2437515624c0",
@@ -13054,7 +13418,8 @@
       "Biography",
       "History"
     ],
-    "asin": "B07NRUMRPK"
+    "asin": "B07NRUMRPK",
+    "coverUrl": null
   },
   {
     "id": "e18fd5f9900f",
@@ -13080,7 +13445,8 @@
       "Biography",
       "History"
     ],
-    "asin": "B095GNPQ2N"
+    "asin": "B095GNPQ2N",
+    "coverUrl": null
   },
   {
     "id": "bf8793fbea76",
@@ -13104,7 +13470,8 @@
       "History",
       "Analytics"
     ],
-    "asin": "0367140381"
+    "asin": "0367140381",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0367140381-M.jpg"
   },
   {
     "id": "f7a74051adc4",
@@ -13127,7 +13494,8 @@
     "topics": [
       "Analytics"
     ],
-    "asin": "1500725528"
+    "asin": "1500725528",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1500725528-M.jpg"
   },
   {
     "id": "df69fa1c0840",
@@ -13150,7 +13518,8 @@
     "topics": [
       "Draft"
     ],
-    "asin": "B09BMVVE8Y"
+    "asin": "B09BMVVE8Y",
+    "coverUrl": null
   },
   {
     "id": "46da90489cb1",
@@ -13173,7 +13542,8 @@
     "topics": [
       "Coaching"
     ],
-    "asin": "B07XNCOQVS"
+    "asin": "B07XNCOQVS",
+    "coverUrl": null
   },
   {
     "id": "b5d05a11ac7a",
@@ -13196,7 +13566,8 @@
     "topics": [
       "Coaching"
     ],
-    "asin": "B095GNSR4P"
+    "asin": "B095GNSR4P",
+    "coverUrl": null
   },
   {
     "id": "ddc1919af559",
@@ -13219,7 +13590,8 @@
     "topics": [
       "Training"
     ],
-    "asin": "B08DPKVUSY"
+    "asin": "B08DPKVUSY",
+    "coverUrl": null
   },
   {
     "id": "ef50ad316716",
@@ -13242,7 +13614,8 @@
     "topics": [
       "Training"
     ],
-    "asin": "B07XNJVZ0Z"
+    "asin": "B07XNJVZ0Z",
+    "coverUrl": null
   },
   {
     "id": "9f8c9c1805cc",
@@ -13266,7 +13639,8 @@
       "Analytics",
       "Coaching"
     ],
-    "asin": "B08DPQ0A3D"
+    "asin": "B08DPQ0A3D",
+    "coverUrl": null
   },
   {
     "id": "d1a25c95296b",
@@ -13294,7 +13668,8 @@
       "History",
       "Rivalry"
     ],
-    "asin": null
+    "asin": null,
+    "coverUrl": null
   },
   {
     "id": "d8660edfdc47",
@@ -13323,7 +13698,8 @@
       "History",
       "Rivalry"
     ],
-    "asin": null
+    "asin": null,
+    "coverUrl": null
   },
   {
     "id": "be722ca0bb63",
@@ -13346,7 +13722,8 @@
     "topics": [
       "Development"
     ],
-    "asin": "B095GO4AFB"
+    "asin": "B095GO4AFB",
+    "coverUrl": null
   },
   {
     "id": "db6a58f0942a",
@@ -13369,7 +13746,8 @@
     "topics": [
       "International"
     ],
-    "asin": null
+    "asin": null,
+    "coverUrl": null
   },
   {
     "id": "f31e59334d68",
@@ -13392,7 +13770,8 @@
     "topics": [
       "International"
     ],
-    "asin": null
+    "asin": null,
+    "coverUrl": null
   },
   {
     "id": "9150c7e0d20d",
@@ -13415,7 +13794,8 @@
     "topics": [
       "International"
     ],
-    "asin": null
+    "asin": null,
+    "coverUrl": null
   },
   {
     "id": "14f1bcb8e796",
@@ -13438,7 +13818,8 @@
     "topics": [
       "Business"
     ],
-    "asin": "B095GOAGLH"
+    "asin": "B095GOAGLH",
+    "coverUrl": null
   },
   {
     "id": "42e06a5a9896",
@@ -13462,7 +13843,8 @@
       "Biography",
       "History"
     ],
-    "asin": null
+    "asin": null,
+    "coverUrl": null
   },
   {
     "id": "6abe186d1ff9",
@@ -13488,7 +13870,8 @@
       "Biography",
       "History"
     ],
-    "asin": "B095GODJOK"
+    "asin": "B095GODJOK",
+    "coverUrl": null
   },
   {
     "id": "2504304cf8bd",
@@ -13518,7 +13901,8 @@
       "Biography",
       "Championship"
     ],
-    "asin": "B09XJGB1YN"
+    "asin": "B09XJGB1YN",
+    "coverUrl": null
   },
   {
     "id": "2f69181274bf",
@@ -13545,7 +13929,8 @@
       "Biography",
       "Championship"
     ],
-    "asin": "B00UMWL0AO"
+    "asin": "B00UMWL0AO",
+    "coverUrl": null
   },
   {
     "id": "c79e276f529e",
@@ -13568,7 +13953,8 @@
     "topics": [
       "Fantasy Sports"
     ],
-    "asin": "B09BMTD5V4"
+    "asin": "B09BMTD5V4",
+    "coverUrl": null
   },
   {
     "id": "12d1a6a66c43",
@@ -13592,7 +13978,8 @@
       "Biography",
       "History"
     ],
-    "asin": "B09XJL8K6T"
+    "asin": "B09XJL8K6T",
+    "coverUrl": null
   },
   {
     "id": "e973f6226857",
@@ -13615,7 +14002,8 @@
     "topics": [
       "Entertainment"
     ],
-    "asin": "B09XJL8K7S"
+    "asin": "B09XJL8K7S",
+    "coverUrl": null
   },
   {
     "id": "ac6a2afd3eda",
@@ -13639,7 +14027,8 @@
       "Biography",
       "History"
     ],
-    "asin": "B09XJL8K8R"
+    "asin": "B09XJL8K8R",
+    "coverUrl": null
   },
   {
     "id": "687d63fa91c6",
@@ -13663,7 +14052,8 @@
       "Biography",
       "History"
     ],
-    "asin": "B095GNAVU8"
+    "asin": "B095GNAVU8",
+    "coverUrl": null
   },
   {
     "id": "e987a16d4793",
@@ -13690,7 +14080,8 @@
       "Biography",
       "History"
     ],
-    "asin": "B07NQUMTQL"
+    "asin": "B07NQUMTQL",
+    "coverUrl": null
   },
   {
     "id": "0a98def29836",
@@ -13713,7 +14104,8 @@
     "topics": [
       "Collecting"
     ],
-    "asin": "B095GNEVR4"
+    "asin": "B095GNEVR4",
+    "coverUrl": null
   },
   {
     "id": "93c7bd4d0ea1",
@@ -13736,7 +14128,8 @@
     "topics": [
       "Biography"
     ],
-    "asin": "B08DNCQXNT"
+    "asin": "B08DNCQXNT",
+    "coverUrl": null
   },
   {
     "id": "d8cb893b2355",
@@ -13759,7 +14152,8 @@
     "topics": [
       "History"
     ],
-    "asin": "B095GNHVO1"
+    "asin": "B095GNHVO1",
+    "coverUrl": null
   },
   {
     "id": "63307173f76b",
@@ -13786,7 +14180,8 @@
       "Biography",
       "Championship"
     ],
-    "asin": "B0C7HXRS0X"
+    "asin": "B0C7HXRS0X",
+    "coverUrl": null
   },
   {
     "id": "1a6e47f86ae3",
@@ -13810,7 +14205,8 @@
       "Coaching",
       "Training"
     ],
-    "asin": "B08DPITSQS"
+    "asin": "B08DPITSQS",
+    "coverUrl": null
   },
   {
     "id": "b894fce5a381",
@@ -13834,7 +14230,8 @@
       "Training",
       "Championship"
     ],
-    "asin": "B08DPOZY2C"
+    "asin": "B08DPOZY2C",
+    "coverUrl": null
   },
   {
     "id": "43a746a0e435",
@@ -13859,7 +14256,8 @@
       "History",
       "International"
     ],
-    "asin": "B095GO6CHD"
+    "asin": "B095GO6CHD",
+    "coverUrl": null
   },
   {
     "id": "7208a3a2577a",
@@ -13882,7 +14280,8 @@
     "topics": [
       "International"
     ],
-    "asin": null
+    "asin": null,
+    "coverUrl": null
   },
   {
     "id": "33ba541517a2",
@@ -13907,7 +14306,8 @@
       "Biography",
       "Championship"
     ],
-    "asin": "B08W3T9VPR"
+    "asin": "B08W3T9VPR",
+    "coverUrl": null
   },
   {
     "id": "f5537b2a57b0",
@@ -13933,7 +14333,8 @@
     "topics": [
       "Player Commentary/Analysis"
     ],
-    "asin": "0786889683"
+    "asin": "0786889683",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0786889683-M.jpg"
   },
   {
     "id": "c4d0227f31b6",
@@ -13956,7 +14357,8 @@
     "topics": [
       "Collecting"
     ],
-    "asin": "B08CX5JMGQ"
+    "asin": "B08CX5JMGQ",
+    "coverUrl": null
   },
   {
     "id": "12b946611cbb",
@@ -13981,7 +14383,8 @@
       "History",
       "International"
     ],
-    "asin": "B095GN4VZB"
+    "asin": "B095GN4VZB",
+    "coverUrl": null
   },
   {
     "id": "45b8fe472813",
@@ -14004,7 +14407,8 @@
     "topics": [
       "Reference"
     ],
-    "asin": "B08CX6JMHQ"
+    "asin": "B08CX6JMHQ",
+    "coverUrl": null
   },
   {
     "id": "879f8d3b300c",
@@ -14029,7 +14433,8 @@
       "History",
       "Culture"
     ],
-    "asin": "B095GN7VX1"
+    "asin": "B095GN7VX1",
+    "coverUrl": null
   },
   {
     "id": "988a5c3bfbbd",
@@ -14053,7 +14458,8 @@
       "Biography",
       "History"
     ],
-    "asin": "B09XJL9TN6"
+    "asin": "B09XJL9TN6",
+    "coverUrl": null
   },
   {
     "id": "0b41dc248c5f",
@@ -14076,7 +14482,8 @@
     "topics": [
       "Business"
     ],
-    "asin": "B095GNBVU7"
+    "asin": "B095GNBVU7",
+    "coverUrl": null
   },
   {
     "id": "28e88776e454",
@@ -14100,7 +14507,8 @@
       "Biography",
       "History"
     ],
-    "asin": "B095GNFVQ3"
+    "asin": "B095GNFVQ3",
+    "coverUrl": null
   },
   {
     "id": "e3f726e7f71a",
@@ -14124,7 +14532,8 @@
       "Culture",
       "Kids"
     ],
-    "asin": "B09XJL9TQ3"
+    "asin": "B09XJL9TQ3",
+    "coverUrl": null
   },
   {
     "id": "9a0f13870d07",
@@ -14147,7 +14556,8 @@
     "topics": [
       "High School Basketball"
     ],
-    "asin": "B095GNIVO0"
+    "asin": "B095GNIVO0",
+    "coverUrl": null
   },
   {
     "id": "11c1602892a0",
@@ -14170,7 +14580,8 @@
     "topics": [
       "Officiating Guide"
     ],
-    "asin": "1456510010"
+    "asin": "1456510010",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1456510010-M.jpg"
   },
   {
     "id": "25c37572898f",
@@ -14193,7 +14604,8 @@
     "topics": [
       "Draft"
     ],
-    "asin": "B0C6VTZKMH"
+    "asin": "B0C6VTZKMH",
+    "coverUrl": null
   },
   {
     "id": "dfce390ae0ad",
@@ -14217,7 +14629,8 @@
       "Coaching",
       "Business"
     ],
-    "asin": "9814313904"
+    "asin": "9814313904",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/9814313904-M.jpg"
   },
   {
     "id": "733616c3dbd9",
@@ -14244,7 +14657,8 @@
       "Biography",
       "Championship"
     ],
-    "asin": null
+    "asin": null,
+    "coverUrl": null
   },
   {
     "id": "885e4f879d80",
@@ -14269,7 +14683,8 @@
       "History",
       "Analytics"
     ],
-    "asin": null
+    "asin": null,
+    "coverUrl": null
   },
   {
     "id": "00145887cffe",
@@ -14292,7 +14707,8 @@
     "topics": [
       "International"
     ],
-    "asin": "B09XJLDQ9U"
+    "asin": "B09XJLDQ9U",
+    "coverUrl": null
   },
   {
     "id": "32a04a38205b",
@@ -14315,7 +14731,8 @@
     "topics": [
       "International"
     ],
-    "asin": "B095GO9FKG"
+    "asin": "B095GO9FKG",
+    "coverUrl": null
   },
   {
     "id": "033adf1e8beb",
@@ -14342,7 +14759,8 @@
       "Biography",
       "History"
     ],
-    "asin": null
+    "asin": null,
+    "coverUrl": null
   },
   {
     "id": "410d9e2ad8fd",
@@ -14367,7 +14785,8 @@
       "Biography",
       "Championship"
     ],
-    "asin": "B091F3S8S8"
+    "asin": "B091F3S8S8",
+    "coverUrl": null
   },
   {
     "id": "a84036dbf99a",
@@ -14392,7 +14811,8 @@
       "History",
       "Coaching"
     ],
-    "asin": "1493028812"
+    "asin": "1493028812",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1493028812-M.jpg"
   },
   {
     "id": "6e2f14a90027",
@@ -14416,7 +14836,8 @@
       "Biography",
       "History"
     ],
-    "asin": "1626167346"
+    "asin": "1626167346",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1626167346-M.jpg"
   },
   {
     "id": "73d54adfd79c",
@@ -14439,7 +14860,8 @@
     "topics": [
       "Biography"
     ],
-    "asin": "0063323818"
+    "asin": "0063323818",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0063323818-M.jpg"
   },
   {
     "id": "c75b6b4b3feb",
@@ -14463,7 +14885,8 @@
       "Biography",
       "Culture"
     ],
-    "asin": "0399154884"
+    "asin": "0399154884",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0399154884-M.jpg"
   },
   {
     "id": "2a53909968f9",
@@ -14488,7 +14911,8 @@
       "History",
       "Culture"
     ],
-    "asin": "0789024861"
+    "asin": "0789024861",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0789024861-M.jpg"
   },
   {
     "id": "88817836f20e",
@@ -14513,7 +14937,8 @@
       "History",
       "International"
     ],
-    "asin": "B08GKZXQZ2"
+    "asin": "B08GKZXQZ2",
+    "coverUrl": null
   },
   {
     "id": "7a6dc6e356f2",
@@ -14542,7 +14967,8 @@
       "History",
       "Business"
     ],
-    "asin": "0671683012"
+    "asin": "0671683012",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0671683012-M.jpg"
   },
   {
     "id": "0e2b0f3f7f43",
@@ -14565,7 +14991,8 @@
     "topics": [
       "Culture"
     ],
-    "asin": "0814713254"
+    "asin": "0814713254",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0814713254-M.jpg"
   },
   {
     "id": "fff0100ff817",
@@ -14590,7 +15017,8 @@
     "topics": [
       "Biography"
     ],
-    "asin": "076134456X"
+    "asin": "076134456X",
+    "coverUrl": null
   },
   {
     "id": "995e5731b87c",
@@ -14614,7 +15042,8 @@
       "History",
       "Scandal"
     ],
-    "asin": "0743277872"
+    "asin": "0743277872",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0743277872-M.jpg"
   },
   {
     "id": "cb58b6ad83af",
@@ -14638,7 +15067,8 @@
       "Biography",
       "History"
     ],
-    "asin": "0803260350"
+    "asin": "0803260350",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0803260350-M.jpg"
   },
   {
     "id": "26fa07229e65",
@@ -14661,7 +15091,8 @@
     "topics": [
       "Biography"
     ],
-    "asin": "1637587481"
+    "asin": "1637587481",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1637587481-M.jpg"
   },
   {
     "id": "5ae98d0e3e6c",
@@ -14687,7 +15118,8 @@
       "Culture",
       "International"
     ],
-    "asin": "0374603693"
+    "asin": "0374603693",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/0374603693-M.jpg"
   },
   {
     "id": "d87a4eeb7212",
@@ -14710,7 +15142,8 @@
     "topics": [
       "Draft"
     ],
-    "asin": "B0D3J8VK9V"
+    "asin": "B0D3J8VK9V",
+    "coverUrl": null
   },
   {
     "id": "8f2daed374d9",
@@ -14733,7 +15166,8 @@
     "topics": [
       "International"
     ],
-    "asin": "B09XJL9TKP"
+    "asin": "B09XJL9TKP",
+    "coverUrl": null
   },
   {
     "id": "804e7499e583",
@@ -14759,7 +15193,8 @@
       "Business",
       "Rivalry"
     ],
-    "asin": "B08CX8JMJR"
+    "asin": "B08CX8JMJR",
+    "coverUrl": null
   },
   {
     "id": "0c4928db0132",
@@ -14783,7 +15218,8 @@
       "Biography",
       "History"
     ],
-    "asin": "B09XJL8K9Q"
+    "asin": "B09XJL8K9Q",
+    "coverUrl": null
   },
   {
     "id": "baf4bab96611",
@@ -14806,7 +15242,8 @@
     "topics": [
       "History"
     ],
-    "asin": "B09XJL8KAP"
+    "asin": "B09XJL8KAP",
+    "coverUrl": null
   },
   {
     "id": "ee00bfe4ad0d",
@@ -14829,7 +15266,8 @@
     "topics": [
       "Biography"
     ],
-    "asin": "B09XJL7KAM"
+    "asin": "B09XJL7KAM",
+    "coverUrl": null
   },
   {
     "id": "512485f917b7",
@@ -14852,7 +15290,8 @@
     "topics": [
       "Biography"
     ],
-    "asin": "1883845289"
+    "asin": "1883845289",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/1883845289-M.jpg"
   },
   {
     "id": "84037e6c0023",
@@ -14876,7 +15315,8 @@
       "Championship",
       "Draft"
     ],
-    "asin": "B0D5VFFPK7"
+    "asin": "B0D5VFFPK7",
+    "coverUrl": null
   },
   {
     "id": "a73f49f6005b",
@@ -14901,7 +15341,8 @@
       "History",
       "International"
     ],
-    "asin": "B095GO8EJF"
+    "asin": "B095GO8EJF",
+    "coverUrl": null
   },
   {
     "id": "9ed9f9fbb363",
@@ -14925,7 +15366,8 @@
       "Biography",
       "History"
     ],
-    "asin": "B095GNCVT6"
+    "asin": "B095GNCVT6",
+    "coverUrl": null
   },
   {
     "id": "e416ad0e1711",
@@ -14949,7 +15391,8 @@
       "Championship",
       "Draft"
     ],
-    "asin": "B0FBM7367J"
+    "asin": "B0FBM7367J",
+    "coverUrl": null
   },
   {
     "id": "043306c3b238",
@@ -14972,7 +15415,8 @@
     "topics": [
       "Business"
     ],
-    "asin": "3319100572"
+    "asin": "3319100572",
+    "coverUrl": "https://covers.openlibrary.org/b/isbn/3319100572-M.jpg"
   },
   {
     "id": "1000c334794a",
@@ -14995,7 +15439,8 @@
     "topics": [
       "Business"
     ],
-    "asin": "B0C522XXQF"
+    "asin": "B0C522XXQF",
+    "coverUrl": null
   },
   {
     "id": "f43160c21dfa",
@@ -15019,6 +15464,7 @@
       "Biography",
       "History"
     ],
-    "asin": null
+    "asin": null,
+    "coverUrl": null
   }
 ]

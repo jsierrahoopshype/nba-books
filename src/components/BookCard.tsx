@@ -1,111 +1,113 @@
 'use client';
 
-import Link from 'next/link';
-import type { Book } from '@/lib/types';
+import { Book } from '@/lib/types';
 import { RatingStars } from './RatingStars';
-import { TagBadge, TagList } from './TagBadge';
-import { AffiliateButtonCompact } from './AffiliateButton';
+import { TagBadge } from './TagBadge';
+import { AffiliateButton } from './AffiliateButton';
+import Link from 'next/link';
+import { useState } from 'react';
 
 interface BookCardProps {
   book: Book;
-  onTagClick?: (tag: string, type: 'player' | 'team' | 'topic') => void;
+  onTagClick?: (type: string, value: string) => void;
 }
 
 export function BookCard({ book, onTagClick }: BookCardProps) {
-  const formatReviews = (count: number | null, display: string) => {
-    if (count === null) return 'No reviews';
-    if (count >= 1000) return `${(count / 1000).toFixed(1)}k reviews`;
-    return `${display} reviews`;
-  };
-
-  // Combine tags for display (limit total)
-  const allTags = [
-    ...book.playersMentioned.slice(0, 2).map(p => ({ tag: p, type: 'player' as const })),
-    ...book.teamsMentioned.slice(0, 2).map(t => ({ tag: t, type: 'team' as const })),
-    ...book.topics.slice(0, 2).map(t => ({ tag: t, type: 'topic' as const })),
+  const [imgError, setImgError] = useState(false);
+  
+  const displayTags = [
+    ...book.playersMentioned.slice(0, 2).map(p => ({ type: 'player', value: p })),
+    ...book.teamsMentioned.slice(0, 1).map(t => ({ type: 'team', value: t })),
+    ...book.topics.slice(0, 2).map(t => ({ type: 'topic', value: t })),
   ].slice(0, 4);
 
+  const placeholderInitials = book.title
+    .split(' ')
+    .slice(0, 2)
+    .map(w => w[0])
+    .join('')
+    .toUpperCase();
+
   return (
-    <article className="book-card bg-white rounded-lg border border-gray-200 p-4 flex flex-col h-full">
-      {/* Header: Category badge */}
-      <div className="flex items-start justify-between gap-2 mb-3">
-        <TagBadge label={book.category} variant="category" />
-        {book.publicationYear && (
-          <span className="text-xs text-gray-500">{book.publicationYear}</span>
-        )}
+    <div className="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow p-4 flex flex-col h-full">
+      <div className="flex gap-4">
+        {/* Book Cover */}
+        <div className="flex-shrink-0">
+          {book.coverUrl && !imgError ? (
+            <img
+              src={book.coverUrl}
+              alt={`Cover of ${book.title}`}
+              className="w-20 h-28 object-cover rounded shadow-sm"
+              onError={() => setImgError(true)}
+              loading="lazy"
+            />
+          ) : (
+            <div className="w-20 h-28 bg-gradient-to-br from-blue-900 to-blue-700 rounded shadow-sm flex items-center justify-center">
+              <span className="text-white font-bold text-lg">{placeholderInitials}</span>
+            </div>
+          )}
+        </div>
+        
+        {/* Book Info */}
+        <div className="flex-1 min-w-0">
+          <div className="flex items-start justify-between gap-2 mb-1">
+            <span className="text-xs font-medium text-orange-600 bg-orange-50 px-2 py-0.5 rounded">
+              {book.category}
+            </span>
+            {book.year && (
+              <span className="text-xs text-gray-500">{book.year}</span>
+            )}
+          </div>
+          
+          <h3 className="font-semibold text-gray-900 text-sm leading-tight mb-1 line-clamp-2">
+            {book.title}
+          </h3>
+          
+          <p className="text-xs text-gray-600 mb-1">by {book.author}</p>
+          
+          <div className="flex items-center gap-2 mb-2">
+            {book.rating && <RatingStars rating={book.rating} size="sm" />}
+            {book.reviewCountDisplay && (
+              <span className="text-xs text-gray-500">{book.reviewCountDisplay} reviews</span>
+            )}
+          </div>
+        </div>
       </div>
-
-      {/* Title */}
-      <h3 className="font-bold text-lg text-gray-900 mb-1 line-clamp-2">
-        <Link 
-          href={`/books/${book.slug}`}
-          className="hover:text-primary-600 transition-colors"
-        >
-          {book.title}
-        </Link>
-      </h3>
-
-      {/* Author */}
-      <p className="text-sm text-gray-600 mb-2">
-        by {book.author}
-      </p>
-
-      {/* Rating and reviews */}
-      <div className="flex items-center gap-3 mb-3">
-        <RatingStars rating={book.rating} size="sm" />
-        <span className="text-xs text-gray-500">
-          {formatReviews(book.reviewCount, book.reviewCountDisplay)}
-        </span>
-      </div>
-
-      {/* Description preview */}
-      <p className="text-sm text-gray-600 line-clamp-3 mb-3 flex-grow">
-        {book.description || 'No description available.'}
-      </p>
-
-      {/* Tags */}
-      {allTags.length > 0 && (
-        <div className="flex flex-wrap gap-1 mb-4">
-          {allTags.map(({ tag, type }) => (
+      
+      {book.description && (
+        <p className="text-xs text-gray-600 mt-2 line-clamp-2">{book.description}</p>
+      )}
+      
+      {displayTags.length > 0 && (
+        <div className="flex flex-wrap gap-1 mt-2">
+          {displayTags.map(tag => (
             <TagBadge
-              key={`${type}-${tag}`}
-              label={tag}
-              variant={type}
-              size="sm"
-              onClick={onTagClick ? () => onTagClick(tag, type) : undefined}
+              key={`${tag.type}-${tag.value}`}
+              type={tag.type as any}
+              value={tag.value}
+              onClick={onTagClick ? () => onTagClick(tag.type, tag.value) : undefined}
             />
           ))}
         </div>
       )}
-
-      {/* Formats */}
-      {book.formats.length > 0 && (
-        <p className="text-xs text-gray-500 mb-4">
-          Available: {book.formats.join(', ')}
-        </p>
-      )}
-
-      {/* Actions */}
-      <div className="flex items-center gap-2 mt-auto pt-3 border-t border-gray-100">
-        <AffiliateButtonCompact
-          amazonUrl={book.amazonUrl}
-          bookId={book.id}
-          bookSlug={book.slug}
-          bookTitle={book.title}
-        />
+      
+      <div className="flex items-center gap-2 mt-auto pt-3">
+        {book.formats.length > 0 && (
+          <span className="text-xs text-gray-500">
+            Available: {book.formats.slice(0, 2).join(', ')}
+          </span>
+        )}
+      </div>
+      
+      <div className="flex gap-2 mt-2">
+        <AffiliateButton amazonUrl={book.amazonUrl} bookId={book.id} size="sm" />
         <Link
-          href={`/books/${book.slug}`}
-          className="
-            px-3 py-1.5
-            text-sm font-medium text-gray-700
-            border border-gray-300 rounded-md
-            hover:bg-gray-50
-            transition-colors
-          "
+          href={`/books/${book.slug}/`}
+          className="flex-1 text-center px-3 py-1.5 text-sm border border-gray-300 rounded hover:bg-gray-50 transition-colors"
         >
           Details
         </Link>
       </div>
-    </article>
+    </div>
   );
 }
