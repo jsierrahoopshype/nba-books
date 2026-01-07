@@ -2,7 +2,7 @@
 
 import { Book } from '@/lib/types';
 import { RatingStars } from './RatingStars';
-import { TagBadge } from './TagBadge';
+import { TagList } from './TagBadge';
 import { AffiliateButton } from './AffiliateButton';
 import Link from 'next/link';
 import { useState } from 'react';
@@ -14,12 +14,6 @@ interface BookCardProps {
 
 export function BookCard({ book, onTagClick }: BookCardProps) {
   const [imgError, setImgError] = useState(false);
-  
-  const displayTags = [
-    ...book.playersMentioned.slice(0, 2).map(p => ({ type: 'player', value: p })),
-    ...book.teamsMentioned.slice(0, 1).map(t => ({ type: 'team', value: t })),
-    ...book.topics.slice(0, 2).map(t => ({ type: 'topic', value: t })),
-  ].slice(0, 4);
 
   const placeholderInitials = book.title
     .split(' ')
@@ -55,7 +49,7 @@ export function BookCard({ book, onTagClick }: BookCardProps) {
               {book.category}
             </span>
             {book.publicationYear && (
-              <span className="text-xs text-gray-500">{book.year}</span>
+              <span className="text-xs text-gray-500">{book.publicationYear}</span>
             )}
           </div>
           
@@ -78,18 +72,14 @@ export function BookCard({ book, onTagClick }: BookCardProps) {
         <p className="text-xs text-gray-600 mt-2 line-clamp-2">{book.description}</p>
       )}
       
-      {displayTags.length > 0 && (
-        <div className="flex flex-wrap gap-1 mt-2">
-          {displayTags.map(tag => (
-            <TagBadge
-              key={`${tag.type}-${tag.value}`}
-              type={tag.type as any}
-              value={tag.value}
-              onClick={onTagClick ? () => onTagClick(tag.type, tag.value) : undefined}
-            />
-          ))}
-        </div>
-      )}
+      {/* Tags */}
+      <div className="mt-2">
+        <TagList
+          players={book.playersMentioned.slice(0, 2)}
+          topics={book.topics.slice(0, 2)}
+          onTagClick={onTagClick}
+        />
+      </div>
       
       <div className="flex items-center gap-2 mt-auto pt-3">
         {book.formats.length > 0 && (
@@ -100,7 +90,13 @@ export function BookCard({ book, onTagClick }: BookCardProps) {
       </div>
       
       <div className="flex gap-2 mt-2">
-        <AffiliateButton amazonUrl={book.amazonUrl} bookId={book.id} size="sm" />
+        <AffiliateButton
+          amazonUrl={book.amazonUrl}
+          bookId={book.id}
+          bookSlug={book.slug}
+          bookTitle={book.title}
+          size="sm"
+        />
         <Link
           href={`/books/${book.slug}/`}
           className="flex-1 text-center px-3 py-1.5 text-sm border border-gray-300 rounded hover:bg-gray-50 transition-colors"

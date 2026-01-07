@@ -16,6 +16,7 @@ export interface Book {
   teamsMentioned: string[];
   topics: string[];
   coverUrl: string | null;
+  asin?: string | null;
 }
 
 export interface FilterState {
@@ -43,4 +44,14 @@ export interface FilterOptions {
   teams: string[];
   formats: string[];
   yearRange: [number, number];
+}
+
+export interface AnalyticsEvent {
+  action: string;
+  category: string;
+  label?: string;
+  value?: number;
+  bookId?: string;
+  bookSlug?: string;
+  bookTitle?: string;
 }

@@ -1,8 +1,6 @@
 /**
- * Analytics Abstraction Layer
- * 
- * Provides a vendor-agnostic interface for tracking events.
- * Wire this up to your preferred analytics provider (GA4, Plausible, etc.)
+ * Analytics abstraction layer
+ * Wire up your preferred analytics provider here
  */
 
 import type { AnalyticsEvent } from './types';
@@ -10,121 +8,100 @@ import type { AnalyticsEvent } from './types';
 // Queue events if analytics not yet initialized
 let eventQueue: AnalyticsEvent[] = [];
 let isInitialized = false;
-
-// Custom handler that can be set by the consuming application
-type AnalyticsHandler = (event: AnalyticsEvent) => void;
-let customHandler: AnalyticsHandler | null = null;
+let customHandler: ((event: AnalyticsEvent) => void) | null = null;
 
 /**
- * Initialize analytics with a custom handler.
- * Call this once on app startup.
- * 
- * @example
- * // With Google Analytics 4
- * initAnalytics((event) => {
- *   gtag('event', event.type, event.payload);
- * });
- * 
- * @example
- * // With Plausible
- * initAnalytics((event) => {
- *   plausible(event.type, { props: event.payload });
- * });
+ * Initialize analytics with optional custom handler
  */
-export function initAnalytics(handler: AnalyticsHandler): void {
-  customHandler = handler;
+export function initAnalytics(handler?: (event: AnalyticsEvent) => void) {
+  if (handler) {
+    customHandler = handler;
+  }
   isInitialized = true;
   
-  // Flush queued events
-  for (const event of eventQueue) {
-    handler(event);
-  }
+  // Process queued events
+  eventQueue.forEach(event => trackEvent(event));
   eventQueue = [];
 }
 
 /**
- * Track an analytics event.
+ * Track an analytics event
  */
-function track(event: AnalyticsEvent): void {
+export function trackEvent(event: AnalyticsEvent) {
+  if (!isInitialized) {
+    eventQueue.push(event);
+    return;
+  }
+
   // Always log to console in development
   if (process.env.NODE_ENV === 'development') {
-    console.log('[Analytics]', event.type, event.payload);
+    console.log('[Analytics]', event.action, event);
   }
-  
+
   if (customHandler) {
     customHandler(event);
-  } else if (!isInitialized) {
-    // Queue for later if not initialized
-    eventQueue.push(event);
+  }
+
+  // Google Analytics 4 (if available)
+  if (typeof window !== 'undefined' && (window as any).gtag) {
+    (window as any).gtag('event', event.action, {
+      event_category: event.category,
+      event_label: event.label,
+      value: event.value,
+      book_id: event.bookId,
+      book_slug: event.bookSlug,
+      book_title: event.bookTitle,
+    });
   }
 }
 
 /**
- * Track an affiliate link click.
+ * Track affiliate link click
  */
-export function trackAffiliateClick(bookId: string, bookSlug: string, bookTitle: string): void {
-  track({
-    type: 'affiliate_click',
-    payload: {
-      book_id: bookId,
-      book_slug: bookSlug,
-      book_title: bookTitle,
-      destination: 'amazon',
-    },
-    timestamp: Date.now(),
+export function trackAffiliateClick(bookId: string, bookSlug: string, bookTitle: string) {
+  trackEvent({
+    action: 'affiliate_click',
+    category: 'engagement',
+    label: bookTitle,
+    bookId,
+    bookSlug,
+    bookTitle,
   });
 }
 
 /**
- * Track a search event.
+ * Track search
  */
-export function trackSearch(query: string, resultCount: number): void {
-  track({
-    type: 'search',
-    payload: {
-      query,
-      result_count: resultCount,
-    },
-    timestamp: Date.now(),
+export function trackSearch(query: string, resultCount: number) {
+  trackEvent({
+    action: 'search',
+    category: 'engagement',
+    label: query,
+    value: resultCount,
   });
 }
 
 /**
- * Track a filter change.
+ * Track filter usage
  */
-export function trackFilterChange(filterType: string, value: string | number | string[]): void {
-  track({
-    type: 'filter_change',
-    payload: {
-      filter_type: filterType,
-      value,
-    },
-    timestamp: Date.now(),
+export function trackFilter(filterType: string, filterValue: string) {
+  trackEvent({
+    action: 'filter',
+    category: 'engagement',
+    label: `${filterType}:${filterValue}`,
   });
 }
 
 /**
- * Track a page view.
+ * Track book detail view
  */
-export function trackPageView(path: string, title?: string): void {
-  track({
-    type: 'page_view',
-    payload: {
-      path,
-      title,
-    },
-    timestamp: Date.now(),
+export function trackBookView(bookId: string, bookSlug: string, bookTitle: string) {
+  trackEvent({
+    action: 'view_book',
+    category: 'engagement',
+    label: bookTitle,
+    bookId,
+    bookSlug,
+    bookTitle,
   });
-}
-
-/**
- * Get data attributes for affiliate click tracking.
- * Use these on affiliate buttons/links.
- */
-export function getAffiliateDataAttrs(bookId: string, bookSlug: string): Record<string, string> {
-  return {
-    'data-analytics': 'affiliate_click',
-    'data-book-id': bookId,
-    'data-book-slug': bookSlug,
-  };
 }
