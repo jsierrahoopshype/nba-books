@@ -54,7 +54,7 @@ export function BookCard({ book, onTagClick }: BookCardProps) {
             <span className="text-xs font-medium text-orange-600 bg-orange-50 px-2 py-0.5 rounded">
               {book.category}
             </span>
-            {book.year && (
+            {book.publicationYear && (
               <span className="text-xs text-gray-500">{book.year}</span>
             )}
           </div>

@@ -7,7 +7,7 @@ export interface Book {
   reviewCount: number | null;
   reviewCountDisplay: string;
   publicationDate: string | null;
-  year: number | null;
+  publicationYear: number | null;
   formats: string[];
   amazonUrl: string;
   category: string;
