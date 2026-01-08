@@ -1,145 +1,166 @@
-import Fuse, { IFuseOptions } from 'fuse.js';
+import Fuse from 'fuse.js';
 import { Book, FilterState } from './types';
 
-const fuseOptions: IFuseOptions<Book> = {
+const fuseOptions = {
   keys: [
-    { name: 'title', weight: 0.3 },
+    { name: 'title', weight: 0.35 },
     { name: 'author', weight: 0.25 },
-    { name: 'description', weight: 0.15 },
     { name: 'playersMentioned', weight: 0.15 },
-    { name: 'teamsMentioned', weight: 0.1 },
-    { name: 'topics', weight: 0.05 },
+    { name: 'teamsMentioned', weight: 0.10 },
+    { name: 'topics', weight: 0.10 },
+    { name: 'description', weight: 0.05 },
   ],
   threshold: 0.4,
-  ignoreLocation: true,
   includeScore: true,
 };
 
-export function searchBooks(books: Book[], filters: FilterState): Book[] {
-  let results = books;
+function parseReviewCount(display: string | null): number {
+  if (!display) return 0;
+  const match = display.match(/[\d,]+/);
+  if (!match) return 0;
+  return parseInt(match[0].replace(/,/g, ''), 10);
+}
 
-  // Text search with Fuse.js
+function calculateRelevanceScore(book: Book): number {
+  let score = 0;
+  const currentYear = new Date().getFullYear();
+  
+  if (book.publicationYear) {
+    const age = currentYear - book.publicationYear;
+    if (age <= 1) score += 30;
+    else if (age <= 3) score += 25;
+    else if (age <= 5) score += 20;
+    else if (age <= 10) score += 10;
+    else if (age <= 20) score += 5;
+  }
+  
+  const reviewCount = parseReviewCount(book.reviewCountDisplay);
+  if (reviewCount >= 10000) score += 40;
+  else if (reviewCount >= 5000) score += 35;
+  else if (reviewCount >= 1000) score += 30;
+  else if (reviewCount >= 500) score += 25;
+  else if (reviewCount >= 100) score += 20;
+  else if (reviewCount >= 50) score += 15;
+  else if (reviewCount > 0) score += 10;
+  
+  if (book.rating) {
+    if (book.rating >= 4.8) score += 30;
+    else if (book.rating >= 4.5) score += 25;
+    else if (book.rating >= 4.2) score += 20;
+    else if (book.rating >= 4.0) score += 15;
+    else if (book.rating >= 3.5) score += 10;
+    else score += 5;
+  }
+  
+  return score;
+}
+
+export function searchBooks(books: Book[], filters: FilterState): Book[] {
+  let results = [...books];
+
   if (filters.search && filters.search.trim()) {
-    const fuse = new Fuse(books, fuseOptions);
+    const fuse = new Fuse(results, fuseOptions);
     const searchResults = fuse.search(filters.search.trim());
     results = searchResults.map(r => r.item);
   }
 
-  // Category filter
-  if (filters.categories.length > 0) {
-    results = results.filter(book => 
-      filters.categories.includes(book.category)
-    );
+  if (filters.categories && filters.categories.length > 0) {
+    results = results.filter(b => filters.categories.includes(b.category));
   }
 
-  // Topics filter
-  if (filters.topics.length > 0) {
-    results = results.filter(book =>
-      book.topics.some(topic => filters.topics.includes(topic))
-    );
+  if (filters.topics && filters.topics.length > 0) {
+    results = results.filter(b => b.topics.some(t => filters.topics.includes(t)));
   }
 
-  // Players filter
-  if (filters.players.length > 0) {
-    results = results.filter(book =>
-      book.playersMentioned.some(player => filters.players.includes(player))
-    );
+  if (filters.players && filters.players.length > 0) {
+    results = results.filter(b => b.playersMentioned.some(p => filters.players.includes(p)));
   }
 
-  // Teams filter
-  if (filters.teams.length > 0) {
-    results = results.filter(book =>
-      book.teamsMentioned.some(team => filters.teams.includes(team))
-    );
+  if (filters.teams && filters.teams.length > 0) {
+    results = results.filter(b => b.teamsMentioned.some(t => filters.teams.includes(t)));
   }
 
-  // Formats filter
-  if (filters.formats.length > 0) {
-    results = results.filter(book =>
-      book.formats.some(format => filters.formats.includes(format))
-    );
+  if (filters.formats && filters.formats.length > 0) {
+    results = results.filter(b => b.formats.some(f => filters.formats.includes(f)));
   }
 
-  // Rating filter
-  if (filters.minRating !== null) {
-    results = results.filter(book =>
-      book.rating !== null && book.rating >= filters.minRating!
-    );
+  if (filters.minRating) {
+    results = results.filter(b => b.rating && b.rating >= filters.minRating!);
   }
 
-  // Year range filter
-  if (filters.yearRange[0] !== null) {
-    results = results.filter(book =>
-      book.publicationYear !== null && book.publicationYear >= filters.yearRange[0]!
-    );
-  }
-  if (filters.yearRange[1] !== null) {
-    results = results.filter(book =>
-      book.publicationYear !== null && book.publicationYear <= filters.yearRange[1]!
-    );
+  if (filters.yearRange) {
+    const [minYear, maxYear] = filters.yearRange;
+    if (minYear) {
+      results = results.filter(b => !b.publicationYear || b.publicationYear >= minYear);
+    }
+    if (maxYear) {
+      results = results.filter(b => !b.publicationYear || b.publicationYear <= maxYear);
+    }
   }
 
   return results;
 }
 
-export function sortBooks(books: Book[], sortOption: string, searchQuery: string): Book[] {
-  const sorted = [...books];
-
-  switch (sortOption) {
+export function sortBooks(books: Book[], sort: string, searchQuery?: string): Book[] {
+  const results = [...books];
+  
+  switch (sort) {
+    case 'title':
+      results.sort((a, b) => a.title.localeCompare(b.title));
+      break;
+    case 'author':
+      results.sort((a, b) => a.author.localeCompare(b.author));
+      break;
+    case 'year-desc':
+      results.sort((a, b) => (b.publicationYear || 0) - (a.publicationYear || 0));
+      break;
+    case 'year-asc':
+      results.sort((a, b) => (a.publicationYear || 0) - (b.publicationYear || 0));
+      break;
+    case 'rating':
+      results.sort((a, b) => (b.rating || 0) - (a.rating || 0));
+      break;
+    case 'reviews':
+      results.sort((a, b) => parseReviewCount(b.reviewCountDisplay) - parseReviewCount(a.reviewCountDisplay));
+      break;
     case 'relevance':
-      // If there's a search query, keep Fuse.js order; otherwise sort by reviews
-      if (!searchQuery) {
-        sorted.sort((a, b) => (b.reviewCount ?? 0) - (a.reviewCount ?? 0));
+    default:
+      if (!searchQuery || !searchQuery.trim()) {
+        results.sort((a, b) => calculateRelevanceScore(b) - calculateRelevanceScore(a));
       }
-      break;
-    case 'rating-desc':
-      sorted.sort((a, b) => (b.rating ?? 0) - (a.rating ?? 0));
-      break;
-    case 'reviews-desc':
-      sorted.sort((a, b) => (b.reviewCount ?? 0) - (a.reviewCount ?? 0));
-      break;
-    case 'newest':
-      sorted.sort((a, b) => (b.publicationYear ?? 0) - (a.publicationYear ?? 0));
-      break;
-    case 'title-asc':
-      sorted.sort((a, b) => a.title.localeCompare(b.title));
       break;
   }
 
-  return sorted;
+  return results;
 }
 
 export function findSimilarBooks(book: Book, allBooks: Book[], limit: number = 6): Book[] {
-  const candidates = allBooks.filter(b => b.id !== book.id);
+  const otherBooks = allBooks.filter(b => b.id !== book.id);
   
-  const scored = candidates.map(candidate => {
+  const scored = otherBooks.map(other => {
     let score = 0;
     
-    // Same category
-    if (candidate.category === book.category) score += 3;
+    if (other.category === book.category) score += 3;
     
-    // Shared topics
-    const sharedTopics = candidate.topics.filter(t => book.topics.includes(t));
-    score += sharedTopics.length * 2;
+    book.playersMentioned.forEach(player => {
+      if (other.playersMentioned.includes(player)) score += 2;
+    });
     
-    // Shared players
-    const sharedPlayers = candidate.playersMentioned.filter(p => 
-      book.playersMentioned.includes(p)
-    );
-    score += sharedPlayers.length * 2;
+    book.teamsMentioned.forEach(team => {
+      if (other.teamsMentioned.includes(team)) score += 2;
+    });
     
-    // Shared teams
-    const sharedTeams = candidate.teamsMentioned.filter(t => 
-      book.teamsMentioned.includes(t)
-    );
-    score += sharedTeams.length;
+    book.topics.forEach(topic => {
+      if (other.topics.includes(topic)) score += 1;
+    });
     
-    return { book: candidate, score };
+    if (other.rating && other.rating >= 4.5) score += 1;
+    if (parseReviewCount(other.reviewCountDisplay) >= 100) score += 1;
+    
+    return { book: other, score };
   });
   
-  return scored
-    .filter(s => s.score > 0)
-    .sort((a, b) => b.score - a.score)
-    .slice(0, limit)
-    .map(s => s.book);
+  scored.sort((a, b) => b.score - a.score);
+  
+  return scored.slice(0, limit).map(s => s.book);
 }

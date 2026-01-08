@@ -15,17 +15,32 @@ export function getBookById(id: string): Book | undefined {
   return books.find(book => book.id === id);
 }
 
+function sortByFrequency(items: string[]): string[] {
+  const counts = new Map<string, number>();
+  items.forEach(item => {
+    counts.set(item, (counts.get(item) || 0) + 1);
+  });
+  const unique = Array.from(new Set(items));
+  return unique.sort((a, b) => (counts.get(b) || 0) - (counts.get(a) || 0));
+}
+
 export function getFilterOptions(books: Book[]): FilterOptions {
-  const categories = Array.from(new Set(books.map(b => b.category))).sort();
-  const topics = Array.from(new Set(books.flatMap(b => b.topics))).sort();
-  const players = Array.from(new Set(books.flatMap(b => b.playersMentioned))).sort();
-  const teams = Array.from(new Set(books.flatMap(b => b.teamsMentioned))).sort();
-  const formats = Array.from(new Set(books.flatMap(b => b.formats))).sort();
-  
+  const allCategories = books.map(b => b.category);
+  const allTopics = books.flatMap(b => b.topics);
+  const allPlayers = books.flatMap(b => b.playersMentioned);
+  const allTeams = books.flatMap(b => b.teamsMentioned);
+  const allFormats = books.flatMap(b => b.formats);
+
+  const categories = sortByFrequency(allCategories);
+  const topics = sortByFrequency(allTopics);
+  const players = sortByFrequency(allPlayers);
+  const teams = sortByFrequency(allTeams);
+  const formats = sortByFrequency(allFormats);
+
   const years = books
     .map(b => b.publicationYear)
     .filter((y): y is number => y !== null);
-  
+
   const minYear = years.length > 0 ? Math.min(...years) : 1960;
   const maxYear = years.length > 0 ? Math.max(...years) : new Date().getFullYear();
 

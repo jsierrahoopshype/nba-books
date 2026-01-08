@@ -45,7 +45,14 @@ export default function HomePage() {
   };
 
   const handleTagClick = (type: string, value: string) => {
-    if (type === 'player') {
+    if (type === 'category') {
+      setFilters(prev => ({
+        ...prev,
+        categories: prev.categories.includes(value)
+          ? prev.categories.filter(c => c !== value)
+          : [...prev.categories, value],
+      }));
+    } else if (type === 'player') {
       setFilters(prev => ({
         ...prev,
         players: prev.players.includes(value)
@@ -73,7 +80,7 @@ export default function HomePage() {
     setFilters(initialFilters);
   };
 
-  const activeFilterCount = 
+  const activeFilterCount =
     filters.categories.length +
     filters.topics.length +
     filters.players.length +
@@ -85,9 +92,8 @@ export default function HomePage() {
   return (
     <div className="min-h-screen bg-gray-50">
       <Header />
-      
+
       <main className="max-w-7xl mx-auto px-4 py-6">
-        {/* Search and Sort Row */}
         <div className="flex flex-col sm:flex-row gap-4 mb-6">
           <div className="flex-1">
             <SearchBar
@@ -116,7 +122,6 @@ export default function HomePage() {
         </div>
 
         <div className="flex gap-6">
-          {/* Desktop Filter Panel */}
           <aside className="hidden lg:block w-64 flex-shrink-0">
             <FilterPanel
               filters={filters}
@@ -126,26 +131,20 @@ export default function HomePage() {
             />
           </aside>
 
-          {/* Results */}
           <div className="flex-1">
             <div className="mb-4 text-sm text-gray-600">
               Showing {results.length} of {allBooks.length} books
             </div>
 
-            <BookGrid
-              books={results}
-              onTagClick={handleTagClick}
-            />
-
-            {/* Disclosure */}
-            <div className="mt-8">
-              <AffiliateDisclosure />
-            </div>
+            <BookGrid books={results} onTagClick={handleTagClick} />
           </div>
+        </div>
+
+        <div className="mt-8">
+          <AffiliateDisclosure />
         </div>
       </main>
 
-      {/* Mobile Filter Drawer */}
       <FilterDrawer
         isOpen={isFilterDrawerOpen}
         onClose={() => setIsFilterDrawerOpen(false)}

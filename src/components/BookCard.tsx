@@ -2,7 +2,6 @@
 
 import { Book } from '@/lib/types';
 import { RatingStars } from './RatingStars';
-import { TagList } from './TagBadge';
 import { AffiliateButton } from './AffiliateButton';
 import Link from 'next/link';
 import { useState } from 'react';
@@ -14,95 +13,78 @@ interface BookCardProps {
 
 export function BookCard({ book, onTagClick }: BookCardProps) {
   const [imgError, setImgError] = useState(false);
-
-  const placeholderInitials = book.title
-    .split(' ')
-    .slice(0, 2)
-    .map(w => w[0])
-    .join('')
-    .toUpperCase();
+  const detailUrl = `/nba-books/books/${book.slug}`;
 
   return (
-    <div className="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow p-4 flex flex-col h-full">
-      <div className="flex gap-4">
-        {/* Book Cover */}
-        <div className="flex-shrink-0">
+    <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
+      <Link href={detailUrl} className="block">
+        <div className="aspect-[2/3] bg-gradient-to-br from-blue-900 to-blue-700 relative">
           {book.coverUrl && !imgError ? (
             <img
               src={book.coverUrl}
               alt={`Cover of ${book.title}`}
-              className="w-20 h-28 object-cover rounded shadow-sm"
+              className="w-full h-full object-cover"
               onError={() => setImgError(true)}
-              loading="lazy"
             />
           ) : (
-            <div className="w-20 h-28 bg-gradient-to-br from-blue-900 to-blue-700 rounded shadow-sm flex items-center justify-center">
-              <span className="text-white font-bold text-lg">{placeholderInitials}</span>
+            <div className="absolute inset-0 flex items-center justify-center">
+              <span className="text-white text-2xl font-bold text-center px-2">
+                {book.title.split(' ').slice(0, 3).join(' ')}
+              </span>
             </div>
           )}
         </div>
-        
-        {/* Book Info */}
-        <div className="flex-1 min-w-0">
-          <div className="flex items-start justify-between gap-2 mb-1">
-            <span className="text-xs font-medium text-orange-600 bg-orange-50 px-2 py-0.5 rounded">
-              {book.category}
-            </span>
-            {book.publicationYear && (
-              <span className="text-xs text-gray-500">{book.publicationYear}</span>
-            )}
-          </div>
-          
-          <h3 className="font-semibold text-gray-900 text-sm leading-tight mb-1 line-clamp-2">
+      </Link>
+
+      <div className="p-4">
+        <Link href={detailUrl} className="block hover:text-blue-600">
+          <h3 className="font-semibold text-gray-900 line-clamp-2 mb-1">
             {book.title}
           </h3>
-          
-          <p className="text-xs text-gray-600 mb-1">by {book.author}</p>
-          
+        </Link>
+        <p className="text-sm text-gray-600 mb-2">{book.author}</p>
+
+        {book.rating && (
           <div className="flex items-center gap-2 mb-2">
-            {book.rating && <RatingStars rating={book.rating} size="sm" />}
+            <RatingStars rating={book.rating} size="sm" />
             {book.reviewCountDisplay && (
-              <span className="text-xs text-gray-500">{book.reviewCountDisplay} reviews</span>
+              <span className="text-xs text-gray-500">({book.reviewCountDisplay})</span>
             )}
           </div>
-        </div>
-      </div>
-      
-      {book.description && (
-        <p className="text-xs text-gray-600 mt-2 line-clamp-2">{book.description}</p>
-      )}
-      
-      {/* Tags */}
-      <div className="mt-2">
-        <TagList
-          players={book.playersMentioned.slice(0, 2)}
-          topics={book.topics.slice(0, 2)}
-          onTagClick={onTagClick}
-        />
-      </div>
-      
-      <div className="flex items-center gap-2 mt-auto pt-3">
-        {book.formats.length > 0 && (
-          <span className="text-xs text-gray-500">
-            Available: {book.formats.slice(0, 2).join(', ')}
-          </span>
         )}
-      </div>
-      
-      <div className="flex gap-2 mt-2">
-        <AffiliateButton
-          amazonUrl={book.amazonUrl}
-          bookId={book.id}
-          bookSlug={book.slug}
-          bookTitle={book.title}
-          size="sm"
-        />
-        <Link
-          href={`/books/${book.slug}/`}
-          className="flex-1 text-center px-3 py-1.5 text-sm border border-gray-300 rounded hover:bg-gray-50 transition-colors"
-        >
-          Details
-        </Link>
+
+        <div className="flex flex-wrap gap-1 mb-3">
+          {book.category && (
+            <button
+              onClick={() => onTagClick?.('category', book.category)}
+              className="text-xs bg-orange-100 text-orange-700 px-2 py-0.5 rounded hover:bg-orange-200"
+            >
+              {book.category}
+            </button>
+          )}
+          {book.publicationYear && (
+            <span className="text-xs bg-gray-100 text-gray-600 px-2 py-0.5 rounded">
+              {book.publicationYear}
+            </span>
+          )}
+        </div>
+
+        <div className="flex gap-2">
+          <AffiliateButton
+            amazonUrl={book.amazonUrl}
+            bookId={book.id}
+            bookSlug={book.slug}
+            bookTitle={book.title}
+            size="sm"
+            className="flex-1"
+          />
+          <Link
+            href={detailUrl}
+            className="px-3 py-1.5 text-sm border border-gray-300 rounded hover:bg-gray-50 text-center"
+          >
+            Details
+          </Link>
+        </div>
       </div>
     </div>
   );
