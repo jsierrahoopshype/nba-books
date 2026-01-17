@@ -1,36 +1,29 @@
 /**
  * Amazon Affiliate Link Utility
- * 
- * Handles all edge cases for converting Amazon product URLs to affiliate links:
- * - Links with existing query params (append with &)
- * - Links without query params (append with ?)
- * - Links with existing tag= (replace it)
- * - Preserves all other query parameters
+ *
+ * Generates reliable Amazon search links for books.
  */
 
 const DEFAULT_ASSOC_TAG = process.env.NEXT_PUBLIC_AMAZON_ASSOC_TAG || 'hoopshype-20';
 
 /**
- * Converts an Amazon product URL to an affiliate link.
- * 
- * @param url - The original Amazon URL
+ * Generates an Amazon search URL for a book.
+ * This is more reliable than direct product links which can become outdated.
+ *
+ * @param title - Book title
+ * @param author - Book author
  * @param tag - Optional affiliate tag (defaults to env var)
- * @returns The affiliate-tagged URL
- * 
- * @example
- * // Without existing params
- * toAffiliateLink('https://www.amazon.com/dp/B001234567')
- * // => 'https://www.amazon.com/dp/B001234567?tag=hoopshype-20'
- * 
- * @example
- * // With existing params
- * toAffiliateLink('https://www.amazon.com/dp/B001234567?ref=sr_1')
- * // => 'https://www.amazon.com/dp/B001234567?ref=sr_1&tag=hoopshype-20'
- * 
- * @example
- * // With existing tag (replace it)
- * toAffiliateLink('https://www.amazon.com/dp/B001234567?tag=oldtag-20')
- * // => 'https://www.amazon.com/dp/B001234567?tag=hoopshype-20'
+ * @returns Amazon search URL with affiliate tag
+ */
+export function generateAmazonSearchUrl(title: string, author: string, tag: string = DEFAULT_ASSOC_TAG): string {
+  const searchQuery = `${title} ${author} book`.trim();
+  const encodedQuery = encodeURIComponent(searchQuery);
+  return `https://www.amazon.com/s?k=${encodedQuery}&tag=${tag}`;
+}
+
+/**
+ * Converts an Amazon product URL to an affiliate link.
+ * Falls back to search URL if the product URL seems invalid.
  */
 export function toAffiliateLink(url: string, tag: string = DEFAULT_ASSOC_TAG): string {
   if (!url || typeof url !== 'string') {
@@ -44,13 +37,13 @@ export function toAffiliateLink(url: string, tag: string = DEFAULT_ASSOC_TAG): s
 
   try {
     const urlObj = new URL(url);
-    
+
     // Remove existing tag if present
     urlObj.searchParams.delete('tag');
-    
+
     // Add our affiliate tag
     urlObj.searchParams.set('tag', tag);
-    
+
     return urlObj.toString();
   } catch {
     // Fallback for malformed URLs: simple string manipulation
@@ -66,7 +59,7 @@ export function toAffiliateLink(url: string, tag: string = DEFAULT_ASSOC_TAG): s
  */
 export function extractAsin(url: string): string | null {
   if (!url) return null;
-  
+
   // Match various Amazon URL patterns
   // /dp/ASIN, /gp/product/ASIN, /exec/obidos/ASIN, /product/ASIN
   const patterns = [

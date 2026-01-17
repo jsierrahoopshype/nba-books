@@ -11,15 +11,9 @@ interface BookCardProps {
   onTagClick?: (type: string, value: string) => void;
 }
 
-// Check if Amazon URL is a valid product page (not a search page)
-function isValidProductUrl(url: string): boolean {
-  return url.includes('/dp/') || url.includes('/gp/product/');
-}
-
 export function BookCard({ book, onTagClick }: BookCardProps) {
   const [imgError, setImgError] = useState(false);
   const detailUrl = `/books/${book.slug}`;
-  const hasValidAmazonLink = isValidProductUrl(book.amazonUrl);
 
   // Use Open Library cover with ISBN if available
   const coverUrl = book.coverUrl?.includes('openlibrary') ? book.coverUrl : null;
@@ -107,25 +101,15 @@ export function BookCard({ book, onTagClick }: BookCardProps) {
         )}
 
         <div className="flex gap-2 mt-auto pt-2">
-          {hasValidAmazonLink ? (
-            <AffiliateButton
-              amazonUrl={book.amazonUrl}
-              bookId={book.id}
-              bookSlug={book.slug}
-              bookTitle={book.title}
-              size="sm"
-              className="flex-1"
-            />
-          ) : (
-            <a
-              href={`https://www.amazon.com/s?k=${encodeURIComponent(book.title + ' ' + book.author)}`}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex-1 px-3 py-1.5 text-sm bg-yellow-500 text-white rounded hover:bg-yellow-600 text-center"
-            >
-              Search on Amazon
-            </a>
-          )}
+          <AffiliateButton
+            amazonUrl={book.amazonUrl}
+            bookId={book.id}
+            bookSlug={book.slug}
+            bookTitle={book.title}
+            bookAuthor={book.author}
+            size="sm"
+            className="flex-1"
+          />
           <Link
             href={detailUrl}
             className="px-3 py-1.5 text-sm border border-gray-300 rounded hover:bg-gray-50 text-center"

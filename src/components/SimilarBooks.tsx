@@ -31,6 +31,7 @@ export function SimilarBooks({ books }: SimilarBooksProps) {
                 bookId={book.id}
                 bookSlug={book.slug}
                 bookTitle={book.title}
+                bookAuthor={book.author}
                 size="sm"
               />
             </div>
