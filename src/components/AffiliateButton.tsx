@@ -1,6 +1,6 @@
 'use client';
 
-import { generateAmazonSearchUrl } from '@/lib/affiliate';
+import { generateAmazonSearchUrl, toAffiliateLink, isAmazonProductLink } from '@/lib/affiliate';
 import { trackAffiliateClick } from '@/lib/analytics';
 
 interface AffiliateButtonProps {
@@ -22,8 +22,10 @@ export function AffiliateButton({
   size = 'md',
   className = ''
 }: AffiliateButtonProps) {
-  // Use search URL - more reliable than product links which can become outdated
-  const affiliateUrl = generateAmazonSearchUrl(bookTitle, bookAuthor);
+  // Use direct product link if valid, otherwise fall back to search URL
+  const affiliateUrl = isAmazonProductLink(amazonUrl)
+    ? toAffiliateLink(amazonUrl)
+    : generateAmazonSearchUrl(bookTitle, bookAuthor);
   
   const sizeClasses = {
     sm: 'px-3 py-1.5 text-sm',
