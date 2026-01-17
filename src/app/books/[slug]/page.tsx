@@ -45,11 +45,11 @@ export default function BookDetailPage({ params }: PageProps) {
     <div className="min-h-screen bg-gray-50">
       <header className="bg-white shadow-sm border-b">
         <div className="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
-          <Link href="/nba-books/" className="flex items-center gap-3">
+          <Link href="/" className="flex items-center gap-3">
             <span className="text-2xl">🏀</span>
             <h1 className="text-xl font-bold text-gray-900">NBA Books</h1>
           </Link>
-          <Link href="/nba-books/" className="text-blue-600 hover:text-blue-800 flex items-center gap-2">
+          <Link href="/" className="text-blue-600 hover:text-blue-800 flex items-center gap-2">
             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
             </svg>
@@ -125,6 +125,46 @@ export default function BookDetailPage({ params }: PageProps) {
                   <p className="text-gray-700 leading-relaxed">{book.description}</p>
                 </div>
               )}
+
+              {/* Book Details Table */}
+              <div className="mb-6 bg-gray-50 rounded-lg p-4">
+                <h2 className="text-lg font-semibold text-gray-900 mb-3">Book Details</h2>
+                <dl className="grid grid-cols-2 gap-x-4 gap-y-2 text-sm">
+                  <dt className="text-gray-500">Author</dt>
+                  <dd className="text-gray-900 font-medium">{book.author}</dd>
+
+                  {book.publicationDate && (
+                    <>
+                      <dt className="text-gray-500">Publication Date</dt>
+                      <dd className="text-gray-900">{book.publicationDate}</dd>
+                    </>
+                  )}
+
+                  {book.formats.length > 0 && (
+                    <>
+                      <dt className="text-gray-500">Formats</dt>
+                      <dd className="text-gray-900">{book.formats.join(', ')}</dd>
+                    </>
+                  )}
+
+                  <dt className="text-gray-500">Category</dt>
+                  <dd className="text-gray-900">{book.category}</dd>
+
+                  {book.rating && (
+                    <>
+                      <dt className="text-gray-500">Rating</dt>
+                      <dd className="text-gray-900">{book.rating} / 5</dd>
+                    </>
+                  )}
+
+                  {book.asin && (
+                    <>
+                      <dt className="text-gray-500">ASIN</dt>
+                      <dd className="text-gray-900 font-mono text-xs">{book.asin}</dd>
+                    </>
+                  )}
+                </dl>
+              </div>
 
               <div className="space-y-4">
                 {book.playersMentioned.length > 0 && (
