@@ -82,6 +82,7 @@ export default function BookDetailPage({ params }: PageProps) {
                   bookId={book.id}
                   bookSlug={book.slug}
                   bookTitle={book.title}
+                  bookAuthor={book.author}
                   size="lg"
                   className="w-full"
                 />
