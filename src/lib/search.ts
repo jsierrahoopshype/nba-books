@@ -103,24 +103,18 @@ export function searchBooks(books: Book[], filters: FilterState): Book[] {
 
 export function sortBooks(books: Book[], sort: string, searchQuery?: string): Book[] {
   const results = [...books];
-  
+
   switch (sort) {
-    case 'title':
+    case 'title-asc':
       results.sort((a, b) => a.title.localeCompare(b.title));
       break;
-    case 'author':
-      results.sort((a, b) => a.author.localeCompare(b.author));
-      break;
-    case 'year-desc':
+    case 'newest':
       results.sort((a, b) => (b.publicationYear || 0) - (a.publicationYear || 0));
       break;
-    case 'year-asc':
-      results.sort((a, b) => (a.publicationYear || 0) - (b.publicationYear || 0));
-      break;
-    case 'rating':
+    case 'rating-desc':
       results.sort((a, b) => (b.rating || 0) - (a.rating || 0));
       break;
-    case 'reviews':
+    case 'reviews-desc':
       results.sort((a, b) => parseReviewCount(b.reviewCountDisplay) - parseReviewCount(a.reviewCountDisplay));
       break;
     case 'relevance':
