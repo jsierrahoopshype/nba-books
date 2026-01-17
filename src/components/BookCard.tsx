@@ -13,11 +13,11 @@ interface BookCardProps {
 
 export function BookCard({ book, onTagClick }: BookCardProps) {
   const [imgError, setImgError] = useState(false);
-  const detailUrl = `/nba-books/books/${book.slug}`;
+  const detailUrl = `/books/${book.slug}`;
 
   return (
     <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
-      <Link href={detailUrl} className="block">
+      <a href={book.amazonUrl} target="_blank" rel="noopener noreferrer" className="block">
         <div className="aspect-[2/3] bg-gradient-to-br from-blue-900 to-blue-700 relative">
           {book.coverUrl && !imgError ? (
             <img
@@ -34,14 +34,14 @@ export function BookCard({ book, onTagClick }: BookCardProps) {
             </div>
           )}
         </div>
-      </Link>
+      </a>
 
       <div className="p-4">
-        <Link href={detailUrl} className="block hover:text-blue-600">
+        <a href={book.amazonUrl} target="_blank" rel="noopener noreferrer" className="block hover:text-blue-600">
           <h3 className="font-semibold text-gray-900 line-clamp-2 mb-1">
             {book.title}
           </h3>
-        </Link>
+        </a>
         <p className="text-sm text-gray-600 mb-2">{book.author}</p>
 
         {book.rating && (
