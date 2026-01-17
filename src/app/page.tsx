@@ -1,16 +1,14 @@
 'use client';
 
 import { useState, useMemo } from 'react';
-import { Book, FilterState, SortOption } from '@/lib/types';
+import { FilterState, SortOption } from '@/lib/types';
 import { searchBooks, sortBooks } from '@/lib/search';
 import { getAllBooks, getFilterOptions } from '@/lib/books';
-import { Header } from '@/components/Header';
 import { SearchBar } from '@/components/SearchBar';
 import { FilterPanel } from '@/components/FilterPanel';
 import { FilterDrawer } from '@/components/FilterDrawer';
 import { SortDropdown } from '@/components/SortDropdown';
 import { BookGrid } from '@/components/BookGrid';
-import { AffiliateDisclosure } from '@/components/AffiliateDisclosure';
 
 const allBooks = getAllBooks();
 const filterOptions = getFilterOptions(allBooks);
@@ -90,10 +88,7 @@ export default function HomePage() {
     (filters.yearRange[0] || filters.yearRange[1] ? 1 : 0);
 
   return (
-    <div className="min-h-screen bg-gray-50">
-      <Header />
-
-      <main className="max-w-7xl mx-auto px-4 py-6">
+    <>
         <div className="flex flex-col sm:flex-row gap-4 mb-6">
           <div className="flex-1">
             <SearchBar
@@ -140,11 +135,6 @@ export default function HomePage() {
           </div>
         </div>
 
-        <div className="mt-8">
-          <AffiliateDisclosure />
-        </div>
-      </main>
-
       <FilterDrawer
         isOpen={isFilterDrawerOpen}
         onClose={() => setIsFilterDrawerOpen(false)}
@@ -153,6 +143,6 @@ export default function HomePage() {
         onChange={handleFilterChange}
         onClear={clearFilters}
       />
-    </div>
+    </>
   );
 }
