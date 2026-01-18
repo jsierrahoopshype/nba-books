@@ -24,16 +24,23 @@ function parseReviewCount(display: string | null): number {
 function calculateRelevanceScore(book: Book): number {
   let score = 0;
   const currentYear = new Date().getFullYear();
-  
+
+  // Big bonus for books with covers (prioritize visual appeal)
+  if (book.coverUrl) {
+    score += 50;
+  }
+
+  // Bonus for recent books
   if (book.publicationYear) {
     const age = currentYear - book.publicationYear;
-    if (age <= 1) score += 30;
+    if (age <= 1) score += 35;
+    else if (age <= 2) score += 30;
     else if (age <= 3) score += 25;
     else if (age <= 5) score += 20;
     else if (age <= 10) score += 10;
-    else if (age <= 20) score += 5;
   }
-  
+
+  // Bonus for popular books (most reviews)
   const reviewCount = parseReviewCount(book.reviewCountDisplay);
   if (reviewCount >= 10000) score += 40;
   else if (reviewCount >= 5000) score += 35;
@@ -42,16 +49,16 @@ function calculateRelevanceScore(book: Book): number {
   else if (reviewCount >= 100) score += 20;
   else if (reviewCount >= 50) score += 15;
   else if (reviewCount > 0) score += 10;
-  
+
+  // Bonus for highly rated books
   if (book.rating) {
-    if (book.rating >= 4.8) score += 30;
-    else if (book.rating >= 4.5) score += 25;
-    else if (book.rating >= 4.2) score += 20;
-    else if (book.rating >= 4.0) score += 15;
-    else if (book.rating >= 3.5) score += 10;
-    else score += 5;
+    if (book.rating >= 4.8) score += 25;
+    else if (book.rating >= 4.5) score += 20;
+    else if (book.rating >= 4.2) score += 15;
+    else if (book.rating >= 4.0) score += 10;
+    else if (book.rating >= 3.5) score += 5;
   }
-  
+
   return score;
 }
 
