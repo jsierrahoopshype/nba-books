@@ -119,25 +119,22 @@ function cleanString(str: string | null | undefined): string {
   return str.toString().trim();
 }
 
-// Cover URL generation
+// Cover URL generation - Only use Open Library (most reliable)
 function extractISBN(amazonUrl: string): string | null {
-  // Match 10 or 13 digit ISBNs
+  // Match 10 or 13 digit ISBNs from Amazon URL
   const dpMatch = amazonUrl.match(/\/dp\/(\d{10}|\d{13})/);
   if (dpMatch) return dpMatch[1];
+  // Check if ASIN is actually an ISBN (all digits)
   const asinMatch = amazonUrl.match(/\/dp\/([A-Z0-9]{10})/i);
   if (asinMatch && /^\d{10}$/.test(asinMatch[1])) return asinMatch[1];
   return null;
 }
 
-function getCoverUrl(amazonUrl: string, asin: string | null): string | null {
-  // First try ISBN with Open Library (best quality)
+function getCoverUrl(amazonUrl: string): string | null {
+  // Only use Open Library - it's the most reliable source
   const isbn = extractISBN(amazonUrl);
   if (isbn) {
-    return `https://covers.openlibrary.org/b/isbn/${isbn}-M.jpg`;
-  }
-  // Fallback: Use ASIN with Amazon's image service
-  if (asin) {
-    return `https://images-na.ssl-images-amazon.com/images/P/${asin}.01._SCLZZZZZZZ_.jpg`;
+    return `https://covers.openlibrary.org/b/isbn/${isbn}-L.jpg`;  // Use large size for better quality
   }
   return null;
 }
@@ -280,7 +277,7 @@ async function ingestCsv(): Promise<void> {
       teamsMentioned: splitList(row['Teams Mentioned']),
       topics: splitList(row['Topics']),
       asin,
-      coverUrl: getCoverUrl(amazonUrl, asin),
+      coverUrl: getCoverUrl(amazonUrl),
     };
 
     books.push(book);
