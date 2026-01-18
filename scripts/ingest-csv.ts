@@ -139,6 +139,23 @@ function getCoverUrl(amazonUrl: string): string | null {
   return null;
 }
 
+// List of ISBNs known to have valid covers on Open Library
+// This list is maintained separately and loaded at build time
+const VERIFIED_COVER_ISBNS_PATH = path.join(process.cwd(), 'data', 'verified-covers.json');
+
+function loadVerifiedCovers(): Set<string> {
+  try {
+    if (existsSync(VERIFIED_COVER_ISBNS_PATH)) {
+      const data = JSON.parse(readFileSync(VERIFIED_COVER_ISBNS_PATH, 'utf-8'));
+      console.log(`Loaded ${data.length} verified cover ISBNs`);
+      return new Set(data);
+    }
+  } catch (e) {
+    console.warn('Could not load verified covers list:', e);
+  }
+  return new Set();
+}
+
 // Check if book should be excluded (non-NBA content)
 function shouldExcludeBook(category: string, title: string): boolean {
   const lowerCategory = category.toLowerCase();
@@ -290,6 +307,29 @@ async function ingestCsv(): Promise<void> {
   console.log(`Normalized ${books.length} unique books`);
   console.log(`Excluded ${excludedCount} non-NBA books`);
 
+  // Load verified covers list (ISBNs known to have covers on Open Library)
+  const verifiedCovers = loadVerifiedCovers();
+
+  // Update books to only include verified covers
+  let verifiedCoverCount = 0;
+  if (verifiedCovers.size > 0) {
+    for (const book of books) {
+      if (book.coverUrl) {
+        const isbn = extractISBN(book.amazonUrl);
+        if (isbn && verifiedCovers.has(isbn)) {
+          verifiedCoverCount++;
+        } else {
+          book.coverUrl = null; // Remove unverified cover URL
+        }
+      }
+    }
+    console.log(`Using verified covers: ${verifiedCoverCount} books have confirmed cover images`);
+  } else {
+    console.log('No verified covers list found - keeping all potential cover URLs');
+    console.log('Run "npm run verify-covers" to generate a verified covers list');
+    verifiedCoverCount = books.filter(b => b.coverUrl).length;
+  }
+
   // Write JSON output
   writeFileSync(outputPath, JSON.stringify(books, null, 2));
   console.log(`Wrote output to: ${outputPath}`);
@@ -305,7 +345,7 @@ async function ingestCsv(): Promise<void> {
 
   console.log('\n=== Summary ===');
   console.log(`Total books: ${books.length}`);
-  console.log(`Books with covers: ${booksWithCovers}`);
+  console.log(`Books with verified covers: ${booksWithCovers}`);
   console.log(`Categories: ${categories.size}`);
   console.log(`Topics: ${topics.size}`);
   console.log(`Players mentioned: ${players.size}`);
