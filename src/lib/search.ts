@@ -29,15 +29,17 @@ function calculateRelevanceScore(book: Book): number {
   if (book.coverUrl) {
     score += 100;
 
-    // Among books with covers, prioritize by recency first
+    // Among books with covers, prioritize by recency (most recent first)
     if (book.publicationYear) {
       const age = currentYear - book.publicationYear;
-      if (age <= 1) score += 60;      // 2024-2025
-      else if (age <= 2) score += 50; // 2023
-      else if (age <= 3) score += 40; // 2022
-      else if (age <= 5) score += 30; // 2020-2021
-      else if (age <= 10) score += 20; // 2015-2019
-      else score += 10;               // older
+      if (age <= 0) score += 80;      // 2026 (current year or future)
+      else if (age === 1) score += 70; // 2025
+      else if (age === 2) score += 60; // 2024
+      else if (age === 3) score += 50; // 2023
+      else if (age === 4) score += 40; // 2022
+      else if (age === 5) score += 35; // 2021
+      else if (age <= 10) score += 20; // 2016-2020
+      else score += 10;                // older
     }
   }
 
