@@ -119,7 +119,7 @@ function cleanString(str: string | null | undefined): string {
   return str.toString().trim();
 }
 
-// Cover URL generation - Only use Open Library (most reliable)
+// Cover URL generation
 function extractISBN(amazonUrl: string): string | null {
   // Match 10 or 13 digit ISBNs from Amazon URL
   const dpMatch = amazonUrl.match(/\/dp\/(\d{10}|\d{13})/);
@@ -130,30 +130,53 @@ function extractISBN(amazonUrl: string): string | null {
   return null;
 }
 
+// Cover sources - we support both Open Library and Google Books
+function getOpenLibraryCoverUrl(isbn: string): string {
+  return `https://covers.openlibrary.org/b/isbn/${isbn}-L.jpg`;
+}
+
+function getGoogleBooksCoverUrl(isbn: string): string {
+  return `https://books.google.com/books/content?vid=isbn:${isbn}&printsec=frontcover&img=1&zoom=1&source=gbs_api`;
+}
+
 function getCoverUrl(amazonUrl: string): string | null {
-  // Only use Open Library - it's the most reliable source
   const isbn = extractISBN(amazonUrl);
   if (isbn) {
-    return `https://covers.openlibrary.org/b/isbn/${isbn}-L.jpg`;  // Use large size for better quality
+    return getOpenLibraryCoverUrl(isbn); // Default to Open Library
   }
   return null;
 }
 
-// List of ISBNs known to have valid covers on Open Library
-// This list is maintained separately and loaded at build time
+// Verified covers list - supports both Open Library and Google Books
 const VERIFIED_COVER_ISBNS_PATH = path.join(process.cwd(), 'data', 'verified-covers.json');
 
-function loadVerifiedCovers(): Set<string> {
+interface VerifiedCovers {
+  openlib: Set<string>;
+  google: Set<string>;
+}
+
+function loadVerifiedCovers(): VerifiedCovers {
   try {
     if (existsSync(VERIFIED_COVER_ISBNS_PATH)) {
       const data = JSON.parse(readFileSync(VERIFIED_COVER_ISBNS_PATH, 'utf-8'));
-      console.log(`Loaded ${data.length} verified cover ISBNs`);
-      return new Set(data);
+
+      // Handle both old format (array) and new format (object with openlib/google)
+      if (Array.isArray(data)) {
+        // Old format - treat all as Open Library
+        console.log(`Loaded ${data.length} verified cover ISBNs (legacy format)`);
+        return { openlib: new Set(data), google: new Set() };
+      } else {
+        // New format with separate sources
+        const openlib = new Set(data.openlib || []);
+        const google = new Set(data.google || []);
+        console.log(`Loaded verified covers: ${openlib.size} Open Library, ${google.size} Google Books`);
+        return { openlib, google };
+      }
     }
   } catch (e) {
     console.warn('Could not load verified covers list:', e);
   }
-  return new Set();
+  return { openlib: new Set(), google: new Set() };
 }
 
 // Check if book should be excluded (non-NBA content)
@@ -307,28 +330,38 @@ async function ingestCsv(): Promise<void> {
   console.log(`Normalized ${books.length} unique books`);
   console.log(`Excluded ${excludedCount} non-NBA books`);
 
-  // Load verified covers list (ISBNs known to have covers on Open Library)
+  // Load verified covers list (ISBNs known to have covers)
   const verifiedCovers = loadVerifiedCovers();
+  const totalVerified = verifiedCovers.openlib.size + verifiedCovers.google.size;
 
-  // Update books to only include verified covers
-  let verifiedCoverCount = 0;
-  if (verifiedCovers.size > 0) {
+  // Update books to only include verified covers, using appropriate source
+  let openlibCount = 0;
+  let googleCount = 0;
+
+  if (totalVerified > 0) {
     for (const book of books) {
-      if (book.coverUrl) {
-        const isbn = extractISBN(book.amazonUrl);
-        if (isbn && verifiedCovers.has(isbn)) {
-          verifiedCoverCount++;
+      const isbn = extractISBN(book.amazonUrl);
+      if (isbn) {
+        if (verifiedCovers.openlib.has(isbn)) {
+          book.coverUrl = getOpenLibraryCoverUrl(isbn);
+          openlibCount++;
+        } else if (verifiedCovers.google.has(isbn)) {
+          book.coverUrl = getGoogleBooksCoverUrl(isbn);
+          googleCount++;
         } else {
           book.coverUrl = null; // Remove unverified cover URL
         }
+      } else {
+        book.coverUrl = null;
       }
     }
-    console.log(`Using verified covers: ${verifiedCoverCount} books have confirmed cover images`);
+    console.log(`Using verified covers: ${openlibCount} Open Library, ${googleCount} Google Books (${openlibCount + googleCount} total)`);
   } else {
     console.log('No verified covers list found - keeping all potential cover URLs');
-    console.log('Run "npm run verify-covers" to generate a verified covers list');
-    verifiedCoverCount = books.filter(b => b.coverUrl).length;
+    console.log('Run the verify-covers.html tool to generate a verified covers list');
   }
+
+  const verifiedCoverCount = openlibCount + googleCount;
 
   // Write JSON output
   writeFileSync(outputPath, JSON.stringify(books, null, 2));
