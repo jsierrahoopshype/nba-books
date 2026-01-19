@@ -25,38 +25,35 @@ function calculateRelevanceScore(book: Book): number {
   let score = 0;
   const currentYear = new Date().getFullYear();
 
-  // Big bonus for books with covers (prioritize visual appeal)
+  // Books with covers get priority - this is the primary sort
   if (book.coverUrl) {
-    score += 50;
+    score += 100;
+
+    // Among books with covers, prioritize by recency first
+    if (book.publicationYear) {
+      const age = currentYear - book.publicationYear;
+      if (age <= 1) score += 60;      // 2024-2025
+      else if (age <= 2) score += 50; // 2023
+      else if (age <= 3) score += 40; // 2022
+      else if (age <= 5) score += 30; // 2020-2021
+      else if (age <= 10) score += 20; // 2015-2019
+      else score += 10;               // older
+    }
   }
 
-  // Bonus for recent books
-  if (book.publicationYear) {
-    const age = currentYear - book.publicationYear;
-    if (age <= 1) score += 35;
-    else if (age <= 2) score += 30;
-    else if (age <= 3) score += 25;
-    else if (age <= 5) score += 20;
-    else if (age <= 10) score += 10;
-  }
-
-  // Bonus for popular books (most reviews)
+  // Secondary: popularity (reviews)
   const reviewCount = parseReviewCount(book.reviewCountDisplay);
-  if (reviewCount >= 10000) score += 40;
-  else if (reviewCount >= 5000) score += 35;
-  else if (reviewCount >= 1000) score += 30;
-  else if (reviewCount >= 500) score += 25;
-  else if (reviewCount >= 100) score += 20;
-  else if (reviewCount >= 50) score += 15;
-  else if (reviewCount > 0) score += 10;
+  if (reviewCount >= 10000) score += 15;
+  else if (reviewCount >= 5000) score += 12;
+  else if (reviewCount >= 1000) score += 9;
+  else if (reviewCount >= 500) score += 6;
+  else if (reviewCount >= 100) score += 3;
 
-  // Bonus for highly rated books
+  // Tertiary: rating
   if (book.rating) {
-    if (book.rating >= 4.8) score += 25;
-    else if (book.rating >= 4.5) score += 20;
-    else if (book.rating >= 4.2) score += 15;
-    else if (book.rating >= 4.0) score += 10;
-    else if (book.rating >= 3.5) score += 5;
+    if (book.rating >= 4.8) score += 5;
+    else if (book.rating >= 4.5) score += 4;
+    else if (book.rating >= 4.0) score += 2;
   }
 
   return score;
